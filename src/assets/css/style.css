@@ -1188,6 +1188,15 @@ ul {
   margin-bottom: 1rem;
 }
 
+.featuredin.cards img {
+  max-height: 32px;
+  max-width: none;
+}
+
+.featuredin.cards img + p {
+  margin: .5rem 0 1rem 0;
+}
+
 .flip {
   order: 1;
 }
