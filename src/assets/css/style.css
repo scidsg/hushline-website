@@ -2407,7 +2407,10 @@ code, .mono.address {
 }
 
 @media only screen and (max-width: 480px) {
-
+  .featuredin.cards img {
+    max-height: 24px !important;
+    max-width: none;
+  }
 }
 
 p + p.step-label {
