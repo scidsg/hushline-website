@@ -2343,12 +2343,12 @@ code, .mono.address {
 }
 
 .cards.cards-centered h2 {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
   width: 50%;
 }
 
-.case-study div .wrapper {
-  /* padding-left: 0; */
+.logo-only .wrapper:first-child {
+  gap: 1rem !important;
 }
 
 .case-study .tabcontent {
@@ -2357,11 +2357,12 @@ code, .mono.address {
 
 .logo-only .wrapper {
   gap: 2rem;
+  flex-direction: row !important;
 }
 
 .logo-only .wrapper img {
   margin-bottom: 0;
-  max-height: 36px;
+  max-height: 36px !important;
 }
 
 @media only screen and (max-width: 960px) {
