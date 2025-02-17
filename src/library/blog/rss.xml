@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Hush Line Docs Blog</title>
+        <title>Hush Line Library Blog</title>
         <link>https://hushline.app/library/blog</link>
-        <description>Hush Line Docs Blog</description>
+        <description>Hush Line Library Blog</description>
         <lastBuildDate>Fri, 16 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>

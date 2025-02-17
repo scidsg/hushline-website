@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hushline.app/library/blog</id>
-    <title>Hush Line Docs Blog</title>
+    <title>Hush Line Library Blog</title>
     <updated>2024-02-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hushline.app/library/blog"/>
-    <subtitle>Hush Line Docs Blog</subtitle>
+    <subtitle>Hush Line Library Blog</subtitle>
     <icon>https://hushline.app/library/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Why A Signal Tip Line Isn't Enough]]></title>
