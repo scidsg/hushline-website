@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hushline.app/library/blog</id>
     <title>Hush Line Library Blog</title>
-    <updated>2024-02-16T00:00:00.000Z</updated>
+    <updated>2024-02-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hushline.app/library/blog"/>
     <subtitle>Hush Line Library Blog</subtitle>
     <icon>https://hushline.app/library/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[How to Verify an Address on Hush Line]]></title>
+        <id>https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line</id>
+        <link href="https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line"/>
+        <updated>2024-02-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Encryption settings wireframe]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/cover-ac8e73285f601f2dd19f2aa972fc0ad5.png" width="1917" height="940" class="img_ev3q"></p>
+<p>One of Hush Line's strengths is offering free Verified badges to tip line owners who want to prevent phishing attacks by adding an additional measure of authenticity to their accounts...</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-link-to-your-hush-line-account">Step 1: Link To Your Hush Line Account<a href="https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line#step-1-link-to-your-hush-line-account" class="hash-link" aria-label="Direct link to Step 1: Link To Your Hush Line Account" title="Direct link to Step 1: Link To Your Hush Line Account">​</a></h2>
+<p>On a website that you own, or if you're a legal representative of a business on a site you have control of, add a link to your Hush Line profile. It can be located anywhere, but must include <code>rel="me"</code> in the link. For example:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;a href="https://tips.hushline.app/to/myaccount" rel="me"&gt;Message me on Hush Line&lt;/a&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Note that your link doesn't have to say <code>Message me on Hush Line</code>, it just must contain <code>rel="me"</code> and point to your profile.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-update-your-bio">Step 2: Update Your Bio<a href="https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line#step-2-update-your-bio" class="hash-link" aria-label="Direct link to Step 2: Update Your Bio" title="Direct link to Step 2: Update Your Bio">​</a></h2>
+<p>In your Hush Line settings, from the <code>Profile</code> tab, scroll to find <code>Profile Details</code>. You'll see four fields in which you can add any information that helps your community trust that your profile belongs to you. One of those fields should be to the website whose link you just added to your Hush Line address.</p>
+<p>When you click <code>Update Bio</code> we will automatically verify that the code from Step 1 exists, and you'll see a new checkmark!</p>
+<p><img decoding="async" loading="lazy" alt="Verified URL wireframe" src="https://hushline.app/library/assets/images/verified-url-d345071d9e0de191dd72d698abe30733.png" width="1150" height="876" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-check-your-profile">Step 3: Check Your Profile<a href="https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line#step-3-check-your-profile" class="hash-link" aria-label="Direct link to Step 3: Check Your Profile" title="Direct link to Step 3: Check Your Profile">​</a></h2>
+<p>Once you verify a URL, anyone who visits your profile will see a checkmark, demonstrating that you own or control the listed website.</p>
+<p><img decoding="async" loading="lazy" alt="Verified URL wireframe of profile" src="https://hushline.app/library/assets/images/verified-url-profile-28a568cdcf2eb346d96669a826e81c0a.png" width="1150" height="882" class="img_ev3q"></p>
+<p>🎉 Congratulations! You now have a verified URL on your Hush Line Profile!</p>]]></content>
+        <author>
+            <name>Glenn Sorrentino</name>
+            <uri>https://scidsg.org</uri>
+        </author>
+        <category label="Hush Line" term="Hush Line"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why A Signal Tip Line Isn't Enough]]></title>
         <id>https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough</id>
