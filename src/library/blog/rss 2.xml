@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Hush Line Library Blog</title>
+        <link>https://hushline.app/library/blog</link>
+        <description>Hush Line Library Blog</description>
+        <lastBuildDate>Fri, 16 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Why A Signal Tip Line Isn't Enough]]></title>
+            <link>https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough</link>
+            <guid>https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough</guid>
+            <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Encryption settings wireframe]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/cover-45d39fa572b924dfb0d5ac8ba038a159.png" width="3834" height="1880" class="img_ev3q"></p>
+<p>I love Signal. I was almost their first full-time designer when the team was only four people with a physical office back in the Mission in San Francisco. I turned the offer down because I was too junior in my career to feel like I could be as effective as I knew I could be with more time at the Big Tech company I worked for...</p>
+<p>...I volunteered, rejecting even being paid for my time since I had a job that paid enough. And I personally use Signal almost exclusively, so there’s no shade when I say emphatically (especially looking at you, journalists), “Signal is not enough!” Below, we’ll look at internet and messaging usage data in the United States to inform a data-informed tip line strategy.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-data">The Data<a href="https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough#the-data" class="hash-link" aria-label="Direct link to The Data" title="Direct link to The Data">​</a></h2>
+<p>There’s a particular bias against anything but Signal if you’re a journalist in the US, but this bias seriously hurts your potential impact. When I worked with the team, adoption was one of the biggest problems to solve as they were hovering around 100K users, even with the stamp of approval from Snowden. Now, the app has had a nearly 700x increase in users at around 70M globally! It’s excellent news for the team at Signal — a foundation was created (just for Signal), a billionaire is their chairman, and their future is all but guaranteed.</p>
+<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/signal-users-99a2078a3cc2a3d44a70bcc8eeaf17d4.webp" width="1530" height="750" class="img_ev3q">
+Signal Users Globally from 2019–2024
+However the total number of internet users in 2025 is ~5.5B worldwide, and Signal is but ~1.3% of that total share.</p>
+<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/internet-users-27aa2f089a393cef17ddb978a395f37b.png" width="1456" height="962" class="img_ev3q">
+Total Internet and Social Users in 2025
+Okay, so Signal might have a modest share of the total pie, but people in the US must get it, right? Looking at the top messaging apps, it doesn’t seem so. In fact, Signal isn’t in the top 10.</p>
+<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/phone-usage-ce9c916c300213456dc98d22f3c12189.png" width="1446" height="1220" class="img_ev3q">
+Top Messaging Apps in the United States
+Here’s a personal story that I think about all the time. When I was working with the team, Moxie traveled down to Menlo Park to personally work with the WhatsApp team to integrate the Signal Protocol. It was a normal, slow morning when he said that it was done and deployed, almost as an “oh, by the way,” kind of thing, and it was at that moment, my mind exploded. Just like that, 1,000,000,000 (one billion) WhatsApp users worldwide had the strongest encryption on the market. Now, it’s used by two of the top four most-used messaging apps in the world, so by all counts, the scale of their positive impact deserves a Nobel Prize, in my opinion. Having said that, Signal itself isn’t among the top 10 most used apps in the United States.
+A more recent story: I was visiting one of my besties, whose son I’m the godfather of, who is now 19 years old and studying cybersecurity. Since my career has been in software, and most recently in the security and privacy space, I was eager to introduce him to influential people I know and to try to give him real-world experience, maybe with work on Hush Line. “If I’m going to intro you to ppl, let’s move to Signal” I said. “What’s Signal?” was the reply to which I had to put my phone down and take a breath before replying, “Oh, young one…”</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="your-tip-line-strategy">Your Tip Line Strategy<a href="https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough#your-tip-line-strategy" class="hash-link" aria-label="Direct link to Your Tip Line Strategy" title="Direct link to Your Tip Line Strategy">​</a></h2>
+<p>Should you abandon Signal? Absolutely not. But it can’t be your only solution for people to reach you. Other solutions like Proton Mail have emerged as great, lower-friction options, but as of 2023, even they only have 100M users, less than 2% of all internet users.
+On the other hand, email is used by ~4.5B users worldwide. But what’s better than ~4.5B users? What about everyone? Now, let’s talk about Hush Line.</p>
+<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/submit-message-2c17c1d23f788340668ce0cb3ae61fb6.png" width="1213" height="994" class="img_ev3q">
+Anyone internet user can send a message
+Hush Line is our anonymous reporting platform that doesn’t require internet users to create an account or download any apps to use. Tip Line owners can have messages forwarded to their email service of choice, and messages are end-to-end encrypted. Someone submitting a message with an elevated threat model can use our Onion Service to access Hush Line anonymously using Tor Browser.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-going">Get Going<a href="https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough#get-going" class="hash-link" aria-label="Direct link to Get Going" title="Direct link to Get Going">​</a></h2>
+<p>The best news? We’re free, open-source, and non-profit managed. Our team has worked on the most ubiquitous secure messaging platforms in the world, and we deeply care about making it easy for whistleblowers to find help. Are you making it harder than it needs to be for vulnerable people who need help? If you’re only using Signal, the answer is yes.
+Sign up for Hush Line at <a href="https://tips.hushline.app/register" target="_blank" rel="noopener noreferrer">https://tips.hushline.app/register</a>.</p>]]></content:encoded>
+            <category>Hush Line</category>
+            <category>Signal</category>
+        </item>
+    </channel>
+</rss>
