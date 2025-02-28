@@ -2436,3 +2436,48 @@ p + p.step-label {
 .cards.featuredin h2 {
   margin-bottom: 2rem !important;
 }
+
+.logo-ticker {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: var(--color-bg);
+  padding: 0.5rem 0;
+}
+
+.logo-track {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  animation: ticker 90s linear infinite;
+  width: max-content;
+}
+
+.logo-track img {
+  width: auto;
+  max-width: 10rem;
+  height: 2rem;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: initial;
+  position: initial;
+  margin: 0;
+  transform: initial;
+  opacity: 0.5;
+}
+
+.logo-track img:hover {
+  opacity: 1;
+}
+
+@keyframes ticker {
+  from {
+      transform: translateX(100vw);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
