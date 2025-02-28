@@ -2452,7 +2452,7 @@ p + p.step-label {
   display: flex;
   align-items: center;
   gap: 3rem;
-  animation: ticker 90s linear infinite;
+  animation: ticker 45s linear infinite;
   width: max-content;
 }
 
