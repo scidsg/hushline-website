@@ -2427,6 +2427,10 @@ code, .mono.address {
     max-height: 24px !important;
     max-width: none;
   }
+
+  .logo-track {
+    animation: ticker 30s linear infinite;
+  }
 }
 
 p + p.step-label {
