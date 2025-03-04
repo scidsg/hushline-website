@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hushline.app/library/blog</id>
+    <title>Hush Line Library Blog</title>
+    <updated>2024-02-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hushline.app/library/blog"/>
+    <subtitle>Hush Line Library Blog</subtitle>
+    <icon>https://hushline.app/library/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[How to Verify an Address on Hush Line]]></title>
+        <id>https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line</id>
+        <link href="https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line"/>
+        <updated>2024-02-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Encryption settings wireframe]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/cover-ac8e73285f601f2dd19f2aa972fc0ad5.png" width="1917" height="940" class="img_ev3q"></p>
+<p>One of Hush Line's strengths is offering free Verified badges to tip line owners who want to prevent phishing attacks by adding an additional measure of authenticity to their accounts...</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-link-to-your-hush-line-account">Step 1: Link To Your Hush Line Account<a href="https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line#step-1-link-to-your-hush-line-account" class="hash-link" aria-label="Direct link to Step 1: Link To Your Hush Line Account" title="Direct link to Step 1: Link To Your Hush Line Account">​</a></h2>
+<p>On a website that you own, or if you're a legal representative of a business on a site you have control of, add a link to your Hush Line profile. It can be located anywhere, but must include <code>rel="me"</code> in the link. For example:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;a href="https://tips.hushline.app/to/myaccount" rel="me"&gt;Message me on Hush Line&lt;/a&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Note that your link doesn't have to say <code>Message me on Hush Line</code>, it just must contain <code>rel="me"</code> and point to your profile.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-update-your-bio">Step 2: Update Your Bio<a href="https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line#step-2-update-your-bio" class="hash-link" aria-label="Direct link to Step 2: Update Your Bio" title="Direct link to Step 2: Update Your Bio">​</a></h2>
+<p>In your Hush Line settings, from the <code>Profile</code> tab, scroll to find <code>Profile Details</code>. You'll see four fields in which you can add any information that helps your community trust that your profile belongs to you. One of those fields should be to the website whose link you just added to your Hush Line address.</p>
+<p>When you click <code>Update Bio</code> we will automatically verify that the code from Step 1 exists, and you'll see a new checkmark!</p>
+<p><img decoding="async" loading="lazy" alt="Verified URL wireframe" src="https://hushline.app/library/assets/images/verified-url-83a01aad6936f85168f297bd3b3e1363.png" width="1150" height="876" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-check-your-profile">Step 3: Check Your Profile<a href="https://hushline.app/library/blog/how-to-verify-an-address-on-hush-line#step-3-check-your-profile" class="hash-link" aria-label="Direct link to Step 3: Check Your Profile" title="Direct link to Step 3: Check Your Profile">​</a></h2>
+<p>Once you verify a URL, anyone who visits your profile will see a checkmark, demonstrating that you own or control the listed website.</p>
+<p><img decoding="async" loading="lazy" alt="Verified URL wireframe of profile" src="https://hushline.app/library/assets/images/verified-url-profile-28a568cdcf2eb346d96669a826e81c0a.png" width="1150" height="882" class="img_ev3q"></p>
+<p>🎉 Congratulations! You now have a verified URL on your Hush Line Profile!</p>]]></content>
+        <author>
+            <name>Glenn Sorrentino</name>
+            <uri>https://scidsg.org</uri>
+        </author>
+        <category label="Hush Line" term="Hush Line"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why A Signal Tip Line Isn't Enough]]></title>
+        <id>https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough</id>
+        <link href="https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough"/>
+        <updated>2024-02-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Encryption settings wireframe]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/cover-45d39fa572b924dfb0d5ac8ba038a159.png" width="3834" height="1880" class="img_ev3q"></p>
+<p>I love Signal. I was almost their first full-time designer when the team was only four people with a physical office back in the Mission in San Francisco. I turned the offer down because I was too junior in my career to feel like I could be as effective as I knew I could be with more time at the Big Tech company I worked for...</p>
+<p>...I volunteered, rejecting even being paid for my time since I had a job that paid enough. And I personally use Signal almost exclusively, so there’s no shade when I say emphatically (especially looking at you, journalists), “Signal is not enough!” Below, we’ll look at internet and messaging usage data in the United States to inform a data-informed tip line strategy.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-data">The Data<a href="https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough#the-data" class="hash-link" aria-label="Direct link to The Data" title="Direct link to The Data">​</a></h2>
+<p>There’s a particular bias against anything but Signal if you’re a journalist in the US, but this bias seriously hurts your potential impact. When I worked with the team, adoption was one of the biggest problems to solve as they were hovering around 100K users, even with the stamp of approval from Snowden. Now, the app has had a nearly 700x increase in users at around 70M globally! It’s excellent news for the team at Signal — a foundation was created (just for Signal), a billionaire is their chairman, and their future is all but guaranteed.</p>
+<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/signal-users-99a2078a3cc2a3d44a70bcc8eeaf17d4.webp" width="1530" height="750" class="img_ev3q">
+Signal Users Globally from 2019–2024
+However the total number of internet users in 2025 is ~5.5B worldwide, and Signal is but ~1.3% of that total share.</p>
+<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/internet-users-27aa2f089a393cef17ddb978a395f37b.png" width="1456" height="962" class="img_ev3q">
+Total Internet and Social Users in 2025
+Okay, so Signal might have a modest share of the total pie, but people in the US must get it, right? Looking at the top messaging apps, it doesn’t seem so. In fact, Signal isn’t in the top 10.</p>
+<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/phone-usage-ce9c916c300213456dc98d22f3c12189.png" width="1446" height="1220" class="img_ev3q">
+Top Messaging Apps in the United States
+Here’s a personal story that I think about all the time. When I was working with the team, Moxie traveled down to Menlo Park to personally work with the WhatsApp team to integrate the Signal Protocol. It was a normal, slow morning when he said that it was done and deployed, almost as an “oh, by the way,” kind of thing, and it was at that moment, my mind exploded. Just like that, 1,000,000,000 (one billion) WhatsApp users worldwide had the strongest encryption on the market. Now, it’s used by two of the top four most-used messaging apps in the world, so by all counts, the scale of their positive impact deserves a Nobel Prize, in my opinion. Having said that, Signal itself isn’t among the top 10 most used apps in the United States.
+A more recent story: I was visiting one of my besties, whose son I’m the godfather of, who is now 19 years old and studying cybersecurity. Since my career has been in software, and most recently in the security and privacy space, I was eager to introduce him to influential people I know and to try to give him real-world experience, maybe with work on Hush Line. “If I’m going to intro you to ppl, let’s move to Signal” I said. “What’s Signal?” was the reply to which I had to put my phone down and take a breath before replying, “Oh, young one…”</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="your-tip-line-strategy">Your Tip Line Strategy<a href="https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough#your-tip-line-strategy" class="hash-link" aria-label="Direct link to Your Tip Line Strategy" title="Direct link to Your Tip Line Strategy">​</a></h2>
+<p>Should you abandon Signal? Absolutely not. But it can’t be your only solution for people to reach you. Other solutions like Proton Mail have emerged as great, lower-friction options, but as of 2023, even they only have 100M users, less than 2% of all internet users.
+On the other hand, email is used by ~4.5B users worldwide. But what’s better than ~4.5B users? What about everyone? Now, let’s talk about Hush Line.</p>
+<p><img decoding="async" loading="lazy" alt="Encryption settings wireframe" src="https://hushline.app/library/assets/images/submit-message-2c17c1d23f788340668ce0cb3ae61fb6.png" width="1213" height="994" class="img_ev3q">
+Anyone internet user can send a message
+Hush Line is our anonymous reporting platform that doesn’t require internet users to create an account or download any apps to use. Tip Line owners can have messages forwarded to their email service of choice, and messages are end-to-end encrypted. Someone submitting a message with an elevated threat model can use our Onion Service to access Hush Line anonymously using Tor Browser.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-going">Get Going<a href="https://hushline.app/library/blog/why-a-signal-tip-line-isnt-enough#get-going" class="hash-link" aria-label="Direct link to Get Going" title="Direct link to Get Going">​</a></h2>
+<p>The best news? We’re free, open-source, and non-profit managed. Our team has worked on the most ubiquitous secure messaging platforms in the world, and we deeply care about making it easy for whistleblowers to find help. Are you making it harder than it needs to be for vulnerable people who need help? If you’re only using Signal, the answer is yes.
+Sign up for Hush Line at <a href="https://tips.hushline.app/register" target="_blank" rel="noopener noreferrer">https://tips.hushline.app/register</a>.</p>]]></content>
+        <author>
+            <name>Glenn Sorrentino</name>
+            <uri>https://scidsg.org</uri>
+        </author>
+        <category label="Hush Line" term="Hush Line"/>
+        <category label="Signal" term="Signal"/>
+    </entry>
+</feed>
