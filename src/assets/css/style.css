@@ -1146,13 +1146,13 @@ ul {
 /*CARDS*/
 
 .cards {
-  background-color: var(--color-bg-shade);
-  background-image: linear-gradient(
+  background-color: var(--color-bg);
+  /* background-image: linear-gradient(
     180deg,
     var(--color-bg-shade) 0%,
     var(--color-bg-shade) 75%,
     var(--color-bg) 100%
-  );
+  ); */
 }
 
 .cards .wrapper {
