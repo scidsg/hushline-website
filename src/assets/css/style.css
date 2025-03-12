@@ -868,10 +868,6 @@ section:not(.intro) {
   padding-top: 12rem;
 }
 
-.cards .wrapper:nth-last-child(2) {
-  margin-bottom: 1rem;
-}
-
 /*BANNER*/
 
 .banner {
@@ -1175,15 +1171,17 @@ ul {
 }
 
 .cards .description {
-  padding: 2.5rem 2rem;
-  border-radius: 0.5rem;
-  outline: var(--border);
-  background-color: white;
-  box-shadow: var(--shadow);
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex: 1 1 0px;
+    padding: 2.5rem 2rem;
+    border-radius: 0.5rem;
+    outline: var(--border);
+    background-color: white;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex: 1 1 0px;
+    margin-bottom: 1rem;
+
 }
 
 .cards .description:only-of-type {
