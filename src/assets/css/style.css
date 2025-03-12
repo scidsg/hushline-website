@@ -1816,11 +1816,17 @@ code, .mono.address {
   .cards .wrapper {
     flex-direction: column;
   }
+    
+#who.cards .wrapper {
+    gap: 0;
+}
 
   .cards .description {
-    align-items: center;
-    text-align: center;
-  }
+        align-items: center;
+        text-align: center;
+        /* margin-bottom: 0; */
+    
+    }
 
   .feature .wrapper {
     flex-direction: column;
