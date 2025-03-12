@@ -864,6 +864,10 @@ section:not(.intro) {
   text-align: center;
 }
 
+.intro + section {
+  padding-top: 12rem;
+}
+
 .cards .wrapper:nth-last-child(2) {
   margin-bottom: 1rem;
 }
@@ -1284,6 +1288,10 @@ section.why {
   padding: 4rem 0;
 }
 
+.feature:last-of-type {
+  padding-bottom: 0;
+}
+
 .steps .feature {
   padding: 3rem 0;
 }
@@ -1319,7 +1327,6 @@ section.why {
 
 section.contact {
   background-color: var(--color-bg);
-  padding-bottom: 3rem;
   background-image: linear-gradient(
     180deg,
     var(--color-bg-light) 0%,
@@ -1423,9 +1430,7 @@ body.landing .feature .description p {
 }
 
 #pricing {
-  margin-top: 3rem;
   background-color: transparent;
-  padding-bottom: 0;
   background-image: linear-gradient(
     180deg,
     var(--color-brand-bg) 0%,
@@ -1487,10 +1492,6 @@ body.landing .feature .description p {
   max-width: 640px;
   width: 90%;
   text-align: center;
-}
-
-#faq {
-  padding-bottom: 0;
 }
 
 #pricing h2 {
@@ -2493,3 +2494,7 @@ p + p.step-label {
   }
 }
 
+#committed,
+#support {
+  background-color: var(--color-brand-bg);
+}
