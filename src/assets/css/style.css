@@ -1155,6 +1155,12 @@ ul {
   );
 }
 
+#who {
+  background-color: var(--color-bg);
+  background-image: none;
+
+}
+
 .cards .wrapper {
   display: flex;
   gap: 1rem;
