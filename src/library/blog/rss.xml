@@ -14,7 +14,7 @@
             <guid>https://hushline.app/library/blog/dont-use-work-devices</guid>
             <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Impact Model Diagram]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Impact Model Diagram" src="https://hushline.app/library/assets/images/tor-onion-a7958678838b959e97e03b47c37321d3.png" width="3777" height="1932" class="img_ev3q"></p>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Impact Model Diagram" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>
 <p>Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed.</p>
 <p>If you work at a larger organization, you've probably been asked to fill out "anonymous" surveys about team and company health, ways to improve, etc. Laughably, many times, these anonymous forms are actually logged-in Google Forms that are in no way anonymous.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="dns-monitoring">DNS Monitoring<a href="https://hushline.app/library/blog/dont-use-work-devices#dns-monitoring" class="hash-link" aria-label="Direct link to DNS Monitoring" title="Direct link to DNS Monitoring">​</a></h2>
@@ -31,10 +31,10 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="medium-to-high-threat-scenarios">Medium to High Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#medium-to-high-threat-scenarios" class="hash-link" aria-label="Direct link to Medium to High Threat Scenarios" title="Direct link to Medium to High Threat Scenarios">​</a></h3>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="non-onion-services">Non-Onion Services<a href="https://hushline.app/library/blog/dont-use-work-devices#non-onion-services" class="hash-link" aria-label="Direct link to Non-Onion Services" title="Direct link to Non-Onion Services">​</a></h4>
 <p>When someone does have reason to worry about using a tip line, including when disclosing serious issues of governmental corruption, national security, or other ethical or legal concerns, they may use our native Onion services. Using Tor Browser with an Onion service enables the highest levels of protection, because connections never leave the Tor Anonymizing Network.</p>
-<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-regular-8744b44127b8266b09a329a93d5635ce.png" width="5171" height="2132" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-regular-8f67c68cc6180255aafc61c480809bad.png" width="2586" height="1066" class="img_ev3q"></p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="onion-connections">Onion Connections<a href="https://hushline.app/library/blog/dont-use-work-devices#onion-connections" class="hash-link" aria-label="Direct link to Onion Connections" title="Direct link to Onion Connections">​</a></h4>
 <p>When you connect to a normal website on Tor Browser, it uses a volunteer computer to exit the network and connect to that website. Theoretically, the exit computer could be compromised, and the originating requester could be deanonymized. This isn't possible using a .onion address because there is no exit connecting to the normal internet.</p>
-<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-onion-a7958678838b959e97e03b47c37321d3.png" width="3777" height="1932" class="img_ev3q"></p>]]></content:encoded>
+<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>]]></content:encoded>
             <category>Hush Line</category>
         </item>
         <item>
