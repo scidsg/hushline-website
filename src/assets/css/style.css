@@ -2434,6 +2434,12 @@ code,
   .logo-track {
     animation: ticker 30s linear infinite;
   }
+
+  .btnContainer {
+    transform: scale(.95);
+    transform-origin-x: 0;
+    --webkit-transform-origin-x: 0;
+  }
 }
 
 p + p.step-label {
