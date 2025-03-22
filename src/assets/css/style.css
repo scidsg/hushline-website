@@ -2498,3 +2498,8 @@ p + p.step-label {
 #who.cards .wrapper {
   margin-bottom: 1rem;
 }
+
+.btn-emoji {
+  transform: scale(.68);
+  margin-right: .125rem;
+}
