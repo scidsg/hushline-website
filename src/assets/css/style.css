@@ -1027,7 +1027,7 @@ body.landing .feature .description p.step-label {
   font-size: calc(var(--font-size-1) * 1.1);
   margin-bottom: 0.5rem;
   color: var(--color-brand-dark);
-  max-width: 55%;
+  max-width: 60%;
 }
 
 .intro.secondary h2 {
