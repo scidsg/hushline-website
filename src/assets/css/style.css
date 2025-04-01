@@ -2471,7 +2471,6 @@ p + p.step-label {
 
 .logo-track img {
   width: auto;
-  max-width: 10rem;
   height: 2rem;
   object-fit: contain;
   flex-shrink: 0;
