@@ -1,10 +1,10 @@
 {
   "version": "v1.0.0",
   "entity": {
-    "type": "non-profit",
+    "type": "organisation",
     "role": "maintainer",
     "name": "Science & Design, Inc.",
-    "email": "glenn@scidsg.org",
+    "email": "hello@scidsg.org",
     "phone": "+1-510-778-2266",
     "description": "Science & Design, Inc. is a nonprofit building free and open-source tools to protect digital freedoms and privacy. We maintain Hush Line, a secure whistleblowing platform that connects sources to verified journalists, educators, and organizations.",
     "webpageUrl": {
