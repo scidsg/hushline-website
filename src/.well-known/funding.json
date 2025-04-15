@@ -16,7 +16,7 @@
     {
       "guid": "hushline",
       "name": "Hush Line",
-      "description": "Hush Line is a secure, anonymous whistleblowing platform. It enables sources to safely submit information to verified recipients. It supports a directory of trusted users and a verification system to prevent impersonation.",
+      "description": "Whistleblower management for journalists, lawyers, employers, and more. Hush Line is a platform that provides individuals and organizations with open-source, end-to-end encrypted, anonymous tip lines.",
       "webpageUrl": {
         "url": "https://hushline.app"
       },
