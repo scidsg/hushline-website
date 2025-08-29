@@ -9,12 +9,13 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Build One of The Highest Security Laptops for Under $200 with QubesOS]]></title>
+            <title><![CDATA[Build One of The Highest Security Laptops for Under $200 with Qubes OS]]></title>
             <link>https://hushline.app/library/blog/build-a-qubes-laptop-for-under-two-hundred-dollars</link>
             <guid>https://hushline.app/library/blog/build-a-qubes-laptop-for-under-two-hundred-dollars</guid>
             <pubDate>Thu, 28 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[QubesOS is widely regarded as one of the most secure operating systems available. Its strength comes from virtualization: instead of one system running everything, Qubes divides your tasks into isolated virtual machines.]]></description>
-            <content:encoded><![CDATA[<p>QubesOS is widely regarded as one of the most secure operating systems available. Its strength comes from virtualization: instead of one system running everything, Qubes divides your tasks into isolated virtual machines.</p>
+            <description><![CDATA[Qubes OS Cover]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Qubes OS Cover" src="https://hushline.app/library/assets/images/cover-d210474abd20ba0691c4b4b6ddad1f70.png" width="1936" height="1119" class="img_ev3q"></p>
+<p>Qubes OS is widely regarded as one of the most secure operating systems available. Its strength comes from virtualization: instead of one system running everything, Qubes divides your tasks into isolated virtual machines.</p>
 <p>Consider how this concept applies to your daily life. You may have a work laptop, a personal computer, and a school-issued Chromebook. Each device is kept separate for a reason—you don't want to job hunt on your work computer, or risk school monitoring on your personal device. In some cases, people handling sensitive information even keep an "air-gapped" machine that never connects to the internet, used only for opening files that pose a risk.</p>
 <p>Qubes consolidates all of this into a single system. Work, personal, school, or air-gapped-style machines become separate virtual workstations, compartmentalized through their Xen-based architecture. These can run different operating systems, such as Fedora, Debian, Whonix for Tor, or even Windows, all at the same time.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="lets-begin">Let's Begin<a href="https://hushline.app/library/blog/build-a-qubes-laptop-for-under-two-hundred-dollars#lets-begin" class="hash-link" aria-label="Direct link to Let's Begin" title="Direct link to Let's Begin">​</a></h2>
