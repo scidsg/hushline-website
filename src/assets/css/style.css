@@ -871,6 +871,15 @@ section:not(.intro) {
   padding-top: 12rem;
 }
 
+.intro.secondary {
+  padding: 8rem 0 1rem 0 !important;
+  height: 60vh !important;
+}
+
+.intro.secondary + section {
+  padding-top: 4rem;
+}
+
 /*BANNER*/
 
 .banner {
@@ -2507,4 +2516,119 @@ p + p.step-label {
 .btn-emoji {
   transform: scale(.68);
   margin-right: .125rem;
+}
+
+#contributors li > a + a + span {
+  display: none;
+}
+
+#contributors li {
+    display: inline-block;
+    font-size: .9125rem;
+    min-width: 120px;
+}
+
+#contributors li a {
+    margin-bottom: .5rem;
+}
+
+#contributors li a + a {
+    display: block;
+}
+
+#contributors li a:first-of-type {
+  display: inline-block;
+  text-overflow: clip;
+  overflow: visible;
+  white-space: normal;
+  max-width: none;
+}
+
+#contributors li a img {
+  margin-bottom: 0;
+  width: 100px;
+  min-width: 100px;
+  height: 100px;
+  min-height: 100px;
+  border-radius: 50vh;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+.contributors-list {
+  width: 100%;
+}
+
+.contributors-list .wrapper {
+  min-width: 100%;
+}
+
+.contributors-list .wrapper .description {
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
+
+.contributors-list .wrapper .description ul {
+  max-width: 100%;
+}
+
+/* @media only screen and (max-width: 640px) {
+  #contributors li a img {
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    min-height: 50px;
+  }
+} */
+
+.bio img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50vh;
+  border: 1px solid rgba(0,0,0,0.15);
+  margin-bottom: 1rem;
+}
+
+.board .feature .wrapper {
+  padding-left: 0;
+}
+
+.board {
+  background: var(--color-bg) !important;
+}
+
+.board .feature {
+  padding: 1rem 0 !important;
+}
+
+section.board {
+  padding: 3rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #contributors li a img {
+    width: 75px;
+    min-width: 75px;
+    height: 75px;
+    min-height: 75px;
+  }
+
+  .board img {
+    transform: initial;
+    width: 50% !important;
+    height: 50% !important;
+    border-radius: 50vw;
+    order: 0 !important;
+  }
+
+  .board .description {
+    order: 1 !important;
+  }
+
+  .board .feature .wrapper {
+    gap: .5rem !important;
+  }
+
+  .board .feature {
+    padding: 2rem 0 !important;
+  }
 }
