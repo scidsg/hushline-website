@@ -871,11 +871,6 @@ section:not(.intro) {
   padding-top: 12rem;
 }
 
-.intro.secondary {
-  padding: 8rem 0 1rem 0 !important;
-  height: 60vh !important;
-}
-
 .intro.secondary + section {
   padding-top: 4rem;
 }
@@ -1001,6 +996,10 @@ section.congrats {
 
 .feature .img-container img {
   width: 100%;
+}
+
+.intro.secondary {
+  padding: 12rem 0 2rem 0;
 }
 
 body.landing .feature .description p.step-label {
@@ -2063,11 +2062,6 @@ code,
   .faq-list li {
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
-  }
-
-  .intro.secondary {
-    padding-top: 12rem;
-    padding-bottom: 8rem;
   }
 
   .tabs {
