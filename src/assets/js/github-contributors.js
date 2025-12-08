@@ -11,7 +11,14 @@ fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`)
   .then(contributors => {
     listEl.innerHTML = "";
 
-    contributors.forEach(c => {
+    const filtered = contributors.filter(c => c.login.toLowerCase() !== "dependabot[bot]");
+
+    if (filtered.length === 0) {
+      listEl.textContent = "No contributors found.";
+      return;
+    }
+
+    filtered.forEach(c => {
       const li = document.createElement("li");
       li.innerHTML = `
         <a href="${c.html_url}" target="_blank" rel="noopener noreferrer">
@@ -24,10 +31,6 @@ fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`)
       `;
       listEl.appendChild(li);
     });
-
-    if (contributors.length === 0) {
-      listEl.textContent = "No contributors found.";
-    }
   })
   .catch(err => {
     console.error(err);
