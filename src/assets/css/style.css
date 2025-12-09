@@ -2626,3 +2626,13 @@ section.board {
     padding: 2rem 0 !important;
   }
 }
+
+img.world {
+  width: 75%;
+}
+
+@media only screen and (max-width: 640px) {
+  img.world {
+    width: 90%;
+  }
+}
