@@ -11,7 +11,10 @@ fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`)
   .then(contributors => {
     listEl.innerHTML = "";
 
-    const filtered = contributors.filter(c => c.login.toLowerCase() !== "dependabot[bot]");
+    const filtered = contributors.filter(c => {
+      const login = c.login.toLowerCase();
+      return login !== "dependabot[bot]" && login !== "scidsg-dev";
+    });
 
     if (filtered.length === 0) {
       listEl.textContent = "No contributors found.";
