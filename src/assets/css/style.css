@@ -2627,6 +2627,10 @@ section.board {
   }
 }
 
+#world .meta {
+  display: initial;
+}
+
 img.world {
   width: 75%;
 }
