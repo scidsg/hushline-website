@@ -1,26 +1,16 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const uptimeBadge = document.getElementById('uptime-badge');
+function checkStatus() {
+  return new Promise(resolve => {
+    const img = new Image();
+    img.onload = () => resolve(true);
+    img.onerror = () => resolve(false);
+    img.src = 'https://tips.hushline.app/static/img/icon-search.png?t=' + Date.now();
+  });
+}
 
-    async function checkUptime() {
-        const url = 'https://tips.hushline.app/health.json';
-        try {
-            const response = await fetch(url, { method: 'HEAD' });
-            if (response.ok) {
-                uptimeBadge.style.backgroundColor = 'green';
-                uptimeBadge.textContent = 'App Online';
-            } else {
-                uptimeBadge.style.backgroundColor = 'red';
-                uptimeBadge.textContent = 'App Offline';
-            }
-        } catch (error) {
-            uptimeBadge.style.backgroundColor = 'red';
-            uptimeBadge.textContent = 'App Offline';
-        }
-    }
-
-    // Initial check
-    checkUptime();
-
-    // Check every 60 seconds
-    setInterval(checkUptime, 60000);
+checkStatus().then(isUp => {
+  const el = document.getElementById('uptime-badge');
+  el.classList.remove('hidden');
+  el.innerHTML = isUp
+    ? '<span class="status-icon">🟢</span> Systems online'
+    : '<span class="status-icon">🔴</span> Systems may be down';
 });

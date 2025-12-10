@@ -2640,3 +2640,13 @@ img.world {
     width: 90%;
   }
 }
+
+.status-icon {
+  font-size: .5rem;
+  position: relative;
+  top: -1.5px;
+}
+
+.hidden {
+  display: none;
+}
