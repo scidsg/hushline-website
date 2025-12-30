@@ -2650,3 +2650,28 @@ img.world {
 .hidden {
   display: none;
 }
+
+.quotes img {
+  max-width: 150px;
+}
+
+.quotes .meta {
+  margin-top: .75rem;
+}
+
+.quotes .meta a {
+  margin-left: .25rem;
+}
+
+.quotes .wrapper .wrapper {
+  margin-top: 1rem;
+}
+
+.quotes .description p:not(.meta) {
+  font-size: 1.5rem;
+  max-width: 100%;
+}
+
+.quotes .description:only-of-type {
+  max-width: 768px;
+}
