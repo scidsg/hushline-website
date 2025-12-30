@@ -2657,10 +2657,7 @@ img.world {
 
 .quotes .meta {
   margin-top: .75rem;
-}
-
-.quotes .meta a {
-  margin-left: .25rem;
+  display: inline;
 }
 
 .quotes .wrapper .wrapper {
