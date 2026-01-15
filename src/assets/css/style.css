@@ -1205,6 +1205,10 @@ ul {
   margin-bottom: 1rem;
 }
 
+.featuredin .wrapper + .wrapper {
+  margin-top: 1rem;
+}
+
 .featuredin.cards img,
 .cards.logo-only img {
   max-height: 32px;
