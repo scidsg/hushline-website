@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const MAX_CHARS = 500;
+  const MAX_CHARS = 550;
 
   document.querySelectorAll(".feature.bio .description p").forEach(p => {
     const fullText = p.textContent.trim();
