@@ -1884,7 +1884,7 @@ code,
   }
 
   .intro h2 {
-    font-size: calc(var(--font-size-1) * 0.7);
+    font-size: calc(var(--font-size-1) * 0.65);
   }
 
   .intro h2,
