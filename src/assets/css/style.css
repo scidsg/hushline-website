@@ -662,6 +662,7 @@ a.dropbtn:hover {
     border-radius: 0.25rem;
     outline: var(--border);
     min-width: 140px;
+    align-items: start;
   }
 
   header nav .dropbtn {
