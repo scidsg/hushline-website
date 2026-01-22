@@ -694,6 +694,10 @@ a.dropbtn:hover {
   header nav .dropdown {
     height: fit-content;
   }
+
+  header nav .btn-emoji {
+    top: 237.5px !important;
+  }
 }
 
 /*ICONS*/
@@ -2005,6 +2009,8 @@ code,
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  
 }
 
 .intro.secondary {
@@ -2646,6 +2652,12 @@ img.world {
   }
 }
 
+@media only screen and (max-width: 680px) {
+  header nav .btn-emoji {
+    top: 297.5px !important;
+  }
+}
+
 .status-icon {
   font-size: .5rem;
   position: relative;
@@ -2677,4 +2689,16 @@ img.world {
 
 .quotes .description:only-of-type {
   max-width: 768px;
+}
+
+header nav .btn-emoji {
+    transform: scale(.7) !important;
+    top: 19.5px;
+    position: absolute;
+    margin-top: 0;
+    padding-left: 1rem;
+}
+
+header nav li:has(.btn-emoji) a {
+    padding-left: 2rem;
 }
