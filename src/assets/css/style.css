@@ -1043,7 +1043,7 @@ body.landing .feature .description p.step-label {
 
 .intro h2,
 .intro h3 {
-    max-width: 48%;
+    max-width: 60%;
     color: var(--color-brand-dark);
 }
 
