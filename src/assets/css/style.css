@@ -2702,3 +2702,26 @@ header nav .btn-emoji {
 header nav li:has(.btn-emoji) a {
     padding-left: 2rem;
 }
+
+.footer-badges {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: var(--border);
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+.footer-badges .badge p:first-of-type {
+  font-family: var(--font-sans-bold);
+}
+
+.footer-badges .badge {
+  min-width: 150px;
+}
+
+.footer-badges .badge img {
+  max-height: 1rem;
+  max-width: 1rem;
+}
