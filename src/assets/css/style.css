@@ -1039,9 +1039,20 @@ body.landing .feature .description p.step-label {
 .intro h2 {
   font-size: calc(var(--font-size-1) * 1.1);
   margin-bottom: 0.5rem;
-  color: var(--color-brand-dark);
-  max-width: 60%;
 }
+
+.intro h2,
+.intro h3 {
+    max-width: 60%;
+    color: var(--color-brand-dark);
+}
+
+.intro h3 {
+    font-size: calc(var(--font-size-5) * 1);
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
 
 .intro.secondary h2 {
   max-width: 80%;
@@ -1777,7 +1788,7 @@ code,
   }
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1160px) {
   .intro h2 {
     font-size: var(--font-size-1);
   }
@@ -1785,10 +1796,11 @@ code,
 
 @media only screen and (max-width: 1000px) {
   .intro h2 {
-    font-size: calc(var(--font-size-1) * 0.9);
+    font-size: calc(var(--font-size-1) * 0.95);
   }
 
   .intro h2,
+  .intro h3,
   .intro p {
     max-width: 63%;
   }
@@ -1889,10 +1901,11 @@ code,
   }
 
   .intro h2 {
-    font-size: calc(var(--font-size-1) * 0.65);
+    font-size: calc(var(--font-size-1) * 0.75);
   }
 
   .intro h2,
+  .intro h3,
   .intro p {
     max-width: 100%;
   }
@@ -2086,6 +2099,10 @@ code,
 
   .tabs::-webkit-scrollbar {
     display: none;
+  }
+
+  .intro h2 {
+    font-size: calc(var(--font-size-1) * 0.62);
   }
 }
 
