@@ -37,6 +37,7 @@
   </head>
 
   <body class="landing secondary-page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="banner">
       <p>🧅 Use <a href="https://www.torproject.org/download/"
           rel="noopener noreferrer" target="_blank"
@@ -45,26 +46,26 @@
     </div>
     <header class="island">
       <h1><a href="/" rel="noopener noreferrer">🤫 Hush Line</a></h1>
-      <nav>
+      <nav aria-label="Primary">
         <button type="button" class="mobileNav btnIcon"
           aria-label="Navigation menu">Menu</button>
-        <ul>
+        <ul id="primary-navigation">
           <li><a href="start-here.html" rel="noopener noreferrer">👉 Start Here</a></li>
           <li><a href="/#pricing">Pricing</a></li>
           <li><a href="/#faq">FAQ</a></li>
           <li><a href="https://tips.hushline.app/directory" target="_blank"
-              rel="noopener noreferrer">Directory</a>
-            <li><a class="btn" href="https://tips.hushline.app/login"
-                target="_blank"
-                rel="noopener noreferrer">Login</a></li>
-          </ul>
+              rel="noopener noreferrer">Directory</a></li>
+          <li><a class="btn" href="https://tips.hushline.app/login"
+              target="_blank"
+              rel="noopener noreferrer">Login</a></li>
+        </ul>
           <a class="btn primaryBtn" href="https://tips.hushline.app/register"
             target="_blank"
             rel="noopener noreferrer">Register</a>
         </nav>
       </header>
 
-      <main class="landing case-study">
+      <main class="landing case-study" id="main-content" tabindex="-1">
         <section class="intro secondary">
           <div class="wrapper">
             <h2>
@@ -73,15 +74,12 @@
             <p>A Cross-Industry, Open-Source Whistleblower Management System For
               Organizations and Individuals
             </p>
-            <div class="tabs">
-              <button class="tablinks"
-                onclick="openTab(event, 'Abstract')">Abstract</button>
-              <button class="tablinks"
-                onclick="openTab(event, 'Background')">Background</button>
-              <button class="tablinks" onclick="openTab(event, 'Overview')">Hush
+            <div class="tabs" role="tablist" aria-label="Case study sections">
+              <button type="button" class="tablinks" data-tab="Abstract">Abstract</button>
+              <button type="button" class="tablinks" data-tab="Background">Background</button>
+              <button type="button" class="tablinks" data-tab="Overview">Hush
                 Line Overview</button>
-              <button class="tablinks"
-                onclick="openTab(event, 'References')">References</button>
+              <button type="button" class="tablinks" data-tab="References">References</button>
             </div>
           </div>
 
@@ -1076,7 +1074,8 @@
               along with multiple other javascript source files, and it executes
               them in the browser.” [31]</p>
             <img
-              src="https://github.com/user-attachments/assets/a900e7cd-a0b5-413a-b8fe-ed1b25d8b909">
+              src="https://github.com/user-attachments/assets/a900e7cd-a0b5-413a-b8fe-ed1b25d8b909"
+              alt="Screenshot of hCaptcha assets loading in browser developer tools">
 
             <h6>Local Captcha</h6>
             <p>We explored CAPTCHA options including creating an image with
@@ -1273,7 +1272,8 @@
                 display will show a QR code with the address to their Hush Line
                 Onion Service instance.</p>
               <img
-                src="https://github.com/user-attachments/assets/2fc88bf0-9927-43cb-9422-f0e4dd7e5a98">
+                src="https://github.com/user-attachments/assets/2fc88bf0-9927-43cb-9422-f0e4dd7e5a98"
+                alt="Photo of the Hush Line Personal Server device">
 
               <h4>System Requirements</h4>
               <p>The Personal Server is designed to be deployable to hardware
@@ -1609,7 +1609,7 @@
 
                   <h3>Engineering Timeline & Deliverables</h3>
 
-                  <img src="assets/img/gantt.png">
+                  <img src="assets/img/gantt.png" alt="Gantt chart of the engineering timeline and deliverables">
 
                   <h3>Grant Application</h3>
                   <p>As a new 501(c)(3) non-profit starting from scratch, both

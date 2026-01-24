@@ -34,15 +34,16 @@
 </head>
 
 <body class="landing">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="banner">
         <p>🧅 <a href="https://www.torproject.org/download/" rel="noopener noreferrer" target="_blank"
                 aria-label="Use Tor Browser for greater anonymity">Use Tor Browser</a> for greater anonymity.</p>
     </div>
     <header class="island">
         <h1>🤫 Hush Line</h1>
-        <nav>
+        <nav aria-label="Primary">
             <button type="button" class="mobileNav btnIcon" aria-label="Navigation menu">Menu</button>
-            <ul>
+            <ul id="primary-navigation">
                 <li><a href="https://tips.hushline.app/directory">Directory</a></li>
                 <li><a href="team.html">Team</a></li>
                 <li><a href="/library/docs/getting-started/start-here">Docs</a></li>
@@ -58,7 +59,7 @@
         </nav>
     </header>
 
-    <main class="landing">
+    <main class="landing" id="main-content" tabindex="-1">
         <section class="intro">
             <div class="wrapper">
                 <h2>Anonymous, end-to-end encrypted tip lines for journalists, lawyers, businesses, and more.</h2>
@@ -361,7 +362,7 @@
                     <li>
                         <h3>
                             <button type="button" class="faq-question" aria-controls="faq1" aria-expanded="false">
-                                <img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> How
+                                <img class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> How
                                 anonymous is Hush Line?</button>
                         </h3>
                         <div class="faq-answer" id="faq1" hidden>
@@ -383,7 +384,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq2"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Is
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Is
                                 Hush Line end-to-end encrypted?</button></h3>
                         <div class="faq-answer" id="faq2" hidden>
                             <p>Yes! Hush Line uses <a href="https://github.com/openpgpjs/openpgpjs" target="_blank"
@@ -403,7 +404,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq3"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Is
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Is
                                 two-way communication available?</button></h3>
                         <div class="faq-answer" id="faq3" hidden>
                             <p>If the individual submitting a message feels comfortable enough to include a contact
@@ -422,7 +423,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq4"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow">Can I
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true">Can I
                                 be deanonymized?</button></h3>
                         <div class="faq-answer" id="faq4" hidden>
                             <p>Neither us scrubbing IPs nor you using Tor and Signal are silver bullets, and there are
@@ -480,7 +481,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq5"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Why
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Why
                                 not just use Signal?</button></h3>
                         <div class="faq-answer" id="faq5" hidden>
                             <p>Signal is great, but it requires the whistleblower to download a new app, register with a
@@ -498,9 +499,9 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq6"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> How
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> How
                                 is Hush Line different from SecureDrop?</button></h3>
-                        <div class="faq-answer" id="faq6">
+                        <div class="faq-answer" id="faq6" hidden>
                             <p>SecureDrop is a robust whistleblowing platform whose architecture is necessitated by very
                                 specific use cases: A.) To safely manage files sent by anonymous people so that a device
                                 or network isn't accidentally compromised, and B.) To provide a censorship-resistant and
@@ -546,7 +547,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq7"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Why
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Why
                                 not fork SecureDrop's code?</button></h3>
                         <div class="faq-answer" id="faq7" hidden>
                             <p>While open-source, forking SecureDrop would require significant rework. Building a new
@@ -555,7 +556,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq8"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Why
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Why
                                 Python?</button></h3>
                         <div class="faq-answer" id="faq8" hidden>
                             <p>We use Python and the Flask framework because they're well-documented and supported, and
@@ -573,7 +574,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq9"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Why
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Why
                                 can't I receive files?</button></h3>
                         <div class="faq-answer" id="faq9" hidden>
                             <p>Receiving files comes with significant risk, and the functionality is only sometimes
@@ -600,7 +601,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq10"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> How
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> How
                                 do I verify a recipient is legitimate?</button></h3>
                         <div class="faq-answer" id="faq10" hidden>
                             <p>Hush Line offers human-verified accounts for journalists, organizations, and public
@@ -614,7 +615,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq11"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Has
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Has
                                 Hush Line received an independent security audit?</button></h3>
                         <div class="faq-answer" id="faq11" hidden>
                             <p>Yes!</p> 
@@ -626,7 +627,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq12"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Where
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Where
                                 can I submit a vulnerability report?</button></h3>
                         <div class="faq-answer" id="faq12" hidden>
                             <p>See something, say something! Submit a vulnerability report if you find a security issue,
@@ -636,7 +637,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq13"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Is there more
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Is there more
                                 information?</button></h3>
                         <div class="faq-answer" id="faq13" hidden>
                             <p>👉 Read the <a href="case-study.html" target="_blank" rel="noopener noreferrer">Hush Line
@@ -645,7 +646,7 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq14"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Are there more
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="" aria-hidden="true"> Are there more
                                 ways to donate?</button></h3>
                         <div class="faq-answer" id="faq14" hidden>
                             <p>Yes! If you want to use a credit or debit card, you should use our <a
@@ -685,9 +686,9 @@
                         </div>
                         <div class="receipt-item">
                             <span>Verified Accounts&nbsp;
-                                <a href="#" class="info-icon" tabindex="0"
+                                <button type="button" class="info-icon"
                                     data-tooltip="Human-verified accounts for organizations and individuals so you know your message is going to the right place."
-                                    aria-label="Human-verified accounts for organizations and individuals so you know your message is going to the right place.">ℹ️</a>
+                                    aria-label="Human-verified accounts for organizations and individuals so you know your message is going to the right place.">ℹ️</button>
                             </span>
                             <span>✅</span>
                         </div>
@@ -724,9 +725,9 @@
                             <span>✅</span>
                         </div>
                         <div class="receipt-item">
-                            <span>In-App Message Decryption&nbsp;<a href="#" class="info-icon" tabindex="0"
+                            <span>In-App Message Decryption&nbsp;<button type="button" class="info-icon"
                                     data-tooltip="Decrypt messages directly in the app with the Mailvelope browser extension for Firefox and Chrome!"
-                                    aria-label="Decrypt messages directly in the app with the Mailvelope browser extension for Firefox and Chrome!">ℹ️</a>
+                                    aria-label="Decrypt messages directly in the app with the Mailvelope browser extension for Firefox and Chrome!">ℹ️</button>
                             </span>
                             <span>✅</span>
                         </div>
@@ -753,9 +754,9 @@
                         </div>
                         <div class="receipt-item">
                             <span>OCR Vision Assistant&nbsp;
-                                <a href="#" class="info-icon" tabindex="0"
+                                <button type="button" class="info-icon"
                                     data-tooltip="Extract text from images. Data never leaves your device and is not shared with Hush Line."
-                                    aria-label="Extract text from images. Data never leaves your device and is not shared with Hush Line.">ℹ️</a>
+                                    aria-label="Extract text from images. Data never leaves your device and is not shared with Hush Line.">ℹ️</button>
                             </span>
                             <span>✅</span>
                         </div>
@@ -773,25 +774,25 @@
                         </div>
                         <div class="receipt-item">
                             <span>Third-Party Donation&nbsp;
-                                <a href="#" class="info-icon" tabindex="0"
+                                <button type="button" class="info-icon"
                                     data-tooltip="10% direct donation to the non-profit or open-source software Hush Line uses - Tor Project, Riseup.net, or Mailvelope, for example."
-                                    aria-label="10% direct donation to the non-profit or open-source software Hush Line uses - Tor Project, Riseup.net, or Mailvelope, for example.">ℹ️</a>
+                                    aria-label="10% direct donation to the non-profit or open-source software Hush Line uses - Tor Project, Riseup.net, or Mailvelope, for example.">ℹ️</button>
                             </span>
                             <span>$<span id="businessDonationFee">0</span>/mo</span>
                         </div>
                         <div class="receipt-item">
                             <span>Admin Fee&nbsp;
-                                <a href="#" class="info-icon" tabindex="0" data-tooltip="Hush Line is 501(c)(3) non-profit managed. A 10% fee goes to Science & Design,
+                                <button type="button" class="info-icon" data-tooltip="Hush Line is 501(c)(3) non-profit managed. A 10% fee goes to Science & Design,
                                     Inc. for general administration." aria-label="Hush Line is 501(c)(3) non-profit managed. A 10% fee goes to Science & Design,
-                                    Inc. for general administration.">ℹ️</a>
+                                    Inc. for general administration.">ℹ️</button>
                             </span>
                             <span>$<span id="businessAdminFee">0</span>/mo</span>
                         </div>
                         <div class="receipt-item">
                             <span>Support Fee&nbsp;
-                                <a href="#" class="info-icon" tabindex="0"
+                                <button type="button" class="info-icon"
                                     data-tooltip="A 10% fee used to support the people who work on the product."
-                                    aria-label="A 10% fee used to support the people who work on the product.">ℹ️</a>
+                                    aria-label="A 10% fee used to support the people who work on the product.">ℹ️</button>
                             </span>
                             <span>$<span id="businessSupportFee">0</span>/mo</span>
                         </div>
@@ -808,9 +809,9 @@
                     <h3>Single Tenant</h3>
                     <p class="meta">For businesses that need a dedicated managed service just for their employees.</p>
                     <ul>
-                        <div class="field">
+                        <li class="field">
                             <label for="licenses">Number of Licenses</label>
-                            <select id="licenses"">
+                            <select id="licenses">
                                 <option value=" 1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -824,30 +825,30 @@
                                 <option value="11">11</option>
                                 <option value="12">12</option>
                             </select>
-                        </div>
-                        <div class="receipt-item">
+                        </li>
+                        <li class="receipt-item">
                             <span>All Super User Features</span>
                             <span>✅</span>
-                        </div>
-                        <div class="receipt-item">
+                        </li>
+                        <li class="receipt-item">
                             <span>No Feature Limits</span>
                             <span>✅</span>
-                        </div>
-                        <div class="receipt-item">
+                        </li>
+                        <li class="receipt-item">
                             <span>Custom Onboarding & Guidance</span>
                             <span>✅</span>
-                        </div>
-                        <div class="receipt-item">
+                        </li>
+                        <li class="receipt-item">
                             <span>Custom Branding</span>
                             <span>✅</span>
-                        </div>
+                        </li>
                     </ul>
                     <div class="receipt">
                         <div class="receipt-item">
                             <span>Base Price&nbsp;
-                                <a href="#" class="info-icon" tabindex="0"
+                                <button type="button" class="info-icon"
                                     data-tooltip="App Hosting, Managed DB, Bastion Server, Static Website. Pricing subject to data usage. 0% markup."
-                                    aria-label="App Hosting, Managed DB, Bastion Server, Static Website. Pricing subject to data usage. 0% markup.">ℹ️</a>
+                                    aria-label="App Hosting, Managed DB, Bastion Server, Static Website. Pricing subject to data usage. 0% markup.">ℹ️</button>
                             </span>
                             <span>$<span id="basePrice">0</span>/mo</span>
                         </div>
@@ -857,35 +858,35 @@
                         </div>
                         <div class="receipt-item">
                             <span>Third-Party Donation&nbsp;
-                                <a href="#" class="info-icon" tabindex="0"
+                                <button type="button" class="info-icon"
                                     data-tooltip="10% direct donation to the non-profit or open-source software Hush Line uses - Tor Project, Riseup.net, or Mailvelope, for example."
-                                    aria-label="10% direct donation to the non-profit or open-source software Hush Line uses - Tor Project, Riseup.net, or Mailvelope, for example.">ℹ️</a>
+                                    aria-label="10% direct donation to the non-profit or open-source software Hush Line uses - Tor Project, Riseup.net, or Mailvelope, for example.">ℹ️</button>
                             </span>
                             <span>$<span id="donationFee">0</span>/mo</span>
                         </div>
                         <div class="receipt-item">
                             <span>Admin Fee&nbsp;
-                                <a href="#" class="info-icon" tabindex="0" data-tooltip="Hush Line is 501(c)(3) non-profit managed. A 10% fee goes to Science & Design,
+                                <button type="button" class="info-icon" data-tooltip="Hush Line is 501(c)(3) non-profit managed. A 10% fee goes to Science & Design,
                                     Inc. for general administration." aria-label="Hush Line is 501(c)(3) non-profit managed. A 10% fee goes to Science & Design,
-                                    Inc. for general administration.">ℹ️</a>
+                                    Inc. for general administration.">ℹ️</button>
                             </span>
                             <span>$<span id="adminFee">0</span>/mo</span>
                         </div>
                         <div class="receipt-item" id="supportRow">
                             <span>Support Fee&nbsp;
-                                <a href="#" class="info-icon" tabindex="0"
+                                <button type="button" class="info-icon"
                                     data-tooltip="A 10% fee for up to 2-hours of direct support monthly."
-                                    aria-label="A 10% fee for up to 2-hours of direct support monthly.">ℹ️</a>
+                                    aria-label="A 10% fee for up to 2-hours of direct support monthly.">ℹ️</button>
                             </span>
                             <span>$<span id="supportFee">0</span>/mo</span>
                         </div>
                         <div class="receipt-item total">
                             <span>Monthly</span>
-                            <span>$<span id="totalPrice">0</span>/mo</span>
+                            <span>$<span id="totalPrice" aria-live="polite" aria-atomic="true">0</span>/mo</span>
                         </div>
                         <div class="receipt-item">
                             <span>Annually</span>
-                            <span>$<span id="totalAnnualPrice">0</span>/yr</span>
+                            <span>$<span id="totalAnnualPrice" aria-live="polite" aria-atomic="true">0</span>/yr</span>
                         </div>
                     </div>
                     <a href="https://tips.hushline.app/submit_message/hushline-business" class="btn"
@@ -997,7 +998,7 @@
                 <h2>Our Contributors</h2>
                 <div class="wrapper">
                     <div class="description">
-                        <ul id="contributors">
+                        <ul id="contributors" aria-live="polite">
                             <li>Loading contributors…</li>
                         </ul>
                     </div>

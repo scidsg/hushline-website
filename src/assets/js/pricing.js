@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const licensesSelect = document.getElementById("licenses");
+    if (!licensesSelect) return;
+
     const basePrice = 103;
     const businessPrice = 3.85; // Fixed cost for the "Business" plan
     const licensePrice = 20;
@@ -7,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const supportFeePercentage = 0.10;
 
     function calculatePrice() {
-        const licenses = parseInt(document.getElementById("licenses").value) || 0;
+        const licenses = parseInt(licensesSelect.value) || 0;
 
         const licenseCost = licenses * licensePrice;
         const subTotal = basePrice + licenseCost;
@@ -46,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Attach event listeners for changes
-    document.getElementById("licenses").addEventListener('change', calculatePrice);
+    licensesSelect.addEventListener('change', calculatePrice);
 
     // Initial price calculation
     calculatePrice();

@@ -90,6 +90,37 @@ main {
   width: 100%;
 }
 
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  padding: 0.5rem 0.75rem;
+  background: white;
+  border: 2px solid var(--color-brand);
+  color: var(--color-brand);
+  border-radius: 0.25rem;
+  transform: translateY(-200%);
+  transition: transform 0.2s ease-in-out;
+  z-index: 1000;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+
 h1,
 h2,
 h3,
@@ -363,6 +394,13 @@ button:focus {
   outline: 4px double var(--color-brand);
   border: 1px solid var(--color-brand);
   box-shadow: none;
+}
+
+a:focus-visible,
+.btn:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 2px;
 }
 
 button,
@@ -1119,15 +1157,13 @@ p.badge {
 
 .faq-question:focus {
   outline: none;
-  border: none;
-  box-shadow: none;
+}
+
+.faq-question:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 3px;
+  border-radius: 0.25rem;
   color: var(--color-brand);
-  display: flex;
-  padding: 1rem 0;
-  cursor: pointer;
-  align-items: center;
-  width: fit-content;
-  text-decoration: none;
 }
 
 .faq-list {
@@ -1539,7 +1575,7 @@ body.landing .feature .description p {
   margin-bottom: 2rem;
 }
 
-.receipt-item span.info-icon {
+.receipt-item .info-icon {
   font-size: calc(var(--font-size-smallest) * 0.9);
   cursor: pointer;
 }
@@ -1566,6 +1602,25 @@ body.landing .feature .description p {
   color: inherit;
   font-size: calc(var(--font-size-smallest) * 0.8);
   font-family: var(--font-sans);
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.info-icon:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+.bio-toggle {
+  background: none;
+  border: none;
+  color: var(--color-brand);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
 }
 
 .tease {
@@ -2751,4 +2806,11 @@ header nav li:has(.btn-emoji) a {
 .footer-badges .badge img {
   max-height: 1rem;
   max-width: 1rem;
+}
+
+.receipt-item button {
+  min-width: fit-content;
+  min-height: fit-content;
+  padding: 0;
+  margin: 0;
 }

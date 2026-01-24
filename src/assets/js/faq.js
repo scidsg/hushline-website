@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     var faqQuestions = document.querySelectorAll('.faq-question');
 
+    if (!faqQuestions.length) {
+        return;
+    }
+
     faqQuestions.forEach(function(question) {
         question.addEventListener('click', function(e) {
-            e.preventDefault();
-
             var parentLi = this.closest('li');
             var answer = parentLi.querySelector('.faq-answer');
             var arrow = this.querySelector('.arrow'); // Get the arrow span
@@ -15,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 currentlyOpen.style.display = 'none';
                 currentlyOpen.classList.remove('active');
                 currentlyOpen.hidden = true;
+                currentlyOpen.setAttribute('aria-hidden', 'true');
                 // Reset the arrow of the previously active question
                 var activeQuestion = document.querySelector('.faq-question.active');
                 if (activeQuestion) {
@@ -30,8 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 answer.style.display = 'none';
                 answer.classList.remove('active');
                 this.classList.remove('active'); // Update question active state
+                this.setAttribute('aria-expanded', 'false');
                 arrow.style.transform = ''; // Reset rotation
                 answer.hidden = true;
+                answer.setAttribute('aria-hidden', 'true');
             } else {
                 answer.style.display = 'block';
                 answer.classList.add('active');
@@ -39,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 this.setAttribute('aria-expanded', 'true');
                 arrow.style.transform = 'rotate(-180deg)'; // Rotate arrow
                 answer.hidden = false;
+                answer.setAttribute('aria-hidden', 'false');
             }
         });
     });
