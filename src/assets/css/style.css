@@ -59,6 +59,16 @@
     url("../fonts/mono/IBMPlexMono-Regular.woff2") format("woff2");
 }
 
+::selection {
+  background-color: var(--color-brand);
+  color: white;
+}
+
+.banner p::selection {
+  background-color: white;
+  color: var(--color-brand);
+}
+
 .mono {
   font-family: var(--font-mono);
   font-size: var(--font-size-5);
