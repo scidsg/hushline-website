@@ -43,7 +43,6 @@
   src:
     url("../fonts/sans/AtkinsonHyperlegible-Regular.woff") format("woff"),
     url("../fonts/sans/AtkinsonHyperlegible-Regular.woff2") format("woff2");
-  font-display: block;
 }
 
 @font-face {
@@ -51,7 +50,6 @@
   src:
     url("../fonts/sans/AtkinsonHyperlegible-Bold.woff") format("woff"),
     url("../fonts/sans/AtkinsonHyperlegible-Bold.woff2") format("woff2");
-  font-display: block;
 }
 
 @font-face {
@@ -59,16 +57,6 @@
   src:
     url("../fonts/mono/IBMPlexMono-Regular.woff") format("woff"),
     url("../fonts/mono/IBMPlexMono-Regular.woff2") format("woff2");
-}
-
-::selection {
-  background-color: var(--color-brand);
-  color: white;
-}
-
-.banner p::selection {
-  background-color: white;
-  color: var(--color-brand);
 }
 
 .mono {
@@ -87,45 +75,9 @@ body {
   font-family: var(--font-sans);
 }
 
-img {
-  height: auto;
-  max-height: 100%;
-}
-
 main {
   max-width: 640px;
   width: 100%;
-}
-
-.skip-link {
-  position: absolute;
-  left: 1rem;
-  top: 1rem;
-  padding: 0.5rem 0.75rem;
-  background: white;
-  border: 2px solid var(--color-brand);
-  color: var(--color-brand);
-  border-radius: 0.25rem;
-  transform: translateY(-200%);
-  transition: transform 0.2s ease-in-out;
-  z-index: 1000;
-}
-
-.skip-link:focus,
-.skip-link:focus-visible {
-  transform: translateY(0);
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-  white-space: nowrap;
 }
 
 h1,
@@ -401,13 +353,6 @@ button:focus {
   outline: 4px double var(--color-brand);
   border: 1px solid var(--color-brand);
   box-shadow: none;
-}
-
-a:focus-visible,
-.btn:focus-visible,
-button:focus-visible {
-  outline: 3px solid var(--color-brand);
-  outline-offset: 2px;
 }
 
 button,
@@ -1094,20 +1039,9 @@ body.landing .feature .description p.step-label {
 .intro h2 {
   font-size: calc(var(--font-size-1) * 1.1);
   margin-bottom: 0.5rem;
+  color: var(--color-brand-dark);
+  max-width: 60%;
 }
-
-.intro h2,
-.intro h3 {
-    max-width: 60%;
-    color: var(--color-brand-dark);
-}
-
-.intro h3 {
-    font-size: calc(var(--font-size-5) * 1);
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-}
-
 
 .intro.secondary h2 {
   max-width: 80%;
@@ -1164,13 +1098,15 @@ p.badge {
 
 .faq-question:focus {
   outline: none;
-}
-
-.faq-question:focus-visible {
-  outline: 3px solid var(--color-brand);
-  outline-offset: 3px;
-  border-radius: 0.25rem;
+  border: none;
+  box-shadow: none;
   color: var(--color-brand);
+  display: flex;
+  padding: 1rem 0;
+  cursor: pointer;
+  align-items: center;
+  width: fit-content;
+  text-decoration: none;
 }
 
 .faq-list {
@@ -1582,7 +1518,7 @@ body.landing .feature .description p {
   margin-bottom: 2rem;
 }
 
-.receipt-item .info-icon {
+.receipt-item span.info-icon {
   font-size: calc(var(--font-size-smallest) * 0.9);
   cursor: pointer;
 }
@@ -1609,25 +1545,6 @@ body.landing .feature .description p {
   color: inherit;
   font-size: calc(var(--font-size-smallest) * 0.8);
   font-family: var(--font-sans);
-  background: none;
-  border: none;
-  padding: 0;
-}
-
-.info-icon:focus-visible {
-  outline: 2px solid var(--color-brand);
-  outline-offset: 2px;
-  border-radius: 0.25rem;
-}
-
-.bio-toggle {
-  background: none;
-  border: none;
-  color: var(--color-brand);
-  font: inherit;
-  text-decoration: underline;
-  cursor: pointer;
-  padding: 0;
 }
 
 .tease {
@@ -1860,7 +1777,7 @@ code,
   }
 }
 
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1280px) {
   .intro h2 {
     font-size: var(--font-size-1);
   }
@@ -1868,11 +1785,10 @@ code,
 
 @media only screen and (max-width: 1000px) {
   .intro h2 {
-    font-size: calc(var(--font-size-1) * 0.95);
+    font-size: calc(var(--font-size-1) * 0.9);
   }
 
   .intro h2,
-  .intro h3,
   .intro p {
     max-width: 63%;
   }
@@ -1973,11 +1889,10 @@ code,
   }
 
   .intro h2 {
-    font-size: calc(var(--font-size-1) * 0.75);
+    font-size: calc(var(--font-size-1) * 0.65);
   }
 
   .intro h2,
-  .intro h3,
   .intro p {
     max-width: 100%;
   }
@@ -2171,10 +2086,6 @@ code,
 
   .tabs::-webkit-scrollbar {
     display: none;
-  }
-
-  .intro h2 {
-    font-size: calc(var(--font-size-1) * 0.62);
   }
 }
 
@@ -2794,7 +2705,7 @@ header nav li:has(.btn-emoji) a {
 
 .footer-badges {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: var(--border);
@@ -2807,17 +2718,10 @@ header nav li:has(.btn-emoji) a {
 }
 
 .footer-badges .badge {
-  min-width: fit-content;
+  min-width: 150px;
 }
 
 .footer-badges .badge img {
   max-height: 1rem;
   max-width: 1rem;
-}
-
-.receipt-item button {
-  min-width: fit-content;
-  min-height: fit-content;
-  padding: 0;
-  margin: 0;
 }
