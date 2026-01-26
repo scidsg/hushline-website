@@ -2705,7 +2705,7 @@ header nav li:has(.btn-emoji) a {
 
 .footer-badges {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: var(--border);
@@ -2718,7 +2718,7 @@ header nav li:has(.btn-emoji) a {
 }
 
 .footer-badges .badge {
-  min-width: 150px;
+  min-width: fit-content;
 }
 
 .footer-badges .badge img {
