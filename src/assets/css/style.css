@@ -2754,5 +2754,6 @@ header nav li:has(.btn-emoji) a {
   font-family: var(--font-sans);
   padding: 0;
   margin: 0;
-  min-width: fit-content; 
+  min-width: fit-content;
+  min-height: fit-content; 
 }
