@@ -2746,3 +2746,13 @@ header nav li:has(.btn-emoji) a {
   max-height: 1rem;
   max-width: 1rem;
 }
+
+.bio-toggle {
+  background: transparent;
+  color: var(--color-brand);
+  text-decoration: underline;
+  font-family: var(--font-sans);
+  padding: 0;
+  margin: 0;
+  min-width: fit-content; 
+}
