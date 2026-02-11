@@ -4,10 +4,90 @@
         <title>Hush Line Library Blog</title>
         <link>https://hushline.app/library/blog</link>
         <description>Hush Line Library Blog</description>
-        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[A Conversation with a Whisteblower: The Usability Gap in Whistleblowing Tech]]></title>
+            <link>https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos</link>
+            <guid>https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos</guid>
+            <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Conversation Cover]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Conversation Cover" src="https://hushline.app/library/assets/images/cover-8c388479c0d4cabcc77c996522bb3a49.png" width="1744" height="528" class="img_ev3q"></p>
+<p>When people in tech talk about whistleblowing security, the conversation usually starts with modern encryption tools and so-called best practices. Redbull worried whether having the wrong app on his phone could place him in physical danger.</p>
+<p>WIRED reporter Andy Greenberg <a href="https://www.wired.com/story/he-leaked-the-secrets-southeast-asian-scam-compound-then-had-to-get-out-alive/" target="_blank" rel="noopener noreferrer">told the story of Redbull’s escape from a scam compound in Laos</a>. After reading that, I talked to Redbull to get his take on the tech: what he used, how he found it, what fell apart when things got bad, and what “usable security” actually means when people are always watching.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tldr">TL;DR<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#tldr" class="hash-link" aria-label="Direct link to TL;DR" title="Direct link to TL;DR">​</a></h2>
+<ul>
+<li>Redbull never heard of Signal before he reached out and only learned about after a journalist replied to him.</li>
+<li>For him, just installing an app or having to use a real phone number could put him in danger.</li>
+<li>His baseline toolkit was Proton Mail/VPN, Tor Browser, and Brave.</li>
+<li>He said coworkers were questioned over VPN use: “He was using a VPN on his personal device, and when the bosses asked him, he gave them an excuse.”</li>
+<li>He didn’t try legal channels.</li>
+<li>Hush Line’s browser-first model (no app install required, optional Onion access) matched his need for low-friction, low-exposure messaging.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-operating-conditions">The Operating Conditions<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#the-operating-conditions" class="hash-link" aria-label="Direct link to The Operating Conditions" title="Direct link to The Operating Conditions">​</a></h2>
+<p>Redbull described life in narrow time windows. Phones were returned after office hours. Dorm checks happened at night. Office machines were monitored. Social accounts were logged in on the leader machines. Personal phones were periodically searched.</p>
+<p>"They track all our online activity," he said. "They check us physically."</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="privacy-conscious-but-still-not-safe">Privacy Conscious, But Still Not Safe<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#privacy-conscious-but-still-not-safe" class="hash-link" aria-label="Direct link to Privacy Conscious, But Still Not Safe" title="Direct link to Privacy Conscious, But Still Not Safe">​</a></h2>
+<p>Redbull studied computer science in India. Before contacting any journalist, he was already using Proton Mail, Proton VPN, Tor Browser, and Brave.</p>
+<p>“I have always been privacy conscious,” he told me. Then he added the part most security teams miss: “But not everyone has this type of knowledge.”</p>
+<p>I asked, “So that kind of software wasn’t suspicious to the people who would search your phones?” Redbull answered, “Yes, but sometimes it happens to one of the guys. He was using a VPN on his personal device, and when the bosses asked him, he gave them an excuse.”</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hint-signal-isnt-ubiquitous">Hint: Signal Isn't Ubiquitous<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#hint-signal-isnt-ubiquitous" class="hash-link" aria-label="Direct link to Hint: Signal Isn't Ubiquitous" title="Direct link to Hint: Signal Isn't Ubiquitous">​</a></h2>
+<p>Redbull found Andy through Google after contacting many outlets and authorities.</p>
+<p>He described the outreach this way: “Many people, including everyone from the FBI, Interpol, Indian authorities, other news outlets, and many other journalists, I sent them, but only Andy responded to me.”</p>
+<p>He had not used Signal before that.</p>
+<p>“Actually Andy introduced me to Signal in an email. I was not aware.”</p>
+<p>In this case, discovery and response determined what happened next. He did not know Signal until a reporter introduced it, and most of the institutions he contacted did not reply. When replies are slow or absent, people in danger have fewer choices and end up taking bigger risks.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="install-the-app-was-a-risk">“Install the App” Was a Risk<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#install-the-app-was-a-risk" class="hash-link" aria-label="Direct link to “Install the App” Was a Risk" title="Direct link to “Install the App” Was a Risk">​</a></h2>
+<p>Once Signal entered the workflow, the setup itself became dangerous.</p>
+<p>Redbull told me he installed Signal on an office device, linked it, then removed it. He described hiding it by making it look like a system drive shortcut.</p>
+<p>“It would have been dangerous if they had known,” he said.</p>
+<p>His critique of Signal was operational:</p>
+<ul>
+<li>Phone-number registration was a liability in his context.</li>
+<li>Disappearing messages protected him but also erased useful context too quickly.</li>
+<li>A compromised endpoint could expose everything anyway.</li>
+</ul>
+<p>“Signal is good,” he said, “but it still doesn’t provide enough privacy in our current situation.” The SIM requirement was a core part of that concern. He told me, “we need simcard to access signal application.” In a setting where device checks were conducted and the communications infrastructure was controlled around him, acquiring and using a number-linked account was a potential point of exposure.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="legal-pathways-as-a-nonstarter">Legal Pathways as a Nonstarter<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#legal-pathways-as-a-nonstarter" class="hash-link" aria-label="Direct link to Legal Pathways as a Nonstarter" title="Direct link to Legal Pathways as a Nonstarter">​</a></h2>
+<p>I asked whether he contacted lawyers: “If I contact any lawyer or any Laos authority, they would definitely put me in danger and might even kill me. You understand, when a very, very big authority does not respond to my email, at that time I had limited time and was also in a rush.”</p>
+<p>He also said he did not know where to start legally while he was still inside the compound, and that his immediate priority was getting any trusted response from outside. In practice, he first contacted journalists, NGOs, and law enforcement channels.</p>
+<p>Trust was another factor. He described actively vetting the one reporter who replied before speaking in depth, and said he feared that reaching out to the wrong person locally could expose him. In his words, contacting a Laotian lawyer or authority felt like something that could “put me in danger.”</p>
+<p>From a design perspective, this matters because many “best practice” disclosure flows assume stable access to counsel. In extreme environments, that assumption can fail.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cost-and-aftermath">Cost and Aftermath<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#cost-and-aftermath" class="hash-link" aria-label="Direct link to Cost and Aftermath" title="Direct link to Cost and Aftermath">​</a></h2>
+<p>Redbull estimated around $800 USD in direct costs tied to disclosure and exit planning. He also described continued impacts to his mental health, “My mind is not working well right now. I forget everything.”</p>
+<p>In other words, the burden is not only digital. Housing, transport, food, medical care, and mental health determine whether someone can keep cooperating safely after first contact.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-he-noticed-about-hush-line">What he Noticed About Hush Line<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#what-he-noticed-about-hush-line" class="hash-link" aria-label="Direct link to What he Noticed About Hush Line" title="Direct link to What he Noticed About Hush Line">​</a></h2>
+<p>When I walked him through Hush Line, the features that stood out were not novel crypto claims. They were friction reductions:</p>
+<ul>
+<li>works in a browser</li>
+<li>no required account for sources</li>
+<li>no mandatory app install</li>
+<li>clear-net and onion access</li>
+</ul>
+<p>"It seems very easy to use and share whatever, and then exit," he said.</p>
+<p>He also reacted positively to not requiring app-store installs tied to personal identifiers.</p>
+<p>That feedback tracks with what his threat model demanded all along: minimal steps, minimal trail, fast exit.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-a-whistleblower-fund-matters">Why a Whistleblower Fund Matters<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#why-a-whistleblower-fund-matters" class="hash-link" aria-label="Direct link to Why a Whistleblower Fund Matters" title="Direct link to Why a Whistleblower Fund Matters">​</a></h2>
+<p>I told Redbull that I want Hush Line to start a whistleblower fund to cover practical costs that software alone cannot solve: emergency travel, temporary housing, phone and data bills, basic living expenses, and mental-health support.</p>
+<p>His response was immediate: “That’s great, but I know a whistleblower gives too much sacrifice to reveal the truth.” He also told me, “you are doing so many great things that no one else is doing.”</p>
+<p>When I asked what a “perfect world” looks like for future whistleblowers, he said: “If whistleblower is somehow connected with you and your organization, then I think he has a good future and he has no need to think about anything, only focus on his work.”</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-software-teams-should-take-from-this">What Software Teams Should Take From This<a href="https://hushline.app/library/blog/usability-gap-whistleblowing-tech-laos#what-software-teams-should-take-from-this" class="hash-link" aria-label="Direct link to What Software Teams Should Take From This" title="Direct link to What Software Teams Should Take From This">​</a></h2>
+<p>Redbull’s case is extreme, but the design lessons are broadly relevant to high-risk reporting tools.</p>
+<ul>
+<li>Design for discovery, not just secure transport.</li>
+<li>Assume installation can be the most dangerous step.</li>
+<li>Treat persistent identifiers as potential hazards.</li>
+<li>Automated deletion of messages can create workflow issues.</li>
+<li>Assume endpoints may be compromised.</li>
+<li>Reduce cognitive load for people operating under stress and sleep loss.</li>
+</ul>
+<p>Most importantly, don’t mix up technical elegance with what actually works in real life.</p>
+<p>A whistleblower in crisis is not evaluating your architecture diagram or protocol’s white paper. They are evaluating whether a single wrong tap has human consequences.</p>
+<p>Redbull didn’t ask for, nor did he need, a perfect system, just one that didn’t make a dangerous situation worse. When I asked if I could write this article about his tech journey, he said, "Yes please you can. It's necessary."</p>]]></content:encoded>
+            <category>Hush Line</category>
+        </item>
         <item>
             <title><![CDATA[Build One of The Highest Security Laptops for Under $200 with Qubes OS]]></title>
             <link>https://hushline.app/library/blog/build-a-qubes-laptop-for-under-two-hundred-dollars</link>
@@ -91,6 +171,35 @@
             <category>whistleblowing</category>
         </item>
         <item>
+            <title><![CDATA[Why You Should Never Use Work Devices To Disclose Information]]></title>
+            <link>https://hushline.app/library/blog/dont-use-work-devices</link>
+            <guid>https://hushline.app/library/blog/dont-use-work-devices</guid>
+            <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Impact Model Diagram]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Impact Model Diagram" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>
+<p>Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed.</p>
+<p>If you work at a larger organization, you've probably been asked to fill out "anonymous" surveys about team and company health, ways to improve, etc. Laughably, many times, these anonymous forms are actually logged-in Google Forms that are in no way anonymous.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="dns-monitoring">DNS Monitoring<a href="https://hushline.app/library/blog/dont-use-work-devices#dns-monitoring" class="hash-link" aria-label="Direct link to DNS Monitoring" title="Direct link to DNS Monitoring">​</a></h2>
+<p>For remote workers, you're probably familiar with using VPNs to access work servers, email, or other internal-only things. VPNs for work allow you to operate as if you were in the office on an internal network. Here's an example from my home network's DNS logs:</p>
+<table><thead><tr><th>Time</th><th>Type</th><th>Domain</th><th>Client</th><th>Status</th><th>Response</th></tr></thead><tbody><tr><td>2025-03-16 12:18:17</td><td>A</td><td>tips.hushline.app</td><td>glenns-m3</td><td>OK (answered by localhost#5335)</td><td>IP (7.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>HTTPS</td><td>tips.hushline.app</td><td>glenns-m3</td><td>OK (answered by localhost#5335)</td><td>CNAME (141.5ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>hushline.app</td><td>glenns-m3.pivpn</td><td>OK (answered by localhost#5335)</td><td>CNAME (33.8ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>checkonline.home-assistant.io</td><td>192.168.0.166</td><td>OK (already forwarded)</td><td>N/A</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>checkonline.home-assistant.io</td><td>192.168.0.166</td><td>OK (answered by localhost#5335)</td><td>IP (7.6ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (answered by localhost#5335)</td><td>IP (7.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>AAAA</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (cache)</td><td>NODATA (0.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>AAAA</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (cache)</td><td>NODATA (0.0ms)</td></tr></tbody></table>
+<p>Since I've given my computer a custom hostname, instead of seeing an internal IP address, which&nbsp;could&nbsp;tell you a lot, I can easily find my computer with a human-readable name. Now, if someone runs a company and receives a report of serious allegations of wrongdoing, they can do one of a few things: 1. take the tip, act on it, and save lots of money, or, 2. find the person who submitted the report and "fix" the problem. Most of the time, companies choose option 2. If I access the network using a VPN, the logs are no different.</p>
+<p>So, if on March 16th at around noon, a company receives a tip that threatens to go to the press if action isn't taken, all they need to do is look back through their network logs to see who visited the tip line then. "But the system is anonymous because I didn't have to log in to submit a message!" No, sorry. "But it's end-to-end encrypted!" That only means that only the intended recipient can read the message, but in this case, I don't need to know the contents of the message; I just need to know who sent it.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-dangers-of-mdm-and-edr-software">The Dangers of MDM and EDR Software<a href="https://hushline.app/library/blog/dont-use-work-devices#the-dangers-of-mdm-and-edr-software" class="hash-link" aria-label="Direct link to The Dangers of MDM and EDR Software" title="Direct link to The Dangers of MDM and EDR Software">​</a></h2>
+<p>Some employers ask employees to install MDM (mobile device management) software on their personal devices. DO NOT DO THIS! MDM software enables monitoring of the contents of your phone, including the ability to add or remove apps, check your contacts, monitor your location, view browsing history and network connections, and see a full list of the applications you have installed. It's basically an administrator account run by your company. Does&nbsp;any&nbsp;app your company offers have a custom keyboard? These can log your keystrokes, so switch back to a system keyboard if possible. If your company uses EDR (endpoint detection and response) software, it can log keystrokes for forensic analysis, including texts sent over any application, including Signal.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-do-instead">What to do Instead?<a href="https://hushline.app/library/blog/dont-use-work-devices#what-to-do-instead" class="hash-link" aria-label="Direct link to What to do Instead?" title="Direct link to What to do Instead?">​</a></h2>
+<p>It's best to use a personal device on a private network or that you own, including your phone. Again, no corporate MDM or EDR software should be present on your device. One way to check if anything is installed currently is to check for "Profiles" in your phone's settings. Nothing from your company or anything else you don't recognize should be there.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="low-threat-scenarios">Low Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#low-threat-scenarios" class="hash-link" aria-label="Direct link to Low Threat Scenarios" title="Direct link to Low Threat Scenarios">​</a></h3>
+<p>In most situations, people want to report non-sensitive information. Using your personal device on a non-work network is perfect for this scenario. App owners could add IP address logging, but in this case, your IP will only show general location information. If that IP address becomes caught up in illegal activity elsewhere, law enforcement could subpoena the issuing ISP for customer information.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="medium-to-high-threat-scenarios">Medium to High Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#medium-to-high-threat-scenarios" class="hash-link" aria-label="Direct link to Medium to High Threat Scenarios" title="Direct link to Medium to High Threat Scenarios">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="non-onion-services">Non-Onion Services<a href="https://hushline.app/library/blog/dont-use-work-devices#non-onion-services" class="hash-link" aria-label="Direct link to Non-Onion Services" title="Direct link to Non-Onion Services">​</a></h4>
+<p>When someone does have reason to worry about using a tip line, including when disclosing serious issues of governmental corruption, national security, or other ethical or legal concerns, they may use our native Onion services. Using Tor Browser with an Onion service enables the highest levels of protection, because connections never leave the Tor Anonymizing Network.</p>
+<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-regular-8f67c68cc6180255aafc61c480809bad.png" width="2586" height="1066" class="img_ev3q"></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="onion-connections">Onion Connections<a href="https://hushline.app/library/blog/dont-use-work-devices#onion-connections" class="hash-link" aria-label="Direct link to Onion Connections" title="Direct link to Onion Connections">​</a></h4>
+<p>When you connect to a normal website on Tor Browser, it uses a volunteer computer to exit the network and connect to that website. Theoretically, the exit computer could be compromised, and the originating requester could be deanonymized. This isn't possible using a .onion address because there is no exit connecting to the normal internet.</p>
+<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>]]></content:encoded>
+            <category>Hush Line</category>
+        </item>
+        <item>
             <title><![CDATA[Hush Line's Sustainable Impact Model]]></title>
             <link>https://hushline.app/library/blog/hushline-sustainable-model</link>
             <guid>https://hushline.app/library/blog/hushline-sustainable-model</guid>
@@ -143,35 +252,6 @@
 <p>This year, we'll start the formation of the new fund and assemble a governing board that will ensure the funds are used as stated in our mission goals.</p>
 <p>The individuals who oversee the fund will have a first-hand understanding of the battles people who speak up face: whistleblower lawyers, former whistleblowers, journalists, or others who support the needs of people engaging in responsible disclosure.</p>
 <p>Do you know someone who should be on the Board? <a href="https://tips.hushline.app/to/glenn" target="_blank" rel="noopener noreferrer">Reach out to me on Hush Line</a>!</p>]]></content:encoded>
-            <category>Hush Line</category>
-        </item>
-        <item>
-            <title><![CDATA[Why You Should Never Use Work Devices To Disclose Information]]></title>
-            <link>https://hushline.app/library/blog/dont-use-work-devices</link>
-            <guid>https://hushline.app/library/blog/dont-use-work-devices</guid>
-            <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Impact Model Diagram]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Impact Model Diagram" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>
-<p>Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed.</p>
-<p>If you work at a larger organization, you've probably been asked to fill out "anonymous" surveys about team and company health, ways to improve, etc. Laughably, many times, these anonymous forms are actually logged-in Google Forms that are in no way anonymous.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="dns-monitoring">DNS Monitoring<a href="https://hushline.app/library/blog/dont-use-work-devices#dns-monitoring" class="hash-link" aria-label="Direct link to DNS Monitoring" title="Direct link to DNS Monitoring">​</a></h2>
-<p>For remote workers, you're probably familiar with using VPNs to access work servers, email, or other internal-only things. VPNs for work allow you to operate as if you were in the office on an internal network. Here's an example from my home network's DNS logs:</p>
-<table><thead><tr><th>Time</th><th>Type</th><th>Domain</th><th>Client</th><th>Status</th><th>Response</th></tr></thead><tbody><tr><td>2025-03-16 12:18:17</td><td>A</td><td>tips.hushline.app</td><td>glenns-m3</td><td>OK (answered by localhost#5335)</td><td>IP (7.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>HTTPS</td><td>tips.hushline.app</td><td>glenns-m3</td><td>OK (answered by localhost#5335)</td><td>CNAME (141.5ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>hushline.app</td><td>glenns-m3.pivpn</td><td>OK (answered by localhost#5335)</td><td>CNAME (33.8ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>checkonline.home-assistant.io</td><td>192.168.0.166</td><td>OK (already forwarded)</td><td>N/A</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>checkonline.home-assistant.io</td><td>192.168.0.166</td><td>OK (answered by localhost#5335)</td><td>IP (7.6ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (answered by localhost#5335)</td><td>IP (7.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>AAAA</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (cache)</td><td>NODATA (0.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>AAAA</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (cache)</td><td>NODATA (0.0ms)</td></tr></tbody></table>
-<p>Since I've given my computer a custom hostname, instead of seeing an internal IP address, which&nbsp;could&nbsp;tell you a lot, I can easily find my computer with a human-readable name. Now, if someone runs a company and receives a report of serious allegations of wrongdoing, they can do one of a few things: 1. take the tip, act on it, and save lots of money, or, 2. find the person who submitted the report and "fix" the problem. Most of the time, companies choose option 2. If I access the network using a VPN, the logs are no different.</p>
-<p>So, if on March 16th at around noon, a company receives a tip that threatens to go to the press if action isn't taken, all they need to do is look back through their network logs to see who visited the tip line then. "But the system is anonymous because I didn't have to log in to submit a message!" No, sorry. "But it's end-to-end encrypted!" That only means that only the intended recipient can read the message, but in this case, I don't need to know the contents of the message; I just need to know who sent it.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-dangers-of-mdm-and-edr-software">The Dangers of MDM and EDR Software<a href="https://hushline.app/library/blog/dont-use-work-devices#the-dangers-of-mdm-and-edr-software" class="hash-link" aria-label="Direct link to The Dangers of MDM and EDR Software" title="Direct link to The Dangers of MDM and EDR Software">​</a></h2>
-<p>Some employers ask employees to install MDM (mobile device management) software on their personal devices. DO NOT DO THIS! MDM software enables monitoring of the contents of your phone, including the ability to add or remove apps, check your contacts, monitor your location, view browsing history and network connections, and see a full list of the applications you have installed. It's basically an administrator account run by your company. Does&nbsp;any&nbsp;app your company offers have a custom keyboard? These can log your keystrokes, so switch back to a system keyboard if possible. If your company uses EDR (endpoint detection and response) software, it can log keystrokes for forensic analysis, including texts sent over any application, including Signal.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-do-instead">What to do Instead?<a href="https://hushline.app/library/blog/dont-use-work-devices#what-to-do-instead" class="hash-link" aria-label="Direct link to What to do Instead?" title="Direct link to What to do Instead?">​</a></h2>
-<p>It's best to use a personal device on a private network or that you own, including your phone. Again, no corporate MDM or EDR software should be present on your device. One way to check if anything is installed currently is to check for "Profiles" in your phone's settings. Nothing from your company or anything else you don't recognize should be there.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="low-threat-scenarios">Low Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#low-threat-scenarios" class="hash-link" aria-label="Direct link to Low Threat Scenarios" title="Direct link to Low Threat Scenarios">​</a></h3>
-<p>In most situations, people want to report non-sensitive information. Using your personal device on a non-work network is perfect for this scenario. App owners could add IP address logging, but in this case, your IP will only show general location information. If that IP address becomes caught up in illegal activity elsewhere, law enforcement could subpoena the issuing ISP for customer information.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="medium-to-high-threat-scenarios">Medium to High Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#medium-to-high-threat-scenarios" class="hash-link" aria-label="Direct link to Medium to High Threat Scenarios" title="Direct link to Medium to High Threat Scenarios">​</a></h3>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="non-onion-services">Non-Onion Services<a href="https://hushline.app/library/blog/dont-use-work-devices#non-onion-services" class="hash-link" aria-label="Direct link to Non-Onion Services" title="Direct link to Non-Onion Services">​</a></h4>
-<p>When someone does have reason to worry about using a tip line, including when disclosing serious issues of governmental corruption, national security, or other ethical or legal concerns, they may use our native Onion services. Using Tor Browser with an Onion service enables the highest levels of protection, because connections never leave the Tor Anonymizing Network.</p>
-<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-regular-8f67c68cc6180255aafc61c480809bad.png" width="2586" height="1066" class="img_ev3q"></p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="onion-connections">Onion Connections<a href="https://hushline.app/library/blog/dont-use-work-devices#onion-connections" class="hash-link" aria-label="Direct link to Onion Connections" title="Direct link to Onion Connections">​</a></h4>
-<p>When you connect to a normal website on Tor Browser, it uses a volunteer computer to exit the network and connect to that website. Theoretically, the exit computer could be compromised, and the originating requester could be deanonymized. This isn't possible using a .onion address because there is no exit connecting to the normal internet.</p>
-<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>]]></content:encoded>
             <category>Hush Line</category>
         </item>
         <item>
