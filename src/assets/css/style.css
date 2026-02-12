@@ -2844,9 +2844,9 @@ header nav li:has(.btn-emoji) a {
   }
 
   .landing > .intro > .wrapper .intro-copy {
-    width: 50%;
-    max-width: 50%;
-    flex: 0 0 50%;
+    width: 55%;
+    max-width: 55%;
+    flex: 0 0 55%;
   }
 
   .landing > .intro > .wrapper .intro-copy h2,
