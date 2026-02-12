@@ -2757,3 +2757,126 @@ header nav li:has(.btn-emoji) a {
   min-width: fit-content;
   min-height: fit-content; 
 }
+
+.intro-cover {
+  --desktop-width: 1200px;
+  position: relative;
+  width: var(--desktop-width);
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.intro-cover img {
+  position: static;
+  left: 0;
+  top: auto;
+  transform: none;
+  margin: 0;
+  display: block;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.intro-cover img.desktop {
+  position: relative;
+  width: 100%;
+  left: 120px;
+  border-radius: 0.6rem;
+  box-shadow: 0 12px 48px -24px rgba(18, 45, 90, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  max-width: 768px;
+}
+
+.intro-cover img.mobile {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  height: 84.5%;
+  border-radius: 1rem;
+  box-shadow: 0 12px 48px -24px rgba(18, 45, 90, 0.28);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 680px) {
+  .intro-cover {
+    width: min(100%, 560px);
+    margin: 2.5rem auto;
+  }
+
+  .intro-cover img.mobile {
+    width: auto;
+    height: 90%;
+    left: 0;
+    border-radius: 0.25rem;
+  }
+
+  .intro-cover img.desktop {
+    height: auto;
+    width: 80%;
+    float: right;
+    position: initial;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro-cover img.desktop {
+    width: 100%;
+    max-width: 640px;
+    left: 100px;
+  }
+
+  .intro-cover img.mobile {
+    width: auto;
+    height: 84%;
+  }
+}
+
+@media only screen and (min-width: 681px) {
+  .landing > .intro > .wrapper {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+
+  .landing > .intro > .wrapper .intro-copy {
+    width: 50%;
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+
+  .landing > .intro > .wrapper .intro-copy h2,
+  .landing > .intro > .wrapper .intro-copy p {
+    max-width: 100%;
+  }
+
+  .landing > .intro > .wrapper .intro-cover {
+    flex: 0 0 1200px;
+    margin-top: 0;
+    margin-right: clamp(-420px, -22vw, -140px);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .landing > .intro > .wrapper .intro-copy {
+    width: 60%;
+    max-width: 60%;
+    flex: 0 0 60%;
+  }
+}
+
+@media only screen and (max-width: 681px) {
+  .intro-cover img.desktop {
+    width: 86%;
+  }
+
+  .landing > .intro > .wrapper .intro-copy {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
