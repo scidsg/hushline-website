@@ -2808,7 +2808,7 @@ header nav li:has(.btn-emoji) a {
     width: auto;
     height: 90%;
     left: 0;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
   }
 
   .intro-cover img.desktop {
