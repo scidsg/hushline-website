@@ -1,0 +1,67 @@
+name: Sync Hush Line Screenshots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 6 * * *"
+  repository_dispatch:
+    types: [hushline_screenshots_updated]
+
+permissions:
+  contents: write
+
+jobs:
+  sync-screenshots:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Resolve screenshots repo
+        id: vars
+        env:
+          SCREENSHOTS_REPO_VAR: ${{ vars.SCREENSHOTS_REPO }}
+        run: |
+          REPO="${SCREENSHOTS_REPO_VAR:-scidsg/hushline-screenshots}"
+          echo "screenshots_repo=$REPO" >> "$GITHUB_OUTPUT"
+
+      - name: Clone screenshots repository
+        env:
+          SCREENSHOTS_REPO: ${{ steps.vars.outputs.screenshots_repo }}
+          SCREENSHOTS_PUSH_TOKEN: ${{ secrets.SCREENSHOTS_PUSH_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -n "${SCREENSHOTS_PUSH_TOKEN:-}" ]; then
+            git clone "https://x-access-token:${SCREENSHOTS_PUSH_TOKEN}@github.com/${SCREENSHOTS_REPO}.git" /tmp/hushline-screenshots
+          else
+            git clone "https://github.com/${SCREENSHOTS_REPO}.git" /tmp/hushline-screenshots
+          fi
+
+      - name: Sync latest screenshots into website assets
+        run: |
+          set -euo pipefail
+          SRC="/tmp/hushline-screenshots/releases/latest"
+          DEST="src/assets/img/screenshots"
+          if [ ! -d "$SRC" ]; then
+            echo "Expected source path missing: $SRC"
+            exit 1
+          fi
+          mkdir -p "$DEST"
+          rsync -a --delete "$SRC/" "$DEST/"
+
+      - name: Commit and push if changed
+        env:
+          PUSH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git add src/assets/img/screenshots
+          if git diff --cached --quiet; then
+            echo "No screenshot updates detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync latest Hush Line screenshots"
+          git push "https://x-access-token:${PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF_NAME}
