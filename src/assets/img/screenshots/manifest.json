@@ -1,7 +1,7 @@
 {
   "release": "v0.5.64",
   "baseUrl": "http://localhost:8080",
-  "capturedAt": "2026-02-17T16:39:21.112Z",
+  "capturedAt": "2026-02-17T18:41:07.655Z",
   "viewports": [
     {
       "id": "desktop",
@@ -2457,6 +2457,208 @@
         {
           "mode": "window-02",
           "file": "artvandelay/auth-artvandelay-profile-mobile-dark-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay default form",
+      "slug": "auth-artvandelay-profile-default-form",
+      "path": "/to/artvandelay",
+      "session": "artvandelay",
+      "viewport": "desktop",
+      "theme": "light",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-desktop-light-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-desktop-light-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-desktop-light-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay default form",
+      "slug": "auth-artvandelay-profile-default-form",
+      "path": "/to/artvandelay",
+      "session": "artvandelay",
+      "viewport": "desktop",
+      "theme": "dark",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-desktop-dark-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-desktop-dark-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-desktop-dark-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay default form",
+      "slug": "auth-artvandelay-profile-default-form",
+      "path": "/to/artvandelay",
+      "session": "artvandelay",
+      "viewport": "mobile",
+      "theme": "light",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-mobile-light-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-mobile-light-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-mobile-light-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay default form",
+      "slug": "auth-artvandelay-profile-default-form",
+      "path": "/to/artvandelay",
+      "session": "artvandelay",
+      "viewport": "mobile",
+      "theme": "dark",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-mobile-dark-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-mobile-dark-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-default-form-mobile-dark-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile custom form setup - industry choices (artvandelay)",
+      "slug": "auth-artvandelay-profile-custom-form-setup-industry",
+      "path": "/settings/profile",
+      "session": "artvandelay",
+      "viewport": "desktop",
+      "theme": "light",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-setup-industry-desktop-light-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-setup-industry-desktop-light-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-setup-industry-desktop-light-window-02.png"
+        },
+        {
+          "mode": "window-03",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-setup-industry-desktop-light-window-03.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay custom form (industry checkboxes)",
+      "slug": "auth-artvandelay-profile-custom-form-industry",
+      "path": "/to/artvandelay",
+      "session": "artvandelay",
+      "viewport": "desktop",
+      "theme": "light",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-desktop-light-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-desktop-light-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-desktop-light-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay custom form (industry checkboxes)",
+      "slug": "auth-artvandelay-profile-custom-form-industry",
+      "path": "/to/artvandelay",
+      "session": "artvandelay",
+      "viewport": "desktop",
+      "theme": "dark",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-desktop-dark-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-desktop-dark-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-desktop-dark-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay custom form (industry checkboxes)",
+      "slug": "auth-artvandelay-profile-custom-form-industry",
+      "path": "/to/artvandelay",
+      "session": "artvandelay",
+      "viewport": "mobile",
+      "theme": "light",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-mobile-light-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-mobile-light-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-mobile-light-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay custom form (industry checkboxes)",
+      "slug": "auth-artvandelay-profile-custom-form-industry",
+      "path": "/to/artvandelay",
+      "session": "artvandelay",
+      "viewport": "mobile",
+      "theme": "dark",
+      "files": [
+        {
+          "mode": "full",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-mobile-dark-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-mobile-dark-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "artvandelay/auth-artvandelay-profile-custom-form-industry-mobile-dark-window-02.png"
         }
       ]
     },
@@ -5065,6 +5267,94 @@
         {
           "mode": "window-02",
           "file": "guest/guest-profile-artvandelay-mobile-dark-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay custom form",
+      "slug": "guest-profile-artvandelay-custom-form",
+      "path": "/to/artvandelay",
+      "session": "guest",
+      "viewport": "desktop",
+      "theme": "light",
+      "files": [
+        {
+          "mode": "full",
+          "file": "guest/guest-profile-artvandelay-custom-form-desktop-light-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "guest/guest-profile-artvandelay-custom-form-desktop-light-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "guest/guest-profile-artvandelay-custom-form-desktop-light-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay custom form",
+      "slug": "guest-profile-artvandelay-custom-form",
+      "path": "/to/artvandelay",
+      "session": "guest",
+      "viewport": "desktop",
+      "theme": "dark",
+      "files": [
+        {
+          "mode": "full",
+          "file": "guest/guest-profile-artvandelay-custom-form-desktop-dark-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "guest/guest-profile-artvandelay-custom-form-desktop-dark-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "guest/guest-profile-artvandelay-custom-form-desktop-dark-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay custom form",
+      "slug": "guest-profile-artvandelay-custom-form",
+      "path": "/to/artvandelay",
+      "session": "guest",
+      "viewport": "mobile",
+      "theme": "light",
+      "files": [
+        {
+          "mode": "full",
+          "file": "guest/guest-profile-artvandelay-custom-form-mobile-light-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "guest/guest-profile-artvandelay-custom-form-mobile-light-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "guest/guest-profile-artvandelay-custom-form-mobile-light-window-02.png"
+        }
+      ]
+    },
+    {
+      "title": "Profile - artvandelay custom form",
+      "slug": "guest-profile-artvandelay-custom-form",
+      "path": "/to/artvandelay",
+      "session": "guest",
+      "viewport": "mobile",
+      "theme": "dark",
+      "files": [
+        {
+          "mode": "full",
+          "file": "guest/guest-profile-artvandelay-custom-form-mobile-dark-full.png"
+        },
+        {
+          "mode": "fold",
+          "file": "guest/guest-profile-artvandelay-custom-form-mobile-dark-fold.png"
+        },
+        {
+          "mode": "window-02",
+          "file": "guest/guest-profile-artvandelay-custom-form-mobile-dark-window-02.png"
         }
       ]
     },
