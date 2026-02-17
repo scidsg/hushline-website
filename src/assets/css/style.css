@@ -2880,3 +2880,14 @@ header nav li:has(.btn-emoji) a {
     flex: 0 0 100%;
   }
 }
+
+.noborder {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.description + img:not(.noborder) {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 32px -16px rgba(0, 0, 0, 0.12);
+}
