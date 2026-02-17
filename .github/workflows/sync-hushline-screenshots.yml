@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   sync-screenshots:
@@ -51,17 +52,16 @@ jobs:
           mkdir -p "$DEST"
           rsync -a --delete "$SRC/" "$DEST/"
 
-      - name: Commit and push if changed
-        env:
-          PUSH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          git add src/assets/img/screenshots
-          if git diff --cached --quiet; then
-            echo "No screenshot updates detected."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Sync latest Hush Line screenshots"
-          git push "https://x-access-token:${PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF_NAME}
+      - name: Create PR if screenshots changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Sync latest Hush Line screenshots
+          title: Sync latest Hush Line screenshots
+          body: |
+            Automated sync of `src/assets/img/screenshots` from the latest
+            release in the screenshots repository.
+          branch: bot/sync-hushline-screenshots
+          delete-branch: true
+          add-paths: |
+            src/assets/img/screenshots
