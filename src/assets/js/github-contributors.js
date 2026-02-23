@@ -13,7 +13,7 @@ if (listEl) {
 
       const filtered = contributors.filter(c => {
         const login = c.login.toLowerCase();
-        return login !== "dependabot[bot]" && login !== "scidsg-dev" && login !== "github-actions[bot]";
+        return login !== "dependabot[bot]" && login !== "hushline-dev" && login !== "github-actions[bot]";
       });
 
       if (filtered.length === 0) {
