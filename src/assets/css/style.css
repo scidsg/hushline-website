@@ -2833,7 +2833,7 @@ header nav li:has(.btn-emoji) a {
 }
 
 @media only screen and (min-width: 681px) {
-  .landing > .intro > .wrapper:not(.intro.secondary .wrapper) {
+  .landing > .intro:not(.secondary) > .wrapper {
     max-width: 100%;
     display: flex;
     flex-direction: row;
@@ -2843,7 +2843,7 @@ header nav li:has(.btn-emoji) a {
     gap: 4rem;
   }
 
-  .landing > .intro > .wrapper .intro-copy.wrapper:not(.intro.secondary .wrapper .intro-copy.wrapper) {
+  .landing > .intro:not(.secondary) > .wrapper .intro-copy {
     width: 55%;
     max-width: 55%;
     flex: 0 0 55%;
@@ -2854,7 +2854,7 @@ header nav li:has(.btn-emoji) a {
     max-width: 100%;
   }
 
-  .landing > .intro > .wrapper .intro-cover.wrapper:not(.intro.secondary .wrapper) {
+  .landing > .intro:not(.secondary) > .wrapper .intro-cover {
     flex: 0 0 1200px;
     margin-top: 0;
     margin-right: clamp(-420px, -22vw, -140px);
