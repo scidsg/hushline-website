@@ -2609,7 +2609,7 @@ p + p.step-label {
 .bio img {
   width: 300px;
   height: 300px;
-  border-radius: 50vh;
+  border-radius: 50vh !important;
   border: 1px solid rgba(0,0,0,0.15);
   margin-bottom: 1rem;
 }
