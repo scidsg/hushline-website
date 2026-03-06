@@ -1,6 +1,6 @@
-# Screenshot Set: v0.5.100
+# Screenshot Set: v0.5.101
 
-Captured: 2026-03-06T01:06:16.423Z
+Captured: 2026-03-06T22:34:42.164Z
 
 | Scene | Path | Session | Viewport | Theme | Mode | File |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -73,6 +73,7 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory - All (admin) | `/directory` | admin | desktop | light | window-40 | ![auth-admin-directory-all-desktop-light-window-40](./admin/auth-admin-directory-all-desktop-light-window-40.png) |
 | Directory - All (admin) | `/directory` | admin | desktop | light | window-41 | ![auth-admin-directory-all-desktop-light-window-41](./admin/auth-admin-directory-all-desktop-light-window-41.png) |
 | Directory - All (admin) | `/directory` | admin | desktop | light | window-42 | ![auth-admin-directory-all-desktop-light-window-42](./admin/auth-admin-directory-all-desktop-light-window-42.png) |
+| Directory - All (admin) | `/directory` | admin | desktop | light | window-43 | ![auth-admin-directory-all-desktop-light-window-43](./admin/auth-admin-directory-all-desktop-light-window-43.png) |
 | Directory - All (admin) | `/directory` | admin | desktop | dark | full | ![auth-admin-directory-all-desktop-dark-full](./admin/auth-admin-directory-all-desktop-dark-full.png) |
 | Directory - All (admin) | `/directory` | admin | desktop | dark | fold | ![auth-admin-directory-all-desktop-dark-fold](./admin/auth-admin-directory-all-desktop-dark-fold.png) |
 | Directory - All (admin) | `/directory` | admin | desktop | dark | window-02 | ![auth-admin-directory-all-desktop-dark-window-02](./admin/auth-admin-directory-all-desktop-dark-window-02.png) |
@@ -116,6 +117,7 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory - All (admin) | `/directory` | admin | desktop | dark | window-40 | ![auth-admin-directory-all-desktop-dark-window-40](./admin/auth-admin-directory-all-desktop-dark-window-40.png) |
 | Directory - All (admin) | `/directory` | admin | desktop | dark | window-41 | ![auth-admin-directory-all-desktop-dark-window-41](./admin/auth-admin-directory-all-desktop-dark-window-41.png) |
 | Directory - All (admin) | `/directory` | admin | desktop | dark | window-42 | ![auth-admin-directory-all-desktop-dark-window-42](./admin/auth-admin-directory-all-desktop-dark-window-42.png) |
+| Directory - All (admin) | `/directory` | admin | desktop | dark | window-43 | ![auth-admin-directory-all-desktop-dark-window-43](./admin/auth-admin-directory-all-desktop-dark-window-43.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | light | full | ![auth-admin-directory-all-mobile-light-full](./admin/auth-admin-directory-all-mobile-light-full.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | light | fold | ![auth-admin-directory-all-mobile-light-fold](./admin/auth-admin-directory-all-mobile-light-fold.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | light | window-02 | ![auth-admin-directory-all-mobile-light-window-02](./admin/auth-admin-directory-all-mobile-light-window-02.png) |
@@ -162,6 +164,8 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory - All (admin) | `/directory` | admin | mobile | light | window-43 | ![auth-admin-directory-all-mobile-light-window-43](./admin/auth-admin-directory-all-mobile-light-window-43.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | light | window-44 | ![auth-admin-directory-all-mobile-light-window-44](./admin/auth-admin-directory-all-mobile-light-window-44.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | light | window-45 | ![auth-admin-directory-all-mobile-light-window-45](./admin/auth-admin-directory-all-mobile-light-window-45.png) |
+| Directory - All (admin) | `/directory` | admin | mobile | light | window-46 | ![auth-admin-directory-all-mobile-light-window-46](./admin/auth-admin-directory-all-mobile-light-window-46.png) |
+| Directory - All (admin) | `/directory` | admin | mobile | light | window-47 | ![auth-admin-directory-all-mobile-light-window-47](./admin/auth-admin-directory-all-mobile-light-window-47.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | dark | full | ![auth-admin-directory-all-mobile-dark-full](./admin/auth-admin-directory-all-mobile-dark-full.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | dark | fold | ![auth-admin-directory-all-mobile-dark-fold](./admin/auth-admin-directory-all-mobile-dark-fold.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | dark | window-02 | ![auth-admin-directory-all-mobile-dark-window-02](./admin/auth-admin-directory-all-mobile-dark-window-02.png) |
@@ -208,6 +212,8 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory - All (admin) | `/directory` | admin | mobile | dark | window-43 | ![auth-admin-directory-all-mobile-dark-window-43](./admin/auth-admin-directory-all-mobile-dark-window-43.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | dark | window-44 | ![auth-admin-directory-all-mobile-dark-window-44](./admin/auth-admin-directory-all-mobile-dark-window-44.png) |
 | Directory - All (admin) | `/directory` | admin | mobile | dark | window-45 | ![auth-admin-directory-all-mobile-dark-window-45](./admin/auth-admin-directory-all-mobile-dark-window-45.png) |
+| Directory - All (admin) | `/directory` | admin | mobile | dark | window-46 | ![auth-admin-directory-all-mobile-dark-window-46](./admin/auth-admin-directory-all-mobile-dark-window-46.png) |
+| Directory - All (admin) | `/directory` | admin | mobile | dark | window-47 | ![auth-admin-directory-all-mobile-dark-window-47](./admin/auth-admin-directory-all-mobile-dark-window-47.png) |
 | Profile - admin (authenticated) | `/to/admin` | admin | desktop | light | full | ![auth-admin-profile-desktop-light-full](./admin/auth-admin-profile-desktop-light-full.png) |
 | Profile - admin (authenticated) | `/to/admin` | admin | desktop | light | fold | ![auth-admin-profile-desktop-light-fold](./admin/auth-admin-profile-desktop-light-fold.png) |
 | Profile - admin (authenticated) | `/to/admin` | admin | desktop | light | window-02 | ![auth-admin-profile-desktop-light-window-02](./admin/auth-admin-profile-desktop-light-window-02.png) |
@@ -895,6 +901,7 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory - All | `/directory` | guest | desktop | light | window-40 | ![guest-directory-all-desktop-light-window-40](./guest/guest-directory-all-desktop-light-window-40.png) |
 | Directory - All | `/directory` | guest | desktop | light | window-41 | ![guest-directory-all-desktop-light-window-41](./guest/guest-directory-all-desktop-light-window-41.png) |
 | Directory - All | `/directory` | guest | desktop | light | window-42 | ![guest-directory-all-desktop-light-window-42](./guest/guest-directory-all-desktop-light-window-42.png) |
+| Directory - All | `/directory` | guest | desktop | light | window-43 | ![guest-directory-all-desktop-light-window-43](./guest/guest-directory-all-desktop-light-window-43.png) |
 | Directory - All | `/directory` | guest | desktop | dark | full | ![guest-directory-all-desktop-dark-full](./guest/guest-directory-all-desktop-dark-full.png) |
 | Directory - All | `/directory` | guest | desktop | dark | fold | ![guest-directory-all-desktop-dark-fold](./guest/guest-directory-all-desktop-dark-fold.png) |
 | Directory - All | `/directory` | guest | desktop | dark | window-02 | ![guest-directory-all-desktop-dark-window-02](./guest/guest-directory-all-desktop-dark-window-02.png) |
@@ -938,6 +945,7 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory - All | `/directory` | guest | desktop | dark | window-40 | ![guest-directory-all-desktop-dark-window-40](./guest/guest-directory-all-desktop-dark-window-40.png) |
 | Directory - All | `/directory` | guest | desktop | dark | window-41 | ![guest-directory-all-desktop-dark-window-41](./guest/guest-directory-all-desktop-dark-window-41.png) |
 | Directory - All | `/directory` | guest | desktop | dark | window-42 | ![guest-directory-all-desktop-dark-window-42](./guest/guest-directory-all-desktop-dark-window-42.png) |
+| Directory - All | `/directory` | guest | desktop | dark | window-43 | ![guest-directory-all-desktop-dark-window-43](./guest/guest-directory-all-desktop-dark-window-43.png) |
 | Directory - All | `/directory` | guest | mobile | light | full | ![guest-directory-all-mobile-light-full](./guest/guest-directory-all-mobile-light-full.png) |
 | Directory - All | `/directory` | guest | mobile | light | fold | ![guest-directory-all-mobile-light-fold](./guest/guest-directory-all-mobile-light-fold.png) |
 | Directory - All | `/directory` | guest | mobile | light | window-02 | ![guest-directory-all-mobile-light-window-02](./guest/guest-directory-all-mobile-light-window-02.png) |
@@ -984,6 +992,8 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory - All | `/directory` | guest | mobile | light | window-43 | ![guest-directory-all-mobile-light-window-43](./guest/guest-directory-all-mobile-light-window-43.png) |
 | Directory - All | `/directory` | guest | mobile | light | window-44 | ![guest-directory-all-mobile-light-window-44](./guest/guest-directory-all-mobile-light-window-44.png) |
 | Directory - All | `/directory` | guest | mobile | light | window-45 | ![guest-directory-all-mobile-light-window-45](./guest/guest-directory-all-mobile-light-window-45.png) |
+| Directory - All | `/directory` | guest | mobile | light | window-46 | ![guest-directory-all-mobile-light-window-46](./guest/guest-directory-all-mobile-light-window-46.png) |
+| Directory - All | `/directory` | guest | mobile | light | window-47 | ![guest-directory-all-mobile-light-window-47](./guest/guest-directory-all-mobile-light-window-47.png) |
 | Directory - All | `/directory` | guest | mobile | dark | full | ![guest-directory-all-mobile-dark-full](./guest/guest-directory-all-mobile-dark-full.png) |
 | Directory - All | `/directory` | guest | mobile | dark | fold | ![guest-directory-all-mobile-dark-fold](./guest/guest-directory-all-mobile-dark-fold.png) |
 | Directory - All | `/directory` | guest | mobile | dark | window-02 | ![guest-directory-all-mobile-dark-window-02](./guest/guest-directory-all-mobile-dark-window-02.png) |
@@ -1030,6 +1040,8 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory - All | `/directory` | guest | mobile | dark | window-43 | ![guest-directory-all-mobile-dark-window-43](./guest/guest-directory-all-mobile-dark-window-43.png) |
 | Directory - All | `/directory` | guest | mobile | dark | window-44 | ![guest-directory-all-mobile-dark-window-44](./guest/guest-directory-all-mobile-dark-window-44.png) |
 | Directory - All | `/directory` | guest | mobile | dark | window-45 | ![guest-directory-all-mobile-dark-window-45](./guest/guest-directory-all-mobile-dark-window-45.png) |
+| Directory - All | `/directory` | guest | mobile | dark | window-46 | ![guest-directory-all-mobile-dark-window-46](./guest/guest-directory-all-mobile-dark-window-46.png) |
+| Directory - All | `/directory` | guest | mobile | dark | window-47 | ![guest-directory-all-mobile-dark-window-47](./guest/guest-directory-all-mobile-dark-window-47.png) |
 | Profile - admin | `/to/admin` | guest | desktop | light | full | ![guest-profile-admin-desktop-light-full](./guest/guest-profile-admin-desktop-light-full.png) |
 | Profile - admin | `/to/admin` | guest | desktop | light | fold | ![guest-profile-admin-desktop-light-fold](./guest/guest-profile-admin-desktop-light-fold.png) |
 | Profile - admin | `/to/admin` | guest | desktop | light | window-02 | ![guest-profile-admin-desktop-light-window-02](./guest/guest-profile-admin-desktop-light-window-02.png) |
@@ -1239,6 +1251,9 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory (JS disabled) | `/directory` | guest | desktop | light | window-75 | ![guest-directory-js-disabled-desktop-light-window-75](./guest/guest-directory-js-disabled-desktop-light-window-75.png) |
 | Directory (JS disabled) | `/directory` | guest | desktop | light | window-76 | ![guest-directory-js-disabled-desktop-light-window-76](./guest/guest-directory-js-disabled-desktop-light-window-76.png) |
 | Directory (JS disabled) | `/directory` | guest | desktop | light | window-77 | ![guest-directory-js-disabled-desktop-light-window-77](./guest/guest-directory-js-disabled-desktop-light-window-77.png) |
+| Directory (JS disabled) | `/directory` | guest | desktop | light | window-78 | ![guest-directory-js-disabled-desktop-light-window-78](./guest/guest-directory-js-disabled-desktop-light-window-78.png) |
+| Directory (JS disabled) | `/directory` | guest | desktop | light | window-79 | ![guest-directory-js-disabled-desktop-light-window-79](./guest/guest-directory-js-disabled-desktop-light-window-79.png) |
+| Directory (JS disabled) | `/directory` | guest | desktop | light | window-80 | ![guest-directory-js-disabled-desktop-light-window-80](./guest/guest-directory-js-disabled-desktop-light-window-80.png) |
 | Directory (JS disabled) | `/directory` | guest | desktop | dark | full | ![guest-directory-js-disabled-desktop-dark-full](./guest/guest-directory-js-disabled-desktop-dark-full.png) |
 | Directory (JS disabled) | `/directory` | guest | desktop | dark | fold | ![guest-directory-js-disabled-desktop-dark-fold](./guest/guest-directory-js-disabled-desktop-dark-fold.png) |
 | Directory (JS disabled) | `/directory` | guest | desktop | dark | window-02 | ![guest-directory-js-disabled-desktop-dark-window-02](./guest/guest-directory-js-disabled-desktop-dark-window-02.png) |
@@ -1317,6 +1332,9 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory (JS disabled) | `/directory` | guest | desktop | dark | window-75 | ![guest-directory-js-disabled-desktop-dark-window-75](./guest/guest-directory-js-disabled-desktop-dark-window-75.png) |
 | Directory (JS disabled) | `/directory` | guest | desktop | dark | window-76 | ![guest-directory-js-disabled-desktop-dark-window-76](./guest/guest-directory-js-disabled-desktop-dark-window-76.png) |
 | Directory (JS disabled) | `/directory` | guest | desktop | dark | window-77 | ![guest-directory-js-disabled-desktop-dark-window-77](./guest/guest-directory-js-disabled-desktop-dark-window-77.png) |
+| Directory (JS disabled) | `/directory` | guest | desktop | dark | window-78 | ![guest-directory-js-disabled-desktop-dark-window-78](./guest/guest-directory-js-disabled-desktop-dark-window-78.png) |
+| Directory (JS disabled) | `/directory` | guest | desktop | dark | window-79 | ![guest-directory-js-disabled-desktop-dark-window-79](./guest/guest-directory-js-disabled-desktop-dark-window-79.png) |
+| Directory (JS disabled) | `/directory` | guest | desktop | dark | window-80 | ![guest-directory-js-disabled-desktop-dark-window-80](./guest/guest-directory-js-disabled-desktop-dark-window-80.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | light | full | ![guest-directory-js-disabled-mobile-light-full](./guest/guest-directory-js-disabled-mobile-light-full.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | light | fold | ![guest-directory-js-disabled-mobile-light-fold](./guest/guest-directory-js-disabled-mobile-light-fold.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | light | window-02 | ![guest-directory-js-disabled-mobile-light-window-02](./guest/guest-directory-js-disabled-mobile-light-window-02.png) |
@@ -1401,6 +1419,9 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory (JS disabled) | `/directory` | guest | mobile | light | window-81 | ![guest-directory-js-disabled-mobile-light-window-81](./guest/guest-directory-js-disabled-mobile-light-window-81.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | light | window-82 | ![guest-directory-js-disabled-mobile-light-window-82](./guest/guest-directory-js-disabled-mobile-light-window-82.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | light | window-83 | ![guest-directory-js-disabled-mobile-light-window-83](./guest/guest-directory-js-disabled-mobile-light-window-83.png) |
+| Directory (JS disabled) | `/directory` | guest | mobile | light | window-84 | ![guest-directory-js-disabled-mobile-light-window-84](./guest/guest-directory-js-disabled-mobile-light-window-84.png) |
+| Directory (JS disabled) | `/directory` | guest | mobile | light | window-85 | ![guest-directory-js-disabled-mobile-light-window-85](./guest/guest-directory-js-disabled-mobile-light-window-85.png) |
+| Directory (JS disabled) | `/directory` | guest | mobile | light | window-86 | ![guest-directory-js-disabled-mobile-light-window-86](./guest/guest-directory-js-disabled-mobile-light-window-86.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | dark | full | ![guest-directory-js-disabled-mobile-dark-full](./guest/guest-directory-js-disabled-mobile-dark-full.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | dark | fold | ![guest-directory-js-disabled-mobile-dark-fold](./guest/guest-directory-js-disabled-mobile-dark-fold.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | dark | window-02 | ![guest-directory-js-disabled-mobile-dark-window-02](./guest/guest-directory-js-disabled-mobile-dark-window-02.png) |
@@ -1485,3 +1506,6 @@ Captured: 2026-03-06T01:06:16.423Z
 | Directory (JS disabled) | `/directory` | guest | mobile | dark | window-81 | ![guest-directory-js-disabled-mobile-dark-window-81](./guest/guest-directory-js-disabled-mobile-dark-window-81.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | dark | window-82 | ![guest-directory-js-disabled-mobile-dark-window-82](./guest/guest-directory-js-disabled-mobile-dark-window-82.png) |
 | Directory (JS disabled) | `/directory` | guest | mobile | dark | window-83 | ![guest-directory-js-disabled-mobile-dark-window-83](./guest/guest-directory-js-disabled-mobile-dark-window-83.png) |
+| Directory (JS disabled) | `/directory` | guest | mobile | dark | window-84 | ![guest-directory-js-disabled-mobile-dark-window-84](./guest/guest-directory-js-disabled-mobile-dark-window-84.png) |
+| Directory (JS disabled) | `/directory` | guest | mobile | dark | window-85 | ![guest-directory-js-disabled-mobile-dark-window-85](./guest/guest-directory-js-disabled-mobile-dark-window-85.png) |
+| Directory (JS disabled) | `/directory` | guest | mobile | dark | window-86 | ![guest-directory-js-disabled-mobile-dark-window-86](./guest/guest-directory-js-disabled-mobile-dark-window-86.png) |
