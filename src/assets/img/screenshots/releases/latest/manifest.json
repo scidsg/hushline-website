@@ -1,7 +1,7 @@
 {
-  "release": "v0.5.112",
+  "release": "v0.5.113",
   "baseUrl": "http://localhost:8080",
-  "capturedAt": "2026-03-09T18:19:36.326Z",
+  "capturedAt": "2026-03-09T19:22:27.573Z",
   "viewports": [
     {
       "id": "desktop",
@@ -391,14 +391,6 @@
         {
           "mode": "window-50",
           "file": "admin/auth-admin-directory-all-desktop-light-window-50.png"
-        },
-        {
-          "mode": "window-51",
-          "file": "admin/auth-admin-directory-all-desktop-light-window-51.png"
-        },
-        {
-          "mode": "window-52",
-          "file": "admin/auth-admin-directory-all-desktop-light-window-52.png"
         }
       ]
     },
@@ -613,14 +605,6 @@
         {
           "mode": "window-50",
           "file": "admin/auth-admin-directory-all-desktop-dark-window-50.png"
-        },
-        {
-          "mode": "window-51",
-          "file": "admin/auth-admin-directory-all-desktop-dark-window-51.png"
-        },
-        {
-          "mode": "window-52",
-          "file": "admin/auth-admin-directory-all-desktop-dark-window-52.png"
         }
       ]
     },
@@ -851,10 +835,6 @@
         {
           "mode": "window-54",
           "file": "admin/auth-admin-directory-all-mobile-light-window-54.png"
-        },
-        {
-          "mode": "window-55",
-          "file": "admin/auth-admin-directory-all-mobile-light-window-55.png"
         }
       ]
     },
@@ -1085,10 +1065,6 @@
         {
           "mode": "window-54",
           "file": "admin/auth-admin-directory-all-mobile-dark-window-54.png"
-        },
-        {
-          "mode": "window-55",
-          "file": "admin/auth-admin-directory-all-mobile-dark-window-55.png"
         }
       ]
     },
@@ -5849,14 +5825,6 @@
         {
           "mode": "window-50",
           "file": "guest/guest-directory-all-desktop-light-window-50.png"
-        },
-        {
-          "mode": "window-51",
-          "file": "guest/guest-directory-all-desktop-light-window-51.png"
-        },
-        {
-          "mode": "window-52",
-          "file": "guest/guest-directory-all-desktop-light-window-52.png"
         }
       ]
     },
@@ -6071,14 +6039,6 @@
         {
           "mode": "window-50",
           "file": "guest/guest-directory-all-desktop-dark-window-50.png"
-        },
-        {
-          "mode": "window-51",
-          "file": "guest/guest-directory-all-desktop-dark-window-51.png"
-        },
-        {
-          "mode": "window-52",
-          "file": "guest/guest-directory-all-desktop-dark-window-52.png"
         }
       ]
     },
@@ -6309,10 +6269,6 @@
         {
           "mode": "window-54",
           "file": "guest/guest-directory-all-mobile-light-window-54.png"
-        },
-        {
-          "mode": "window-55",
-          "file": "guest/guest-directory-all-mobile-light-window-55.png"
         }
       ]
     },
@@ -6543,10 +6499,6 @@
         {
           "mode": "window-54",
           "file": "guest/guest-directory-all-mobile-dark-window-54.png"
-        },
-        {
-          "mode": "window-55",
-          "file": "guest/guest-directory-all-mobile-dark-window-55.png"
         }
       ]
     },
@@ -7921,14 +7873,6 @@
         {
           "mode": "window-94",
           "file": "guest/guest-directory-js-disabled-desktop-light-window-94.png"
-        },
-        {
-          "mode": "window-95",
-          "file": "guest/guest-directory-js-disabled-desktop-light-window-95.png"
-        },
-        {
-          "mode": "window-96",
-          "file": "guest/guest-directory-js-disabled-desktop-light-window-96.png"
         }
       ]
     },
@@ -8319,14 +8263,6 @@
         {
           "mode": "window-94",
           "file": "guest/guest-directory-js-disabled-desktop-dark-window-94.png"
-        },
-        {
-          "mode": "window-95",
-          "file": "guest/guest-directory-js-disabled-desktop-dark-window-95.png"
-        },
-        {
-          "mode": "window-96",
-          "file": "guest/guest-directory-js-disabled-desktop-dark-window-96.png"
         }
       ]
     },
@@ -8745,14 +8681,6 @@
         {
           "mode": "window-101",
           "file": "guest/guest-directory-js-disabled-mobile-light-window-101.png"
-        },
-        {
-          "mode": "window-102",
-          "file": "guest/guest-directory-js-disabled-mobile-light-window-102.png"
-        },
-        {
-          "mode": "window-103",
-          "file": "guest/guest-directory-js-disabled-mobile-light-window-103.png"
         }
       ]
     },
@@ -9171,14 +9099,6 @@
         {
           "mode": "window-101",
           "file": "guest/guest-directory-js-disabled-mobile-dark-window-101.png"
-        },
-        {
-          "mode": "window-102",
-          "file": "guest/guest-directory-js-disabled-mobile-dark-window-102.png"
-        },
-        {
-          "mode": "window-103",
-          "file": "guest/guest-directory-js-disabled-mobile-dark-window-103.png"
         }
       ]
     }
