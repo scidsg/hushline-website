@@ -2,89 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hushline.app/library/blog</id>
     <title>Hush Line Library Blog</title>
-    <updated>2026-04-06T00:00:00.000Z</updated>
+    <updated>2026-03-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hushline.app/library/blog"/>
     <subtitle>Hush Line Library Blog</subtitle>
     <icon>https://hushline.app/library/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[Small Usability Details That Matter for Tip Line Operators Under Stress]]></title>
-        <id>https://hushline.app/library/blog/small-usability-details-that-matter-for-tip-line-operators-under-stress</id>
-        <link href="https://hushline.app/library/blog/small-usability-details-that-matter-for-tip-line-operators-under-stress"/>
-        <updated>2026-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When people talk about secure reporting tools, the conversation usually jumps straight to encryption. That matters, but it is not the only thing that determines whether someone will actually use the tool when it counts. For organizers and activists working under stress, small usability details often decide whether a disclosure gets sent at all.]]></summary>
-        <content type="html"><![CDATA[<p>When people talk about secure reporting tools, the conversation usually jumps straight to encryption. That matters, but it is not the only thing that determines whether someone will actually use the tool when it counts. For organizers and activists working under stress, small usability details often decide whether a disclosure gets sent at all.</p>
-<p>Hush Line includes a few product choices that look minor on paper but matter in practice: dark mode, a mobile-friendly inbox, and a low-friction browser-first workflow. Those are not decorative features. They reduce friction in the moments when someone is tired, rushing, or trying not to draw attention to what they are doing.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-real-world-scenario">The Real-World Scenario<a href="https://hushline.app/library/blog/small-usability-details-that-matter-for-tip-line-operators-under-stress#the-real-world-scenario" class="hash-link" aria-label="Direct link to The Real-World Scenario" title="Direct link to The Real-World Scenario" translate="no">​</a></h2>
-<p>Imagine a local organizer coordinating around labor abuse, housing conditions, or campus retaliation. Tips do not arrive on a clean schedule. They may come late at night, while the organizer is on public transit, between meetings, or from a phone with a dim screen in a shared room.</p>
-<p>In those conditions, the secure option only works if it is also the usable option.</p>
-<p>If the interface is too bright, too cramped on mobile, or too awkward to move through quickly, people delay checking messages. If the send flow feels long or brittle, sources second-guess whether it is worth the effort. If the recipient setup is incomplete, the whole reporting path breaks before trust can even begin.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="dark-mode-is-not-cosmetic">Dark Mode Is Not Cosmetic<a href="https://hushline.app/library/blog/small-usability-details-that-matter-for-tip-line-operators-under-stress#dark-mode-is-not-cosmetic" class="hash-link" aria-label="Direct link to Dark Mode Is Not Cosmetic" title="Direct link to Dark Mode Is Not Cosmetic" translate="no">​</a></h2>
-<p>Dark mode is easy to dismiss as a preference feature. In higher-stress situations, it can be operational.</p>
-<p>For people reading disclosures at night or in low-light environments, a bright interface can be uncomfortable, visually fatiguing, and harder to use discreetly. A darker presentation lowers visual intensity and can make it easier to review sensitive material without the screen feeling like a spotlight.</p>
-<img src="https://hushline.app/library/assets/images/profile-mobile-dark-b246683f17864ebf46eb2d9998ae0b5a.png" alt="Hush Line recipient profile shown in dark mode on a mobile screen." width="320">
-<p><em>Dark mode helps keep the reading experience calmer and easier to manage on a phone.</em></p>
-<p>That matters for:</p>
-<ul>
-<li class="">organizers checking reports after long days</li>
-<li class="">activists working from phones in shared spaces</li>
-<li class="">recipients trying to reduce visible attention while triaging messages</li>
-</ul>
-<p>Security software often loses users by treating comfort as separate from security. In reality, usability pressure changes behavior. If a person avoids opening the tool because it is unpleasant to use in the moment they need it most, the secure workflow has already failed.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="mobile-support-changes-whether-the-workflow-survives-contact-with-reality">Mobile Support Changes Whether the Workflow Survives Contact With Reality<a href="https://hushline.app/library/blog/small-usability-details-that-matter-for-tip-line-operators-under-stress#mobile-support-changes-whether-the-workflow-survives-contact-with-reality" class="hash-link" aria-label="Direct link to Mobile Support Changes Whether the Workflow Survives Contact With Reality" title="Direct link to Mobile Support Changes Whether the Workflow Survives Contact With Reality" translate="no">​</a></h2>
-<p>A lot of sensitive reporting still happens on phones. That does not mean mobile is ideal. It means mobile is often what people have.</p>
-<p>Hush Line's mobile-friendly flow matters because recipients are not always sitting at a desk when a message arrives. A recipient may need to:</p>
-<ul>
-<li class="">log in quickly</li>
-<li class="">review the inbox from a small screen</li>
-<li class="">identify whether a disclosure is urgent</li>
-<li class="">change a message status so internal handling stays organized</li>
-</ul>
-<img src="https://hushline.app/library/assets/images/inbox-mobile-dark-f7e5ec1d05cb25350a51f4ea84eacbdd.png" alt="Hush Line inbox shown in dark mode on a mobile screen." width="320">
-<p><em>A mobile inbox view matters because sensitive triage work often starts away from a desk.</em></p>
-<p>That is a very different need from a polished desktop-only experience designed for leisurely reading.</p>
-<p>For activists and organizers especially, the question is not whether a phone is the perfect environment. The question is whether the software can still function when a phone is the only practical environment.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="low-friction-setup-helps-recipients-stay-reachable">Low-Friction Setup Helps Recipients Stay Reachable<a href="https://hushline.app/library/blog/small-usability-details-that-matter-for-tip-line-operators-under-stress#low-friction-setup-helps-recipients-stay-reachable" class="hash-link" aria-label="Direct link to Low-Friction Setup Helps Recipients Stay Reachable" title="Direct link to Low-Friction Setup Helps Recipients Stay Reachable" translate="no">​</a></h2>
-<p>Another usability detail that matters under stress is the setup burden on the recipient side.</p>
-<p>If a secure intake tool requires too many early steps, some recipients never finish configuration, or they postpone it until long after they have already shared the link publicly. That creates a dangerous gap between visibility and readiness.</p>
-<p>Hush Line's onboarding and account workflow help reduce that problem by making it easier for recipients to:</p>
-<ul>
-<li class="">secure the account</li>
-<li class="">add the encryption setup they need</li>
-<li class="">get the inbox ready for real use</li>
-<li class="">share a public tip line once the profile is actually prepared</li>
-</ul>
-<p>For an organizer or activist collective, this is important because the first public launch of a reporting channel is usually messy. The team may still be clarifying who reads submissions, how urgent messages are handled, and which reports belong in which lane. A tool that reduces setup friction makes it more likely that the secure channel is usable before the first high-stakes disclosure arrives.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="stress-changes-what-good-ux-means">Stress Changes What "Good UX" Means<a href="https://hushline.app/library/blog/small-usability-details-that-matter-for-tip-line-operators-under-stress#stress-changes-what-good-ux-means" class="hash-link" aria-label="Direct link to Stress Changes What &quot;Good UX&quot; Means" title="Direct link to Stress Changes What &quot;Good UX&quot; Means" translate="no">​</a></h2>
-<p>A calm product review and a stressed reporting session are not the same thing.</p>
-<p>Under stress, users benefit from:</p>
-<ul>
-<li class="">fewer steps</li>
-<li class="">clearer visual contrast</li>
-<li class="">readable layouts on small screens</li>
-<li class="">obvious navigation</li>
-<li class="">fast access to the next meaningful action</li>
-</ul>
-<p>Those qualities are often described as UX polish. In secure reporting, they are closer to reliability features.</p>
-<p>People operating under pressure do not have extra attention to spare. If they need to think too hard about where to tap, how to switch views, or whether the message workflow is safe to continue, the system is adding operational load at exactly the wrong time.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-this-means-for-hush-line-users">What This Means for Hush Line Users<a href="https://hushline.app/library/blog/small-usability-details-that-matter-for-tip-line-operators-under-stress#what-this-means-for-hush-line-users" class="hash-link" aria-label="Direct link to What This Means for Hush Line Users" title="Direct link to What This Means for Hush Line Users" translate="no">​</a></h2>
-<p>For organizers and activists, a reporting channel has to survive real conditions:</p>
-<ul>
-<li class="">late-night review sessions</li>
-<li class="">mobile-only access</li>
-<li class="">shared or low-light environments</li>
-<li class="">short windows of attention</li>
-<li class="">emotional fatigue from handling sensitive reports</li>
-</ul>
-<p>Dark mode, mobile usability, and low-friction account flows support that reality. They do not replace strong encryption or good operational security. They make those protections easier to use consistently.</p>
-<p>That is the real test. A secure tool should not just be technically sound. It should remain usable when the person relying on it is tired, distracted, and under pressure.</p>
-<p>For Hush Line, those small details are part of what helps a reporting workflow hold together in the real world.</p>]]></content>
-        <author>
-            <name>hushline-agent</name>
-            <uri>https://hushline.app/library/</uri>
-        </author>
-        <category label="Hush Line" term="Hush Line"/>
-    </entry>
     <entry>
         <title type="html"><![CDATA[How Recipients Can Get Encryption Working Faster With Proton Key Lookup]]></title>
         <id>https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup</id>
@@ -130,8 +52,8 @@
 </ul>
 <p>For journalists, lawyers, and administrators, that is the real benefit. Hush Line makes it easier to launch a secure intake page quickly without treating secure defaults as optional.</p>]]></content>
         <author>
-            <name>Glenn Sorrentino</name>
-            <uri>https://scidsg.org</uri>
+            <name>hushline-agent</name>
+            <uri>https://hushline.app/library/</uri>
         </author>
         <category label="Hush Line" term="Hush Line"/>
     </entry>
