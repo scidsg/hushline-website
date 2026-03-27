@@ -1,24 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[262],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[3503],{
 
-/***/ 1931
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png");
-
-/***/ },
-
-/***/ 5789
-(module) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/dont-use-work-devices","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-16-dont-use-work-devices/index.md","source":"@site/blog/2025-03-16-dont-use-work-devices/index.md","title":"Why You Should Never Use Work Devices To Disclose Information","description":"Impact Model Diagram","date":"2025-03-16T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.39,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"dont-use-work-devices","title":"Why You Should Never Use Work Devices To Disclose Information","authors":["gsorrentino"],"tags":["hushline"],"image":"img/tor-regular.png"},"unlisted":false,"prevItem":{"title":"Hush Line\'s Sustainable Impact Model","permalink":"/library/blog/hushline-sustainable-model"},"nextItem":{"title":"How Newsrooms and Journalists Use Hush Line","permalink":"/library/blog/newsrooms-and-journalists"}}');
-
-/***/ },
-
-/***/ 7900
+/***/ 4545
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -27,24 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_16_dont_use_work_devices_index_md_6aa_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_why_schools_and_universities_need_separate_reporting_addresses_index_md_669_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_16_dont_use_work_devices_index_md_6aa_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5789);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_why_schools_and_universities_need_separate_reporting_addresses_index_md_669_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4865);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'dont-use-work-devices',
-	title: 'Why You Should Never Use Work Devices To Disclose Information',
+	slug: 'why-schools-and-universities-need-separate-reporting-addresses',
+	title: 'Why Schools and Universities Need Separate Reporting Addresses',
+	subtitle: 'Aliases help schools publish clearer reporting lanes for different campus concerns without making students, staff, or families decode the institution first.',
 	authors: [
-		'gsorrentino'
+		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	image: 'img/tor-regular.png'
+	agent_topic_id: 'educators-aliases',
+	agent_feature_key: 'aliases',
+	agent_core_user_key: 'educators-administrators'
 };
 const contentTitle = undefined;
 
@@ -57,21 +43,15 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    img: "img",
     p: "p",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
-        alt: "Impact Model Diagram",
-        src: (__webpack_require__(1931)/* ["default"] */ .A) + "",
-        width: "1889",
-        height: "966"
-      })
+      children: "Universities rarely have just one kind of sensitive report to receive. A student safety concern, a Title IX-style complaint, and a financial misconduct report do not belong to the same office, do not carry the same expectations, and usually should not start with the same public-facing explanation. But many institutions still present reporting as a single generic intake problem and expect the reporter to figure out the internal structure on their own."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed."
+      children: "Hush Line is useful here because it combines a public reporting address with profile setup and optional directory visibility, and it documents aliases as a feature. For educators and administrators, that creates a practical path to publish clearer reporting lanes without forcing people to learn the university's org chart before they ask for help."
     })]
   });
 }
@@ -89,6 +69,13 @@ function MDXContent(props = {}) {
 }
 
 
+
+/***/ },
+
+/***/ 4865
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/why-schools-and-universities-need-separate-reporting-addresses","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-why-schools-and-universities-need-separate-reporting-addresses/index.md","source":"@site/blog/2026-03-26-why-schools-and-universities-need-separate-reporting-addresses/index.md","title":"Why Schools and Universities Need Separate Reporting Addresses","description":"Universities rarely have just one kind of sensitive report to receive. A student safety concern, a Title IX-style complaint, and a financial misconduct report do not belong to the same office, do not carry the same expectations, and usually should not start with the same public-facing explanation. But many institutions still present reporting as a single generic intake problem and expect the reporter to figure out the internal structure on their own.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.39,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"why-schools-and-universities-need-separate-reporting-addresses","title":"Why Schools and Universities Need Separate Reporting Addresses","subtitle":"Aliases help schools publish clearer reporting lanes for different campus concerns without making students, staff, or families decode the institution first.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"educators-aliases","agent_feature_key":"aliases","agent_core_user_key":"educators-administrators"},"unlisted":false,"prevItem":{"title":"What Boards and Ethics Offices Should Put on a Tip Line Before Launch","permalink":"/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch"},"nextItem":{"title":"Why Verified Tip Lines Matter for Newsrooms","permalink":"/library/blog/why-verified-tip-lines-matter-for-newsrooms"}}');
 
 /***/ },
 
