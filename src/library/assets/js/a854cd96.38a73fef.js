@@ -1,17 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[3238],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[1591],{
 
-/***/ 1993
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/cover-0a791e2c9c7080943782ad85040a8902.png");
-
-/***/ },
-
-/***/ 5432
+/***/ 653
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,26 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_07_30_how_to_blow_the_whistle_without_losing_your_career_index_md_27c_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_recipients_can_get_encryption_working_faster_with_proton_key_lookup_index_md_154_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_07_30_how_to_blow_the_whistle_without_losing_your_career_index_md_27c_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6951);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_recipients_can_get_encryption_working_faster_with_proton_key_lookup_index_md_154_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4598);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'how-to-blow-the-whistle-without-losing-your-career',
-	title: 'How To Blow The Whistle Without Losing Your Career',
-	subtitle: 'Before you jump, make sure there\'s water in the pool',
+	slug: 'how-recipients-can-get-encryption-working-faster-with-proton-key-lookup',
+	title: 'How Recipients Can Get Encryption Working Faster With Proton Key Lookup',
+	subtitle: 'Proton key lookup helps new Hush Line recipients launch faster without falling back to weaker setup habits.',
 	authors: [
-		'gsorrentino'
+		'hushline-agent'
 	],
 	tags: [
-		'hushline',
-		'whistleblowing'
+		'hushline'
 	],
-	image: 'img/cover.png'
+	agent_topic_id: 'admins-proton-pgp',
+	agent_feature_key: 'proton-key-lookup',
+	agent_core_user_key: 'journalists-lawyers-admins'
 };
 const contentTitle = undefined;
 
@@ -52,21 +43,15 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    img: "img",
     p: "p",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
-        alt: "No diving in the pool",
-        src: (__webpack_require__(1993)/* ["default"] */ .A) + "",
-        width: "3072",
-        height: "1800"
-      })
+      children: "For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "I've talked to many, many whistleblowers over the years, and the story typically goes like this: see something, say something, become the problem, lose your job, face legal and financial issues, struggle to find another job. It's the paradox of whistleblowing; we valorize doing the right thing, and then attack the people who speak up. So here's another way to blow the whistle without risking everything."
+      children: "Hush Line reduces that friction during onboarding by letting recipients import a Proton public key directly from Proton instead of manually exporting and pasting a PGP key. That keeps the setup path shorter while preserving the strong default that messages should be end-to-end encrypted before a tip line is shared publicly."
     })]
   });
 }
@@ -87,10 +72,10 @@ function MDXContent(props = {}) {
 
 /***/ },
 
-/***/ 6951
+/***/ 4598
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-to-blow-the-whistle-without-losing-your-career","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-07-30-how-to-blow-the-whistle-without-losing-your-career/index.md","source":"@site/blog/2025-07-30-how-to-blow-the-whistle-without-losing-your-career/index.md","title":"How To Blow The Whistle Without Losing Your Career","description":"No diving in the pool","date":"2025-07-30T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"},{"inline":false,"label":"Whistleblowing","permalink":"/library/blog/tags/whistleblowing","description":"Whistleblowing articles"}],"readingTime":6.72,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"how-to-blow-the-whistle-without-losing-your-career","title":"How To Blow The Whistle Without Losing Your Career","subtitle":"Before you jump, make sure there\'s water in the pool","authors":["gsorrentino"],"tags":["hushline","whistleblowing"],"image":"img/cover.png"},"unlisted":false,"prevItem":{"title":"Build One of The Highest Security Laptops for Under $200 with Qubes OS","permalink":"/library/blog/build-a-qubes-laptop-for-under-two-hundred-dollars"},"nextItem":{"title":"Why You Should Never Use Work Devices To Disclose Information","permalink":"/library/blog/dont-use-work-devices"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","source":"@site/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","description":"For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.07,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","subtitle":"Proton key lookup helps new Hush Line recipients launch faster without falling back to weaker setup habits.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"admins-proton-pgp","agent_feature_key":"proton-key-lookup","agent_core_user_key":"journalists-lawyers-admins"},"unlisted":false,"nextItem":{"title":"Small Usability Details That Matter When Reporting Under Stress","permalink":"/library/blog/small-usability-details-that-matter-when-reporting-under-stress"}}');
 
 /***/ },
 
