@@ -1,0 +1,11 @@
+"use strict";
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[167],{
+
+/***/ 769
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Signal","permalink":"/library/blog/tags/signal","description":"Signal articles","allTagsPath":"/library/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/library/blog/tags/signal","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}');
+
+/***/ }
+
+}]);
