@@ -1,7 +1,24 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[8136],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[262],{
 
-/***/ 5776
+/***/ 1931
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png");
+
+/***/ },
+
+/***/ 5789
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/dont-use-work-devices","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-16-dont-use-work-devices/index.md","source":"@site/blog/2025-03-16-dont-use-work-devices/index.md","title":"Why You Should Never Use Work Devices To Disclose Information","description":"Impact Model Diagram","date":"2025-03-16T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.39,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"dont-use-work-devices","title":"Why You Should Never Use Work Devices To Disclose Information","authors":["gsorrentino"],"tags":["hushline"],"image":"img/tor-regular.png"},"unlisted":false,"prevItem":{"title":"Hush Line\'s Sustainable Impact Model","permalink":"/library/blog/hushline-sustainable-model"},"nextItem":{"title":"How Newsrooms and Journalists Use Hush Line","permalink":"/library/blog/newsrooms-and-journalists"}}');
+
+/***/ },
+
+/***/ 7900
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,27 +27,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_when_ocr_helps_reporters_handle_documents_faster_index_md_312_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_16_dont_use_work_devices_index_md_6aa_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_when_ocr_helps_reporters_handle_documents_faster_index_md_312_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6021);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_16_dont_use_work_devices_index_md_6aa_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5789);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'when-ocr-helps-reporters-handle-documents-faster',
-	title: 'When OCR Helps Reporters Handle Documents Faster',
-	subtitle: 'Hush Line\'s Vision Assistant helps reporters turn photographed or scanned material into searchable text during the first pass on a tip.',
+	slug: 'dont-use-work-devices',
+	title: 'Why You Should Never Use Work Devices To Disclose Information',
 	authors: [
-		'hushline-agent'
+		'gsorrentino'
 	],
 	tags: [
 		'hushline'
 	],
-	agent_topic_id: 'journalists-vision-assistant',
-	agent_feature_key: 'vision-assistant',
-	agent_core_user_key: 'journalists-newsrooms'
+	image: 'img/tor-regular.png'
 };
 const contentTitle = undefined;
 
@@ -43,15 +57,21 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
+    img: "img",
     p: "p",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Investigative reporting often starts with imperfect source material. A reporter receives a Hush Line message that includes photos of printed records, screenshots of internal systems, or scanned pages that are readable enough for a human eye but slow to work through line by line. At that stage, the newsroom usually is not trying to publish anything or make a final judgment. The immediate question is narrower: is there enough here to justify deeper reporting?"
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
+        alt: "Impact Model Diagram",
+        src: (__webpack_require__(1931)/* ["default"] */ .A) + "",
+        width: "1889",
+        height: "966"
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Hush Line's Vision Assistant fits that first-pass review well. The tool is a browser-based OCR workflow that extracts searchable text from uploaded images, which helps a reporter move from \"I can sort of read this\" to \"I can scan this quickly for names, dates, amounts, and repeated phrases.\" Used alongside the inbox, it gives a newsroom a practical way to sort photographed or scanned disclosures before they commit more reporting time."
+      children: "Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed."
     })]
   });
 }
@@ -69,13 +89,6 @@ function MDXContent(props = {}) {
 }
 
 
-
-/***/ },
-
-/***/ 6021
-(module) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/when-ocr-helps-reporters-handle-documents-faster","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-when-ocr-helps-reporters-handle-documents-faster/index.md","source":"@site/blog/2026-03-26-when-ocr-helps-reporters-handle-documents-faster/index.md","title":"When OCR Helps Reporters Handle Documents Faster","description":"Investigative reporting often starts with imperfect source material. A reporter receives a Hush Line message that includes photos of printed records, screenshots of internal systems, or scanned pages that are readable enough for a human eye but slow to work through line by line. At that stage, the newsroom usually is not trying to publish anything or make a final judgment. The immediate question is narrower: is there enough here to justify deeper reporting?","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.82,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"when-ocr-helps-reporters-handle-documents-faster","title":"When OCR Helps Reporters Handle Documents Faster","subtitle":"Hush Line\'s Vision Assistant helps reporters turn photographed or scanned material into searchable text during the first pass on a tip.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"journalists-vision-assistant","agent_feature_key":"vision-assistant","agent_core_user_key":"journalists-newsrooms"},"unlisted":false,"prevItem":{"title":"What Boards and Ethics Offices Should Put on a Tip Line Before Launch","permalink":"/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch"},"nextItem":{"title":"Why Schools and Universities Need Separate Reporting Addresses","permalink":"/library/blog/why-schools-and-universities-need-separate-reporting-addresses"}}');
 
 /***/ },
 

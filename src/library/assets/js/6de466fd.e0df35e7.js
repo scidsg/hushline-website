@@ -1,24 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[901],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[8136],{
 
-/***/ 6198
-(module) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/newsrooms-and-journalists","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-13-newsrooms-and-journalists/index.md","source":"@site/blog/2025-03-13-newsrooms-and-journalists/index.md","title":"How Newsrooms and Journalists Use Hush Line","description":"Encryption settings wireframe","date":"2025-03-13T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.8,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"newsrooms-and-journalists","title":"How Newsrooms and Journalists Use Hush Line","subtitle":"It\'s easy to set up a tip line that optimizes source protection while maintaining usability.","authors":["gsorrentino"],"tags":["hushline"],"image":"img/cover.png"},"unlisted":false,"prevItem":{"title":"Hush Line\'s Sustainable Impact Model","permalink":"/library/blog/hushline-sustainable-model"},"nextItem":{"title":"How to Verify an Address on Hush Line","permalink":"/library/blog/how-to-verify-an-address-on-hush-line"}}');
-
-/***/ },
-
-/***/ 7311
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/cover-83ebca78119ff8ea946e2149fb19954e.png");
-
-/***/ },
-
-/***/ 7806
+/***/ 5776
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -27,25 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_13_newsrooms_and_journalists_index_md_3f6_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_when_ocr_helps_reporters_handle_documents_faster_index_md_312_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_13_newsrooms_and_journalists_index_md_3f6_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6198);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_when_ocr_helps_reporters_handle_documents_faster_index_md_312_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6021);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'newsrooms-and-journalists',
-	title: 'How Newsrooms and Journalists Use Hush Line',
-	subtitle: 'It\'s easy to set up a tip line that optimizes source protection while maintaining usability.',
+	slug: 'when-ocr-helps-reporters-handle-documents-faster',
+	title: 'When OCR Helps Reporters Handle Documents Faster',
+	subtitle: 'Hush Line\'s Vision Assistant helps reporters turn photographed or scanned material into searchable text during the first pass on a tip.',
 	authors: [
-		'gsorrentino'
+		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	image: 'img/cover.png'
+	agent_topic_id: 'journalists-vision-assistant',
+	agent_feature_key: 'vision-assistant',
+	agent_core_user_key: 'journalists-newsrooms'
 };
 const contentTitle = undefined;
 
@@ -58,21 +43,15 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    img: "img",
     p: "p",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
-        alt: "Encryption settings wireframe",
-        src: (__webpack_require__(7311)/* ["default"] */ .A) + "",
-        width: "1186",
-        height: "464"
-      })
+      children: "Investigative reporting often starts with imperfect source material. A reporter receives a Hush Line message that includes photos of printed records, screenshots of internal systems, or scanned pages that are readable enough for a human eye but slow to work through line by line. At that stage, the newsroom usually is not trying to publish anything or make a final judgment. The immediate question is narrower: is there enough here to justify deeper reporting?"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Hush Line is a general-purpose anonymous reporting tool that can be used across a range of industries. In this article, we'll explore how journalists and newsrooms can quickly get started with a Hush Line account that'll enable anyone with an internet connection to reach you without downloading a new app or creating an account."
+      children: "Hush Line's Vision Assistant fits that first-pass review well. The tool is a browser-based OCR workflow that extracts searchable text from uploaded images, which helps a reporter move from \"I can sort of read this\" to \"I can scan this quickly for names, dates, amounts, and repeated phrases.\" Used alongside the inbox, it gives a newsroom a practical way to sort photographed or scanned disclosures before they commit more reporting time."
     })]
   });
 }
@@ -90,6 +69,13 @@ function MDXContent(props = {}) {
 }
 
 
+
+/***/ },
+
+/***/ 6021
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/when-ocr-helps-reporters-handle-documents-faster","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-when-ocr-helps-reporters-handle-documents-faster/index.md","source":"@site/blog/2026-03-26-when-ocr-helps-reporters-handle-documents-faster/index.md","title":"When OCR Helps Reporters Handle Documents Faster","description":"Investigative reporting often starts with imperfect source material. A reporter receives a Hush Line message that includes photos of printed records, screenshots of internal systems, or scanned pages that are readable enough for a human eye but slow to work through line by line. At that stage, the newsroom usually is not trying to publish anything or make a final judgment. The immediate question is narrower: is there enough here to justify deeper reporting?","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.82,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"when-ocr-helps-reporters-handle-documents-faster","title":"When OCR Helps Reporters Handle Documents Faster","subtitle":"Hush Line\'s Vision Assistant helps reporters turn photographed or scanned material into searchable text during the first pass on a tip.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"journalists-vision-assistant","agent_feature_key":"vision-assistant","agent_core_user_key":"journalists-newsrooms"},"unlisted":false,"prevItem":{"title":"What Boards and Ethics Offices Should Put on a Tip Line Before Launch","permalink":"/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch"},"nextItem":{"title":"Why Data Export Matters for Long-Running Cases","permalink":"/library/blog/why-data-export-matters-for-long-running-cases"}}');
 
 /***/ },
 

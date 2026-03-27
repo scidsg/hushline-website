@@ -1,7 +1,17 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[3503],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[3238],{
 
-/***/ 4545
+/***/ 1993
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/cover-0a791e2c9c7080943782ad85040a8902.png");
+
+/***/ },
+
+/***/ 5432
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,27 +20,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_why_schools_and_universities_need_separate_reporting_addresses_index_md_669_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_07_30_how_to_blow_the_whistle_without_losing_your_career_index_md_27c_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_why_schools_and_universities_need_separate_reporting_addresses_index_md_669_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4865);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_07_30_how_to_blow_the_whistle_without_losing_your_career_index_md_27c_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6951);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'why-schools-and-universities-need-separate-reporting-addresses',
-	title: 'Why Schools and Universities Need Separate Reporting Addresses',
-	subtitle: 'Aliases help schools publish clearer reporting lanes for different campus concerns without making students, staff, or families decode the institution first.',
+	slug: 'how-to-blow-the-whistle-without-losing-your-career',
+	title: 'How To Blow The Whistle Without Losing Your Career',
+	subtitle: 'Before you jump, make sure there\'s water in the pool',
 	authors: [
-		'hushline-agent'
+		'gsorrentino'
 	],
 	tags: [
-		'hushline'
+		'hushline',
+		'whistleblowing'
 	],
-	agent_topic_id: 'educators-aliases',
-	agent_feature_key: 'aliases',
-	agent_core_user_key: 'educators-administrators'
+	image: 'img/cover.png'
 };
 const contentTitle = undefined;
 
@@ -43,15 +52,21 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
+    img: "img",
     p: "p",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Universities rarely have just one kind of sensitive report to receive. A student safety concern, a Title IX-style complaint, and a financial misconduct report do not belong to the same office, do not carry the same expectations, and usually should not start with the same public-facing explanation. But many institutions still present reporting as a single generic intake problem and expect the reporter to figure out the internal structure on their own."
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
+        alt: "No diving in the pool",
+        src: (__webpack_require__(1993)/* ["default"] */ .A) + "",
+        width: "3072",
+        height: "1800"
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Hush Line is useful here because it combines a public reporting address with profile setup and optional directory visibility, and it documents aliases as a feature. For educators and administrators, that creates a practical path to publish clearer reporting lanes without forcing people to learn the university's org chart before they ask for help."
+      children: "I've talked to many, many whistleblowers over the years, and the story typically goes like this: see something, say something, become the problem, lose your job, face legal and financial issues, struggle to find another job. It's the paradox of whistleblowing; we valorize doing the right thing, and then attack the people who speak up. So here's another way to blow the whistle without risking everything."
     })]
   });
 }
@@ -72,10 +87,10 @@ function MDXContent(props = {}) {
 
 /***/ },
 
-/***/ 4865
+/***/ 6951
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/why-schools-and-universities-need-separate-reporting-addresses","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-why-schools-and-universities-need-separate-reporting-addresses/index.md","source":"@site/blog/2026-03-26-why-schools-and-universities-need-separate-reporting-addresses/index.md","title":"Why Schools and Universities Need Separate Reporting Addresses","description":"Universities rarely have just one kind of sensitive report to receive. A student safety concern, a Title IX-style complaint, and a financial misconduct report do not belong to the same office, do not carry the same expectations, and usually should not start with the same public-facing explanation. But many institutions still present reporting as a single generic intake problem and expect the reporter to figure out the internal structure on their own.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.39,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"why-schools-and-universities-need-separate-reporting-addresses","title":"Why Schools and Universities Need Separate Reporting Addresses","subtitle":"Aliases help schools publish clearer reporting lanes for different campus concerns without making students, staff, or families decode the institution first.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"educators-aliases","agent_feature_key":"aliases","agent_core_user_key":"educators-administrators"},"unlisted":false,"prevItem":{"title":"When OCR Helps Reporters Handle Documents Faster","permalink":"/library/blog/when-ocr-helps-reporters-handle-documents-faster"},"nextItem":{"title":"Why Verified Tip Lines Matter for Newsrooms","permalink":"/library/blog/why-verified-tip-lines-matter-for-newsrooms"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-to-blow-the-whistle-without-losing-your-career","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-07-30-how-to-blow-the-whistle-without-losing-your-career/index.md","source":"@site/blog/2025-07-30-how-to-blow-the-whistle-without-losing-your-career/index.md","title":"How To Blow The Whistle Without Losing Your Career","description":"No diving in the pool","date":"2025-07-30T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"},{"inline":false,"label":"Whistleblowing","permalink":"/library/blog/tags/whistleblowing","description":"Whistleblowing articles"}],"readingTime":6.72,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"how-to-blow-the-whistle-without-losing-your-career","title":"How To Blow The Whistle Without Losing Your Career","subtitle":"Before you jump, make sure there\'s water in the pool","authors":["gsorrentino"],"tags":["hushline","whistleblowing"],"image":"img/cover.png"},"unlisted":false,"prevItem":{"title":"Build One of The Highest Security Laptops for Under $200 with Qubes OS","permalink":"/library/blog/build-a-qubes-laptop-for-under-two-hundred-dollars"},"nextItem":{"title":"Hush Line\'s Sustainable Impact Model","permalink":"/library/blog/hushline-sustainable-model"}}');
 
 /***/ },
 

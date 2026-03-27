@@ -1,24 +1,24 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[262],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[901],{
 
-/***/ 1931
+/***/ 6198
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/newsrooms-and-journalists","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-13-newsrooms-and-journalists/index.md","source":"@site/blog/2025-03-13-newsrooms-and-journalists/index.md","title":"How Newsrooms and Journalists Use Hush Line","description":"Encryption settings wireframe","date":"2025-03-13T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.8,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"newsrooms-and-journalists","title":"How Newsrooms and Journalists Use Hush Line","subtitle":"It\'s easy to set up a tip line that optimizes source protection while maintaining usability.","authors":["gsorrentino"],"tags":["hushline"],"image":"img/cover.png"},"unlisted":false,"prevItem":{"title":"Why You Should Never Use Work Devices To Disclose Information","permalink":"/library/blog/dont-use-work-devices"},"nextItem":{"title":"How to Verify an Address on Hush Line","permalink":"/library/blog/how-to-verify-an-address-on-hush-line"}}');
+
+/***/ },
+
+/***/ 7311
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/cover-83ebca78119ff8ea946e2149fb19954e.png");
 
 /***/ },
 
-/***/ 5789
-(module) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/dont-use-work-devices","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-16-dont-use-work-devices/index.md","source":"@site/blog/2025-03-16-dont-use-work-devices/index.md","title":"Why You Should Never Use Work Devices To Disclose Information","description":"Impact Model Diagram","date":"2025-03-16T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.39,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"dont-use-work-devices","title":"Why You Should Never Use Work Devices To Disclose Information","authors":["gsorrentino"],"tags":["hushline"],"image":"img/tor-regular.png"},"unlisted":false,"prevItem":{"title":"How To Blow The Whistle Without Losing Your Career","permalink":"/library/blog/how-to-blow-the-whistle-without-losing-your-career"},"nextItem":{"title":"Hush Line\'s Sustainable Impact Model","permalink":"/library/blog/hushline-sustainable-model"}}');
-
-/***/ },
-
-/***/ 7900
+/***/ 7806
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -27,24 +27,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_16_dont_use_work_devices_index_md_6aa_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_13_newsrooms_and_journalists_index_md_3f6_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_16_dont_use_work_devices_index_md_6aa_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5789);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_13_newsrooms_and_journalists_index_md_3f6_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6198);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'dont-use-work-devices',
-	title: 'Why You Should Never Use Work Devices To Disclose Information',
+	slug: 'newsrooms-and-journalists',
+	title: 'How Newsrooms and Journalists Use Hush Line',
+	subtitle: 'It\'s easy to set up a tip line that optimizes source protection while maintaining usability.',
 	authors: [
 		'gsorrentino'
 	],
 	tags: [
 		'hushline'
 	],
-	image: 'img/tor-regular.png'
+	image: 'img/cover.png'
 };
 const contentTitle = undefined;
 
@@ -65,13 +66,13 @@ function _createMdxContent(props) {
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
-        alt: "Impact Model Diagram",
-        src: (__webpack_require__(1931)/* ["default"] */ .A) + "",
-        width: "1889",
-        height: "966"
+        alt: "Encryption settings wireframe",
+        src: (__webpack_require__(7311)/* ["default"] */ .A) + "",
+        width: "1186",
+        height: "464"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed."
+      children: "Hush Line is a general-purpose anonymous reporting tool that can be used across a range of industries. In this article, we'll explore how journalists and newsrooms can quickly get started with a Hush Line account that'll enable anyone with an internet connection to reach you without downloading a new app or creating an account."
     })]
   });
 }
