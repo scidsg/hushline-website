@@ -1,10 +1,20 @@
 "use strict";
 (globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[5812],{
 
+/***/ 3622
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/auth-newman-settings-encryption-desktop-light-full-3140b362c1536681f04d189a8fa67f48.png");
+
+/***/ },
+
 /***/ 4598
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","source":"@site/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","description":"For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":3.65,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","subtitle":"Proton key lookup helps new Hush Line recipients launch faster without falling back to weaker setup habits.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"admins-proton-pgp","agent_feature_key":"proton-key-lookup","agent_core_user_key":"journalists-lawyers-admins"},"unlisted":false,"nextItem":{"title":"Small Usability Details That Matter When Reporting Under Stress","permalink":"/library/blog/small-usability-details-that-matter-when-reporting-under-stress"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","source":"@site/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","description":"For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.07,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","subtitle":"Proton key lookup helps new Hush Line recipients launch faster without falling back to weaker setup habits.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"admins-proton-pgp","agent_feature_key":"proton-key-lookup","agent_core_user_key":"journalists-lawyers-admins"},"unlisted":false,"nextItem":{"title":"Small Usability Details That Matter When Reporting Under Stress","permalink":"/library/blog/small-usability-details-that-matter-when-reporting-under-stress"}}');
 
 /***/ },
 
@@ -70,7 +80,9 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
+    em: "em",
     h2: "h2",
+    img: "img",
     li: "li",
     ol: "ol",
     p: "p",
@@ -91,6 +103,17 @@ function _createMdxContent(props) {
       children: "Imagine a small newsroom editor, an intake coordinator at a legal aid office, or an administrator standing up a reporting channel for the first time. They want a public Hush Line page live quickly so people can start reaching them, but they also do not want to cut corners on message security."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: "This is exactly where manual PGP setup can slow things down. If the recipient has to stop and figure out key export steps before they have even finished basic account setup, launch gets pushed back. In practice, that means more time spent in configuration and less time getting a working intake channel in front of the people who need it."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
+        alt: "Hush Line onboarding step for setting up encryption with Proton email search",
+        src: (__webpack_require__(8262)/* ["default"] */ .A) + "",
+        width: "1000",
+        height: "1093"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+        children: "During onboarding, recipients can search for a Proton email address and import the public key without leaving the setup flow."
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
       id: "where-proton-key-lookup-helps",
       children: "Where Proton Key Lookup Helps"
@@ -112,6 +135,17 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: "For teams trying to launch quickly, that is a practical improvement, not a cosmetic one. The easier it is to finish encryption correctly, the less temptation there is to \"come back to it later.\""
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
+        alt: "Hush Line settings page showing Proton key import inside the Encryption tab",
+        src: (__webpack_require__(3622)/* ["default"] */ .A) + "",
+        width: "1000",
+        height: "1043"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+        children: "The same Proton key import flow remains available later in Settings, so recipients can finish or revise encryption setup after onboarding."
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
       id: "a-practical-fast-launch-workflow",
       children: "A Practical Fast-Launch Workflow"
@@ -186,6 +220,16 @@ function MDXContent(props = {}) {
 }
 
 
+
+/***/ },
+
+/***/ 8262
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/auth-newman-onboarding-encryption-desktop-light-full-40dad72776ec2bbda798301dc67a0349.png");
 
 /***/ },
 
