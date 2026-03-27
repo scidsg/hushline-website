@@ -89,7 +89,7 @@
         <title type="html"><![CDATA[How Recipients Can Get Encryption Working Faster With Proton Key Lookup]]></title>
         <id>https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup</id>
         <link href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup"/>
-        <updated>2026-04-01T00:00:00.000Z</updated>
+        <updated>2026-03-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.]]></summary>
         <content type="html"><![CDATA[<p>For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.</p>
 <p>Hush Line reduces that friction during onboarding by letting recipients import a Proton public key directly from Proton instead of manually exporting and pasting a PGP key. That keeps the setup path shorter while preserving the strong default that messages should be end-to-end encrypted before a tip line is shared publicly.</p>
