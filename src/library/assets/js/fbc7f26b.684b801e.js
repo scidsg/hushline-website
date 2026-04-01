@@ -1,24 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[262],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[9673],{
 
-/***/ 1931
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png");
-
-/***/ },
-
-/***/ 5789
-(module) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/dont-use-work-devices","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-16-dont-use-work-devices/index.md","source":"@site/blog/2025-03-16-dont-use-work-devices/index.md","title":"Why You Should Never Use Work Devices To Disclose Information","description":"Impact Model Diagram","date":"2025-03-16T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.39,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"dont-use-work-devices","title":"Why You Should Never Use Work Devices To Disclose Information","authors":["gsorrentino"],"tags":["hushline"],"image":"img/tor-regular.png"},"unlisted":false,"prevItem":{"title":"Hush Line\'s Sustainable Impact Model","permalink":"/library/blog/hushline-sustainable-model"},"nextItem":{"title":"How Newsrooms and Journalists Use Hush Line","permalink":"/library/blog/newsrooms-and-journalists"}}');
-
-/***/ },
-
-/***/ 7900
+/***/ 5250
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -27,24 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_16_dont_use_work_devices_index_md_6aa_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_law_firms_can_handle_sensitive_intake_without_losing_track_index_md_701_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_03_16_dont_use_work_devices_index_md_6aa_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5789);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_law_firms_can_handle_sensitive_intake_without_losing_track_index_md_701_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6227);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'dont-use-work-devices',
-	title: 'Why You Should Never Use Work Devices To Disclose Information',
+	slug: 'how-law-firms-can-handle-sensitive-intake-without-losing-track',
+	title: 'How Law Firms Can Handle Sensitive Intake Without Losing Track',
+	subtitle: 'A small law office can use Hush Line\'s inbox, message statuses, and one-way replies to triage sensitive outreach without pushing legal intake into an improvised chat workflow.',
 	authors: [
-		'gsorrentino'
+		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	image: 'img/tor-regular.png'
+	agent_topic_id: 'law-firms-inbox-statuses',
+	agent_feature_key: 'inbox-message-statuses',
+	agent_core_user_key: 'lawyers-law-offices'
 };
 const contentTitle = undefined;
 
@@ -57,21 +43,15 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    img: "img",
     p: "p",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
-        alt: "Impact Model Diagram",
-        src: (__webpack_require__(1931)/* ["default"] */ .A) + "",
-        width: "1889",
-        height: "966"
-      })
+      children: "Small law offices often do intake when the office is effectively closed. A potential client sends a sensitive message after midnight, a paralegal reads it the next morning, and an attorney may not decide until later whether the matter fits the practice, needs a faster response, or should be directed elsewhere. That creates a coordination problem as much as a communications problem. If intake lives in a shared mailbox or a loose chain of texts, it becomes easy to lose track of what has already been reviewed and what still needs a decision."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed."
+      children: "Hush Line fits that kind of work because it gives the office a dedicated inbox for incoming messages and lets the team organize them by status. The docs also describe custom replies tied to statuses such as accepted or declined, so the office can send a clear one-way response with next steps when needed. That is useful for legal intake because many firms do not want to run prospective-client screening as an open-ended chat inside the intake tool."
     })]
   });
 }
@@ -89,6 +69,13 @@ function MDXContent(props = {}) {
 }
 
 
+
+/***/ },
+
+/***/ 6227
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-law-firms-can-handle-sensitive-intake-without-losing-track/index.md","source":"@site/blog/2026-03-26-how-law-firms-can-handle-sensitive-intake-without-losing-track/index.md","title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","description":"Small law offices often do intake when the office is effectively closed. A potential client sends a sensitive message after midnight, a paralegal reads it the next morning, and an attorney may not decide until later whether the matter fits the practice, needs a faster response, or should be directed elsewhere. That creates a coordination problem as much as a communications problem. If intake lives in a shared mailbox or a loose chain of texts, it becomes easy to lose track of what has already been reviewed and what still needs a decision.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":6.14,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-law-firms-can-handle-sensitive-intake-without-losing-track","title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","subtitle":"A small law office can use Hush Line\'s inbox, message statuses, and one-way replies to triage sensitive outreach without pushing legal intake into an improvised chat workflow.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"law-firms-inbox-statuses","agent_feature_key":"inbox-message-statuses","agent_core_user_key":"lawyers-law-offices"},"unlisted":false,"prevItem":{"title":"Who Should Run a Personal Server Tip Line","permalink":"/library/blog/who-should-run-a-personal-server-tip-line"},"nextItem":{"title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup"}}');
 
 /***/ },
 

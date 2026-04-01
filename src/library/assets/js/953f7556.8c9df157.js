@@ -1,17 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[3238],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[4079],{
 
-/***/ 1993
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/cover-0a791e2c9c7080943782ad85040a8902.png");
-
-/***/ },
-
-/***/ 5432
+/***/ 2599
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,26 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_07_30_how_to_blow_the_whistle_without_losing_your_career_index_md_27c_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_04_01_who_should_run_a_personal_server_tip_line_index_md_b2c_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_07_30_how_to_blow_the_whistle_without_losing_your_career_index_md_27c_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6951);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_04_01_who_should_run_a_personal_server_tip_line_index_md_b2c_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5963);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'how-to-blow-the-whistle-without-losing-your-career',
-	title: 'How To Blow The Whistle Without Losing Your Career',
-	subtitle: 'Before you jump, make sure there\'s water in the pool',
+	slug: 'who-should-run-a-personal-server-tip-line',
+	title: 'Who Should Run a Personal Server Tip Line',
+	subtitle: 'For independent recipients with a higher-risk threat model, Hush Line\'s Personal Server offers more direct infrastructure control in exchange for more operational responsibility.',
 	authors: [
-		'gsorrentino'
+		'hushline-agent'
 	],
 	tags: [
-		'hushline',
-		'whistleblowing'
+		'hushline'
 	],
-	image: 'img/cover.png'
+	agent_topic_id: 'personal-server-high-risk',
+	agent_feature_key: 'personal-server',
+	agent_core_user_key: 'high-risk-independent-recipients'
 };
 const contentTitle = undefined;
 
@@ -52,21 +43,15 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    img: "img",
     p: "p",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
-        alt: "No diving in the pool",
-        src: (__webpack_require__(1993)/* ["default"] */ .A) + "",
-        width: "3072",
-        height: "1800"
-      })
+      children: "An independent journalist, public-interest lawyer, or organizer does not always need to self-host a tip line. In many cases, the easier path is the better one: create an account, finish setup, and publish the address. But some independent recipients have a different requirement. They want a reporting system that they control more directly because trusting shared third-party infrastructure is itself part of the risk."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "I've talked to many, many whistleblowers over the years, and the story typically goes like this: see something, say something, become the problem, lose your job, face legal and financial issues, struggle to find another job. It's the paradox of whistleblowing; we valorize doing the right thing, and then attack the people who speak up. So here's another way to blow the whistle without risking everything."
+      children: "That is the narrower job Hush Line's Personal Server is built for. The device gives one recipient the full Hush Line platform as a self-hosted, Tor-only tip line that runs locally. For someone handling sensitive outreach from a smaller but higher-risk community, that changes the deployment model in a concrete way: the system is no longer just an account on a shared service. It becomes a dedicated device on the recipient's own network, with end-to-end encrypted, anonymous, 100% local intake."
     })]
   });
 }
@@ -87,10 +72,10 @@ function MDXContent(props = {}) {
 
 /***/ },
 
-/***/ 6951
+/***/ 5963
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-to-blow-the-whistle-without-losing-your-career","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-07-30-how-to-blow-the-whistle-without-losing-your-career/index.md","source":"@site/blog/2025-07-30-how-to-blow-the-whistle-without-losing-your-career/index.md","title":"How To Blow The Whistle Without Losing Your Career","description":"No diving in the pool","date":"2025-07-30T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"},{"inline":false,"label":"Whistleblowing","permalink":"/library/blog/tags/whistleblowing","description":"Whistleblowing articles"}],"readingTime":6.72,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"how-to-blow-the-whistle-without-losing-your-career","title":"How To Blow The Whistle Without Losing Your Career","subtitle":"Before you jump, make sure there\'s water in the pool","authors":["gsorrentino"],"tags":["hushline","whistleblowing"],"image":"img/cover.png"},"unlisted":false,"prevItem":{"title":"Build One of The Highest Security Laptops for Under $200 with Qubes OS","permalink":"/library/blog/build-a-qubes-laptop-for-under-two-hundred-dollars"},"nextItem":{"title":"Hush Line\'s Sustainable Impact Model","permalink":"/library/blog/hushline-sustainable-model"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/who-should-run-a-personal-server-tip-line","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-04-01-who-should-run-a-personal-server-tip-line/index.md","source":"@site/blog/2026-04-01-who-should-run-a-personal-server-tip-line/index.md","title":"Who Should Run a Personal Server Tip Line","description":"An independent journalist, public-interest lawyer, or organizer does not always need to self-host a tip line. In many cases, the easier path is the better one: create an account, finish setup, and publish the address. But some independent recipients have a different requirement. They want a reporting system that they control more directly because trusting shared third-party infrastructure is itself part of the risk.","date":"2026-04-01T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":5.75,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"who-should-run-a-personal-server-tip-line","title":"Who Should Run a Personal Server Tip Line","subtitle":"For independent recipients with a higher-risk threat model, Hush Line\'s Personal Server offers more direct infrastructure control in exchange for more operational responsibility.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"personal-server-high-risk","agent_feature_key":"personal-server","agent_core_user_key":"high-risk-independent-recipients"},"unlisted":false,"nextItem":{"title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track"}}');
 
 /***/ },
 
