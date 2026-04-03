@@ -1923,6 +1923,10 @@ code,
     margin: 4rem auto -2rem auto;
     transform: initial !important;
   }
+  
+  .intro img.desktop {
+    border-radius: 0.5rem;
+  }
 
   .statement p {
     font-size: calc(1.75rem * 0.8);
