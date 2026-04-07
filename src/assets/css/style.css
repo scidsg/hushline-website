@@ -2785,7 +2785,7 @@ header nav li:has(.btn-emoji) a {
   position: relative;
   width: 100%;
   left: 120px;
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
   box-shadow: 0 12px 48px -24px rgba(18, 45, 90, 0.18);
   border: 1px solid rgba(0, 0, 0, 0.1);
   max-width: 768px;
@@ -2820,6 +2820,7 @@ header nav li:has(.btn-emoji) a {
     width: 80%;
     float: right;
     position: initial;
+    border-radius: 0.25rem;
   }
 }
 
