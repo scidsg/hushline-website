@@ -2896,3 +2896,7 @@ header nav li:has(.btn-emoji) a {
   border-radius: 0.5rem;
   box-shadow: 0 8px 32px -16px rgba(0, 0, 0, 0.12);
 }
+
+#support .wrapper:first-of-type {
+  margin-bottom: 1rem;
+}
