@@ -59,6 +59,10 @@ const toc = [{
   "value": "Step 3. Enable Message Forwarding",
   "id": "step-3-enable-message-forwarding",
   "level": 2
+}, {
+  "value": "Step 4. Choose Which Fields Stay Readable",
+  "id": "step-4-choose-which-fields-stay-readable",
+  "level": 2
 }];
 function _createMdxContent(props) {
   const _components = {
@@ -135,6 +139,16 @@ function _createMdxContent(props) {
         src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-settings-notifications-desktop-light-fold.png?raw=true",
         alt: "Email"
       })
+    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
+      id: "step-4-choose-which-fields-stay-readable",
+      children: "Step 4. Choose Which Fields Stay Readable"
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: "If you use custom message fields, decide which values are safe to leave readable for sorting or filtering and which should require decryption. Leave only low-sensitivity routing data unencrypted."
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["For a practical model and examples, see ", (0,jsx_runtime.jsx)(_components.a, {
+        href: "/library/docs/using-your-tip-line/field-encryption",
+        children: "Field Encryption"
+      }), "."]
     }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: ["🎉 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Congratulations!"
