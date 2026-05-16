@@ -4,6 +4,8 @@ on:
   pull_request:
     types: [closed]
 
+permissions: {}
+
 jobs:
   post_to_mastodon:
     if: github.event.pull_request.merged == true
