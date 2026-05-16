@@ -136,10 +136,19 @@ function _createMdxContent(props) {
         height: "865"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Before flashing or booting the installer, verify the download."
+      }), " From the Qubes downloads page, download the matching detached PGP signature or ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
+        children: ".DIGESTS"
+      }), " file and release signing key, then follow the official ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html",
+        children: "Qubes OS verification instructions"
+      }), " to authenticate the signing key and verify the ISO signature or checksum. Stop and re-download from a trusted network if verification fails or the fingerprint does not match."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: ["Once finished, ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
-        href: "https://etcher.balena.io",
-        children: "download and open BalenaEtcher"
-      }), ", an application that allows you to write your .iso file to a USB drive."]
+        href: "https://etcher.balena.io/",
+        children: "download BalenaEtcher from the official site"
+      }), ", avoiding search ads, mirrors, or third-party software sites. If your operating system shows publisher or signature information, confirm it identifies Balena and do not bypass tampering or unknown-publisher warnings. Then open BalenaEtcher to write your verified .iso file to a USB drive."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
         alt: "BalenaEtcher installer",
