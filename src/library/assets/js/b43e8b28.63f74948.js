@@ -79,7 +79,7 @@ function _createMdxContent(props) {
       children: "Vision Assistant is a browser-based OCR tool that extracts searchable text from uploaded images."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/admin/auth-admin-tools-vision-assistant-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/admin/auth-admin-tools-vision-assistant-desktop-light-fold.png",
         alt: "Vision Assistant"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {

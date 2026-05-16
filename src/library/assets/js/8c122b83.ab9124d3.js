@@ -76,7 +76,7 @@ function _createMdxContent(props) {
       children: "Customize automatic responses when a tip is received (e.g., “✅ Accepted” or “⛔️ Declined”) to include additional contact details."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-settings-replies-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-settings-replies-desktop-light-fold.png",
         alt: "Custom replies example"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -98,7 +98,7 @@ function _createMdxContent(props) {
       children: "When someone submits a message to you they'll receive a unique URL only known to\nthem. When you update the status of a message in your inbox, the message on this\npage will update."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/guest/guest-message-status-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/guest/guest-message-status-desktop-light-fold.png",
         alt: "Status dropdown options"
       })
     })]

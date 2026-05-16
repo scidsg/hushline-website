@@ -96,7 +96,7 @@ function _createMdxContent(props) {
       }), ", add a clear bio, extra links, or your Signal username to help your community."]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/newman/auth-newman-settings-profile-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/newman/auth-newman-settings-profile-desktop-light-fold.png",
         alt: "Settings"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -108,7 +108,7 @@ function _createMdxContent(props) {
       }), ":"]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/newman/auth-newman-settings-encryption-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/newman/auth-newman-settings-encryption-desktop-light-fold.png",
         alt: "Encryption settings wireframe"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -136,7 +136,7 @@ function _createMdxContent(props) {
       children: "Forward messages so you don’t have to log back in. For Proton Mail, use your new Proton email. For Gmail users with Mailvelope, click the red Mailvelope seal in your inbox and enter your key password."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-settings-notifications-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-settings-notifications-desktop-light-fold.png",
         alt: "Email"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {

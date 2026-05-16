@@ -72,7 +72,7 @@ function _createMdxContent(props) {
       }), " so whistleblowers can find your account."]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-settings-profile-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-settings-profile-desktop-light-fold.png",
         alt: "Settings"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {

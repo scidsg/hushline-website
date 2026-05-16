@@ -58,7 +58,7 @@ function _createMdxContent(props) {
       children: "Step 1. Inbox on the Desktop"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/newman/auth-newman-inbox-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/newman/auth-newman-inbox-desktop-light-fold.png",
         alt: "Desktop Inbox"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -67,7 +67,7 @@ function _createMdxContent(props) {
       children: "When using a desktop or laptop computer your inbox tabs will display on the left side of the interface."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-inbox-desktop-light-fold.png?raw=true",
+        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-inbox-desktop-light-fold.png",
         alt: "Desktop Inbox"
       })
     })]
