@@ -1,0 +1,24 @@
+name: Check library publish artifacts
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  conflict-markers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Reject conflict markers in published library
+        run: |
+          if git grep -n -E '<<<<<<<|>>>>>>>|Updated upstream|Stashed changes' -- src/library; then
+            echo "Conflict markers found in src/library publish artifacts." >&2
+            exit 1
+          fi
