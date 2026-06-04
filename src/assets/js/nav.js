@@ -87,9 +87,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     const tabLinks = document.querySelectorAll('.tablinks');
-    tabLinks.forEach((tabLink, index) => {
-        const tabName = tabLink.dataset.tab;
+    const getTabName = tabLink => {
+        if (tabLink.dataset.tab) return tabLink.dataset.tab;
+        const onClick = tabLink.getAttribute('onclick') || '';
+        const match = onClick.match(/openTab\(event,\s*['"]([^'"]+)['"]\)/);
+        return match ? match[1] : null;
+    };
+
+    tabLinks.forEach(tabLink => {
+        const tabName = getTabName(tabLink);
         if (!tabName) return;
+
         tabLink.setAttribute("role", "tab");
         tabLink.setAttribute("aria-controls", tabName);
         tabLink.setAttribute("aria-selected", "false");
@@ -98,14 +106,16 @@ document.addEventListener('DOMContentLoaded', function() {
             tabLink.id = `tab-${tabName}`;
         }
 
-        tabLink.addEventListener("click", event => {
-            openTab(event, tabName);
-        });
+        if (tabLink.dataset.tab) {
+            tabLink.addEventListener("click", event => {
+                openTab(event, tabName);
+            });
+        }
 
         tabLink.addEventListener("keydown", event => {
             if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
             event.preventDefault();
-            const links = Array.from(tabLinks).filter(link => link.dataset.tab);
+            const links = Array.from(tabLinks).filter(link => getTabName(link));
             const currentIndex = links.indexOf(tabLink);
             let nextIndex = currentIndex;
 
@@ -128,8 +138,8 @@ document.addEventListener('DOMContentLoaded', function() {
         panel.setAttribute("aria-hidden", "true");
     });
 
-    const firstTab = document.querySelector('.tablinks[data-tab]');
+    const firstTab = Array.from(tabLinks).find(link => getTabName(link));
     if (firstTab) {
-        openTab({ currentTarget: firstTab }, firstTab.dataset.tab);
+        openTab({ currentTarget: firstTab }, getTabName(firstTab));
     }
 });
