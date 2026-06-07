@@ -2479,6 +2479,10 @@ code,
     transform-origin-x: 0;
     --webkit-transform-origin-x: 0;
   }
+
+  iframe {
+    height: 1135px;
+  }
 }
 
 p + p.step-label {
