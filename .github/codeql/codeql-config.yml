@@ -1,0 +1,7 @@
+name: Hush Line Website CodeQL
+
+paths-ignore:
+  # Generated Docusaurus bundles copied from hushline-docs. Analyze the docs
+  # source and dependency lockfiles upstream instead of treating bundled vendor
+  # code as authored website source.
+  - src/library/assets/js/**
