@@ -52,7 +52,7 @@ function _createMdxContent(props) {
       children: "Hush Line's dark mode is automatic based on your operating system's settings. If you choose to see dark mode in the evening, Hush Line inherits it so you don't have to manually change any other settings."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/guest/guest-directory-verified-desktop-dark-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/guest/guest-directory-verified-desktop-dark-fold.png?raw=true",
         alt: "Dark Mode"
       })
     })]

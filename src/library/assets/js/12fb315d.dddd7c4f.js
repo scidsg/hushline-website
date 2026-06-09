@@ -75,7 +75,7 @@ function _createMdxContent(props) {
       }), "."]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-settings-auth-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-settings-auth-desktop-light-fold.png?raw=true",
         alt: "Enable 2FA"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -85,7 +85,7 @@ function _createMdxContent(props) {
       children: "Download an authenticator app like Google Authenticator or Aegis, scan the QR code, and enter the generated six-digit code in the “2FA Code” field."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-enable-2fa-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-enable-2fa-desktop-light-fold.png?raw=true",
         alt: "Scan QR"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {

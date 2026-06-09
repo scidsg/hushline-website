@@ -18,7 +18,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-using-your-tip-line-message-replies-md-8c1.json
-const site_docs_using_your_tip_line_message_replies_md_8c1_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"using-your-tip-line/message-statuses","title":"Message Statuses","description":"ℹ️ A PGP key must be uploaded to use this feature. See Step 4 in Getting Started.","source":"@site/docs/using-your-tip-line/message-replies.md","sourceDirName":"using-your-tip-line","slug":"/using-your-tip-line/message-statuses","permalink":"/library/docs/using-your-tip-line/message-statuses","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-your-tip-line/message-replies.md","tags":[],"version":"current","sidebarPosition":7,"frontMatter":{"id":"message-statuses","title":"Message Statuses","sidebar_position":7},"sidebar":"tutorialSidebar","previous":{"title":"Field Encryption","permalink":"/library/docs/using-your-tip-line/field-encryption"},"next":{"title":"Account Verification","permalink":"/library/docs/using-your-tip-line/account-verification"}}');
+const site_docs_using_your_tip_line_message_replies_md_8c1_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"using-your-tip-line/message-statuses","title":"Message Statuses","description":"ℹ️ A PGP key must be uploaded to use this feature. See Step 4 in Getting Started.","source":"@site/docs/using-your-tip-line/message-replies.md","sourceDirName":"using-your-tip-line","slug":"/using-your-tip-line/message-statuses","permalink":"/library/docs/using-your-tip-line/message-statuses","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-your-tip-line/message-replies.md","tags":[],"version":"current","sidebarPosition":7,"frontMatter":{"id":"message-statuses","title":"Message Statuses","sidebar_position":7},"sidebar":"tutorialSidebar","previous":{"title":"Vision Assistant","permalink":"/library/docs/using-your-tip-line/tools/vision-assistant"},"next":{"title":"Account Verification","permalink":"/library/docs/using-your-tip-line/account-verification"}}');
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -76,7 +76,7 @@ function _createMdxContent(props) {
       children: "Customize automatic responses when a tip is received (e.g., “✅ Accepted” or “⛔️ Declined”) to include additional contact details."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-settings-replies-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-settings-replies-desktop-light-fold.png?raw=true",
         alt: "Custom replies example"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -98,7 +98,7 @@ function _createMdxContent(props) {
       children: "When someone submits a message to you they'll receive a unique URL only known to\nthem. When you update the status of a message in your inbox, the message on this\npage will update."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/guest/guest-message-status-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/guest/guest-message-status-desktop-light-fold.png?raw=true",
         alt: "Status dropdown options"
       })
     })]

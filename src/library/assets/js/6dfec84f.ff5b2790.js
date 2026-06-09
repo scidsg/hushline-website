@@ -83,7 +83,7 @@ function _createMdxContent(props) {
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/guest/guest-register-desktop-light-fold.png",
+        src: "https://raw.githubusercontent.com/scidsg/hushline-screenshots/refs/heads/main/releases/latest/guest/guest-register-desktop-light-fold.png",
         alt: "Register and Login"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsxs)(_components.p, {

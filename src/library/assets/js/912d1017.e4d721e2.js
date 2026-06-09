@@ -88,7 +88,7 @@ function _createMdxContent(props) {
       children: "Add a clear bio, extra links, or your Signal username to help your community."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/newman/auth-newman-onboarding-profile-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/newman/auth-newman-onboarding-profile-desktop-light-fold.png?raw=true",
         alt: "Settings"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -98,7 +98,7 @@ function _createMdxContent(props) {
       children: "Add an encryption key so you can receive messages securely:"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/newman/auth-newman-onboarding-encryption-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/newman/auth-newman-onboarding-encryption-desktop-light-fold.png?raw=true",
         alt: "Encryption settings wireframe"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -108,7 +108,7 @@ function _createMdxContent(props) {
       children: "Forward messages so you don’t have to log back in. If you imported a key from Proton in the previous step, you should use the same email address here."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/newman/auth-newman-onboarding-notifications-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/newman/auth-newman-onboarding-notifications-desktop-light-fold.png?raw=true",
         alt: "Email"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -118,7 +118,7 @@ function _createMdxContent(props) {
       children: "Opt-in to the public user directory so whistleblowers can find your account."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/newman/auth-newman-onboarding-directory-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/newman/auth-newman-onboarding-directory-desktop-light-fold.png?raw=true",
         alt: "Directory"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -130,7 +130,7 @@ function _createMdxContent(props) {
       }), " link in the header."]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/newman/auth-newman-inbox-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/newman/auth-newman-inbox-desktop-light-fold.png?raw=true",
         alt: "Empty Inbox"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsxs)(_components.p, {

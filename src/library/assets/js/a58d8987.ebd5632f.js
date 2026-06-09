@@ -72,7 +72,7 @@ function _createMdxContent(props) {
       }), ", update your Display Name for authenticity. (Changing it later will remove verified status.)"]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-settings-profile-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-settings-profile-desktop-light-fold.png?raw=true",
         alt: "Settings"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -82,7 +82,7 @@ function _createMdxContent(props) {
       children: "Add your LinkedIn, website, or other professional profiles in your bio’s extra fields for multi-channel verification."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/artvandelay/auth-artvandelay-settings-profile-desktop-light-window-02.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/artvandelay/auth-artvandelay-settings-profile-desktop-light-window-02.png?raw=true",
         alt: "Extra URL fields"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -97,7 +97,7 @@ function _createMdxContent(props) {
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/guest/guest-profile-admin-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/guest/guest-profile-admin-desktop-light-fold.png?raw=true",
         alt: "Message verification"
       })
     })]

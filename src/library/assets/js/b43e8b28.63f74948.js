@@ -18,7 +18,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-using-your-tip-line-tools-vision-assistant-md-b43.json
-const site_docs_using_your_tip_line_tools_vision_assistant_md_b43_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"using-your-tip-line/tools/vision-assistant","title":"Vision Assistant","description":"Route: /vision","source":"@site/docs/using-your-tip-line/tools/vision-assistant.md","sourceDirName":"using-your-tip-line/tools","slug":"/using-your-tip-line/tools/vision-assistant","permalink":"/library/docs/using-your-tip-line/tools/vision-assistant","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-your-tip-line/tools/vision-assistant.md","tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"id":"vision-assistant","title":"Vision Assistant","sidebar_position":2},"sidebar":"tutorialSidebar","previous":{"title":"Email Validation","permalink":"/library/docs/using-your-tip-line/tools/email-validation"},"next":{"title":"Field Encryption","permalink":"/library/docs/using-your-tip-line/field-encryption"}}');
+const site_docs_using_your_tip_line_tools_vision_assistant_md_b43_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"using-your-tip-line/tools/vision-assistant","title":"Vision Assistant","description":"Route: /vision","source":"@site/docs/using-your-tip-line/tools/vision-assistant.md","sourceDirName":"using-your-tip-line/tools","slug":"/using-your-tip-line/tools/vision-assistant","permalink":"/library/docs/using-your-tip-line/tools/vision-assistant","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-your-tip-line/tools/vision-assistant.md","tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"id":"vision-assistant","title":"Vision Assistant","sidebar_position":2},"sidebar":"tutorialSidebar","previous":{"title":"Email Validation","permalink":"/library/docs/using-your-tip-line/tools/email-validation"},"next":{"title":"Message Statuses","permalink":"/library/docs/using-your-tip-line/message-statuses"}}');
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -79,7 +79,7 @@ function _createMdxContent(props) {
       children: "Vision Assistant is a browser-based OCR tool that extracts searchable text from uploaded images."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/admin/auth-admin-tools-vision-assistant-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/admin/auth-admin-tools-vision-assistant-desktop-light-fold.png?raw=true",
         alt: "Vision Assistant"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {

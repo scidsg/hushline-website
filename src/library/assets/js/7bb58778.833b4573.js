@@ -96,7 +96,7 @@ function _createMdxContent(props) {
       children: "Paste raw email headers and Hush Line analyzes available authentication artifacts to help determine whether an email appears to originate from the stated sender."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/admin/auth-admin-tools-email-validation-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/admin/auth-admin-tools-email-validation-desktop-light-fold.png?raw=true",
         alt: "Email Validation"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -154,7 +154,7 @@ function _createMdxContent(props) {
       children: "Authentic Email Example"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/admin/auth-admin-tools-email-validation-status-valid-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/admin/auth-admin-tools-email-validation-status-valid-desktop-light-fold.png?raw=true",
         alt: "Successful Email Validation"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -162,7 +162,7 @@ function _createMdxContent(props) {
       children: "Inauthentic Email Example"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/admin/auth-admin-tools-email-validation-status-inauthentic-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/admin/auth-admin-tools-email-validation-status-inauthentic-desktop-light-fold.png?raw=true",
         alt: "Inauthentic Email"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -170,7 +170,7 @@ function _createMdxContent(props) {
       children: "Forged Email Example"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        src: "/assets/img/screenshots/current/admin/auth-admin-tools-email-validation-status-forged-desktop-light-fold.png",
+        src: "https://github.com/scidsg/hushline-screenshots/blob/main/releases/latest/admin/auth-admin-tools-email-validation-status-forged-desktop-light-fold.png?raw=true",
         alt: "Forged Email"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
