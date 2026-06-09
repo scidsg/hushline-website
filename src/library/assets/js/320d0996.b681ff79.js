@@ -1355,76 +1355,22 @@ function _createMdxContent(props) {
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
       id: "raw-data-you-can-audit",
       children: "Raw data you can audit"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "A credible version of this study cannot ask readers to trust the charts alone.\nWe are publishing the redacted evidence files used to produce the article:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.table, {
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.thead, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.th, {
-            children: "Artifact"
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.th, {
-            children: "What it contains"
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.th, {
-            children: "Why it matters"
-          })]
-        })
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tbody, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
-              href: "pathname:///data/contact-form-study-2026.json",
-              children: "Full redacted JSON output"
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: "Metadata, summary counts, and one record for each of the 500 ranked domains"
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: "This is the canonical evidence file. It includes homepage/contact-page status, selected contact links, form metadata, script hosts, CSP checks, canary-request summaries, and scoring fields."
-          })]
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
-              href: "pathname:///data/contact-form-study-2026-assessed-implementations.csv",
-              children: "Deduped assessed-implementation CSV"
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.td, {
-            children: ["One row per unique assessed form implementation, deduped by ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-              children: "formFingerprint"
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: "This is the easiest file for checking the headline denominator of 20 and the pass/fail columns behind each chart."
-          })]
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
-              href: "pathname:///data/contact-form-study-2026-tranco-XLPJN-top500.csv",
-              children: "Tranco top-500 input CSV"
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.td, {
-            children: ["The fixed ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-              children: "XLPJN"
-            }), " ranking snapshot used as crawl input"]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: "This lets reviewers confirm the starting population and rerun the study against the same ranked domains."
-          })]
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
-              href: "https://github.com/scidsg/hushline-docs/blob/main/docs/scripts/contact-form-study.mjs",
-              children: "Study runner"
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: "The non-submitting browser measurement script"
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
-            children: "This documents how pages were selected, filled with synthetic values, scored, and redacted."
-          })]
-        })]
-      })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
-      children: ["The published files intentionally do ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-        children: "not"
-      }), " include screenshots, raw request\nbodies, cookies, tokens, browser storage, or complete response headers. The goal\nis reproducibility without publishing sensitive byproducts from third-party\nsites. Canary request records are reduced to host, path, method, resource type,\nand matched synthetic field type."]
+      children: ["The complete redacted output is available as\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "pathname:///data/contact-form-study-2026.json",
+        children: "JSON data"
+      }), ", an\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "pathname:///data/contact-form-study-2026-assessed-implementations.csv",
+        children: "assessed-implementations CSV"
+      }), ",\nand the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "pathname:///data/contact-form-study-2026-tranco-XLPJN-top500.csv",
+        children: "fixed top-500 ranking snapshot CSV"
+      }), ".\nThe\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "https://github.com/scidsg/hushline-docs/blob/main/docs/scripts/contact-form-study.mjs",
+        children: "study runner"
+      }), "\nand fixed ranking snapshot are included in the documentation repository."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "The main fields behind the claims are:"
+      children: "The exact fields behind the headline claims are:"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.table, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.thead, {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
@@ -1675,16 +1621,17 @@ function _createMdxContent(props) {
           children: "Hush Line embeds have implementation evidence for that core set"
         }), " when the\nrecipient has a usable key and the deployer keeps identity fields optional."]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
-        children: ["The remaining Hush Line gaps are not architectural equivalents of the common\ncontact-form failures. They are explicit hardening and disclosure tasks:\nadding CSP ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-          children: "form-action 'self'"
-        }), " and surfacing retention/privacy language in\nthe embed."]
+        children: ["The two Hush Line follow-ups identified by the full rubric are not\narchitectural equivalents of the common contact-form failures. They are\nexplicit, observable hardening and disclosure tasks, and\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+          href: "https://github.com/scidsg/hushline/pull/2156",
+          children: "Hush Line PR #2156"
+        }), " implements\nboth."]
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "cf-study-callout",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("strong", {
           children: "Objective takeaway:"
-        }), " Hush Line is the best choice in this\ncomparison for sensitive intake because it is the only evaluated option with\na purpose-built isolated embed, recipient-key encryption evidence, no\ndependence on the host page’s marketing scripts, and a route to full rubric\ncompliance through two concrete follow-ups."]
+        }), " Hush Line is the best choice in this\ncomparison for sensitive intake because it is the only evaluated option with\na purpose-built isolated embed, recipient-key encryption evidence, no\ndependence on the host page’s marketing scripts, and a documented\nimplementation path for the two remaining observable follow-ups."]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: "This is still not a license to overclaim. A fair public claim is:"
@@ -1692,8 +1639,11 @@ function _createMdxContent(props) {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
         children: "Hush Line gives organizations an isolated, recipient-encrypted intake form\nthat addresses the biggest observable failures found in popular-site contact\nforms. In this study, no assessed conventional contact-form implementation\ndemonstrated the same combination of isolation and encryption evidence."
       }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "A claim we should avoid until the follow-ups ship is:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["A claim we should avoid until\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "https://github.com/scidsg/hushline/pull/2156",
+        children: "Hush Line PR #2156"
+      }), " is merged\nand deployed is:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.blockquote, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
         children: "Hush Line already passes every criterion in the full observable standard."
@@ -1757,19 +1707,22 @@ function _createMdxContent(props) {
           }), ".py"]
         })]
       }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Applying the full rubric to our own implementation still produced two concrete\nfollow-ups:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["Applying the full rubric to our own implementation still produced two concrete\nfollow-ups. Both are now covered by\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "https://github.com/scidsg/hushline/pull/2156",
+        children: "Hush Line PR #2156"
+      }), ":"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ol, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
-        children: ["Add an explicit ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
+        children: ["It adds an explicit ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
           children: "form-action 'self'"
         }), " directive to the Hush Line CSP."]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
-        children: "Surface a concise, linked retention and privacy explanation inside the embed."
+        children: "It surfaces a concise, linked retention and privacy explanation inside the\nembed."
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
-      children: ["Those gaps should be closed before turning this study into an unqualified “Hush\nLine passes the full observable standard” claim. The defensible value\nproposition is strong enough without that overstatement: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-        children: "Hush Line provides an\nisolated, recipient-encrypted intake component that replaces the riskiest parts\nof a typical contact-form stack, and its remaining observable gaps are specific,\nmeasurable, and fixable."
+      children: ["Until that PR is merged and deployed, this study should not make an unqualified\nproduction claim that “Hush Line passes the full observable standard.” The\ndefensible value proposition is strong enough without that overstatement:\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Hush Line provides an isolated, recipient-encrypted intake component that\nreplaces the riskiest parts of a typical contact-form stack, and the two\nremaining observable gaps now have a specific, reviewable implementation path."
       })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
       id: "conclusion",
@@ -1813,7 +1766,7 @@ function MDXContent(props = {}) {
 /***/ 7792
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/contact-form-security-study-2026","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-06-08-contact-form-security-study/index.mdx","source":"@site/blog/2026-06-08-contact-form-security-study/index.mdx","title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","description":"A reproducible browser study of contact-form submission routes, other-domain scripts, early data transmission, identity requirements, browser guardrails, retention transparency, and end-to-end encryption.","date":"2026-06-08T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":32.38,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"contact-form-security-study-2026","title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","description":"A reproducible browser study of contact-form submission routes, other-domain scripts, early data transmission, identity requirements, browser guardrails, retention transparency, and end-to-end encryption.","authors":["gsorrentino"],"tags":["hushline"]},"unlisted":false,"nextItem":{"title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","permalink":"/library/blog/crypto-modernization-whitepaper"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/contact-form-security-study-2026","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-06-08-contact-form-security-study/index.mdx","source":"@site/blog/2026-06-08-contact-form-security-study/index.mdx","title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","description":"A reproducible browser study of contact-form submission routes, other-domain scripts, early data transmission, identity requirements, browser guardrails, retention transparency, and end-to-end encryption.","date":"2026-06-08T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":31.72,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"contact-form-security-study-2026","title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","description":"A reproducible browser study of contact-form submission routes, other-domain scripts, early data transmission, identity requirements, browser guardrails, retention transparency, and end-to-end encryption.","authors":["gsorrentino"],"tags":["hushline"]},"unlisted":false,"nextItem":{"title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","permalink":"/library/blog/crypto-modernization-whitepaper"}}');
 
 /***/ },
 
