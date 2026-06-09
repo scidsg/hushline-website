@@ -1620,8 +1620,6 @@ function _createMdxContent(props) {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
           children: "Hush Line embeds have implementation evidence for that core set"
         }), " when the\nrecipient has a usable key and the deployer keeps identity fields optional."]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
-        children: "The two Hush Line follow-ups identified by the full rubric are not\narchitectural equivalents of the common contact-form failures. They are\nexplicit, observable hardening and disclosure controls that Hush Line now\nincludes."
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "cf-study-callout",
@@ -1708,20 +1706,6 @@ function _createMdxContent(props) {
           children: "hushline/templates/embed_profile.html"
         })]
       }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Applying the full rubric to our own implementation still produced two concrete\nhardening requirements. Hush Line now covers both:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ol, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
-        children: ["It applies an explicit ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-          children: "form-action"
-        }), " directive to the Hush Line CSP."]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
-        children: "It surfaces a concise, linked retention and privacy explanation inside the\nembed."
-      }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
-      children: ["That means the defensible value proposition is stronger and simpler:\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-        children: "Hush Line provides an isolated, recipient-encrypted intake component that\nreplaces the riskiest parts of a typical contact-form stack and satisfies the\nobservable sensitive-intake controls used in this study when recipient\nencryption is configured."
-      })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
       id: "conclusion",
       children: "Conclusion"
@@ -1764,7 +1748,7 @@ function MDXContent(props = {}) {
 /***/ 7792
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/contact-form-security-study-2026","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-06-08-contact-form-security-study/index.mdx","source":"@site/blog/2026-06-08-contact-form-security-study/index.mdx","title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","description":"A reproducible browser study of contact-form submission routes, other-domain scripts, early data transmission, identity requirements, browser guardrails, retention transparency, and end-to-end encryption.","date":"2026-06-08T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":31.6,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"contact-form-security-study-2026","title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","description":"A reproducible browser study of contact-form submission routes, other-domain scripts, early data transmission, identity requirements, browser guardrails, retention transparency, and end-to-end encryption.","authors":["gsorrentino"],"tags":["hushline"]},"unlisted":false,"nextItem":{"title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","permalink":"/library/blog/crypto-modernization-whitepaper"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/contact-form-security-study-2026","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-06-08-contact-form-security-study/index.mdx","source":"@site/blog/2026-06-08-contact-form-security-study/index.mdx","title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","description":"A reproducible browser study of contact-form submission routes, other-domain scripts, early data transmission, identity requirements, browser guardrails, retention transparency, and end-to-end encryption.","date":"2026-06-08T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":30.98,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"contact-form-security-study-2026","title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","description":"A reproducible browser study of contact-form submission routes, other-domain scripts, early data transmission, identity requirements, browser guardrails, retention transparency, and end-to-end encryption.","authors":["gsorrentino"],"tags":["hushline"]},"unlisted":false,"nextItem":{"title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","permalink":"/library/blog/crypto-modernization-whitepaper"}}');
 
 /***/ },
 
