@@ -825,6 +825,56 @@ not fear.</p>]]></content:encoded>
             <category>Hush Line</category>
         </item>
         <item>
+            <title><![CDATA[How Recipients Can Get Encryption Working Faster With Proton Key Lookup]]></title>
+            <link>https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup</link>
+            <guid>https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup</guid>
+            <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.]]></description>
+            <content:encoded><![CDATA[<p>For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.</p>
+<p>Hush Line reduces that friction during onboarding by letting recipients import a Proton public key directly from Proton instead of manually exporting and pasting a PGP key. That keeps the setup path shorter while preserving the strong default that messages should be end-to-end encrypted before a tip line is shared publicly.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-real-world-scenario">The Real-World Scenario<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#the-real-world-scenario" class="hash-link" aria-label="Direct link to The Real-World Scenario" title="Direct link to The Real-World Scenario" translate="no">​</a></h2>
+<p>Imagine a small newsroom editor, an intake coordinator at a legal aid office, or an administrator standing up a reporting channel for the first time. They want a public Hush Line page live quickly so people can start reaching them, but they also do not want to cut corners on message security.</p>
+<p>This is exactly where manual PGP setup can slow things down. If the recipient has to stop and figure out key export steps before they have even finished basic account setup, launch gets pushed back. In practice, that means more time spent in configuration and less time getting a working intake channel in front of the people who need it.</p>
+<p><img decoding="async" loading="lazy" alt="Hush Line onboarding step for setting up encryption with Proton email search" src="https://hushline.app/library/assets/images/auth-newman-onboarding-encryption-desktop-light-fold-1d4155bb73da671c28f6e0f85669e9a0.png" width="1000" height="800" class="img_ev3q"></p>
+<p><em>During onboarding, recipients can search for a Proton email address and import the public key without leaving the setup flow.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-proton-key-lookup-helps">Where Proton Key Lookup Helps<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#where-proton-key-lookup-helps" class="hash-link" aria-label="Direct link to Where Proton Key Lookup Helps" title="Direct link to Where Proton Key Lookup Helps" translate="no">​</a></h2>
+<p>Hush Line's documented account setup flow includes a Proton-specific shortcut in <strong>Settings &gt; Encryption &gt; Proton Key Import</strong>. Instead of manually pasting a public key, the recipient can enter their Proton email address and click <strong>Search Proton</strong>.</p>
+<p>That matters because it removes a fragile early step from onboarding:</p>
+<ul>
+<li class="">the recipient does not need to manually export a key before continuing</li>
+<li class="">the encryption step is easier to complete during the initial setup flow</li>
+<li class="">the account is more likely to be ready before the tip line is shared</li>
+</ul>
+<p>For teams trying to launch quickly, that is a practical improvement, not a cosmetic one. The easier it is to finish encryption correctly, the less temptation there is to "come back to it later."</p>
+<p><img decoding="async" loading="lazy" alt="Hush Line settings page showing Proton key import inside the Encryption tab" src="https://hushline.app/library/assets/images/auth-newman-settings-encryption-mobile-light-fold-57fcaacb723bdd1eb14162c59f81cc62.png" width="1170" height="2532" class="img_ev3q"></p>
+<p><em>The same Proton key import flow remains available later in Settings, so recipients can finish or revise encryption setup after onboarding.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-practical-fast-launch-workflow">A Practical Fast-Launch Workflow<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#a-practical-fast-launch-workflow" class="hash-link" aria-label="Direct link to A Practical Fast-Launch Workflow" title="Direct link to A Practical Fast-Launch Workflow" translate="no">​</a></h2>
+<p>For a new recipient who wants to get a secure Hush Line page live quickly, the shortest documented path looks like this:</p>
+<ol>
+<li class="">Complete the onboarding flow, or return to it later from the <strong>Account Setup</strong> link in the header if it was skipped.</li>
+<li class="">Add profile details so the public page clearly identifies who the line is for.</li>
+<li class="">In <strong>Settings &gt; Encryption</strong>, use <strong>Proton Key Import</strong>, enter the Proton address, and click <strong>Search Proton</strong>.</li>
+<li class="">In message forwarding, use that same Proton email address so messages are delivered to the inbox tied to the imported key.</li>
+<li class="">In <strong>Settings &gt; Authentication &gt; Two-Factor Authentication</strong>, enable 2FA before treating the account as fully operational.</li>
+</ol>
+<p>That sequence keeps setup focused on the essentials: identity, encryption, delivery, and account protection.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="faster-setup-still-supports-strong-defaults">Faster Setup Still Supports Strong Defaults<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#faster-setup-still-supports-strong-defaults" class="hash-link" aria-label="Direct link to Faster Setup Still Supports Strong Defaults" title="Direct link to Faster Setup Still Supports Strong Defaults" translate="no">​</a></h2>
+<p>Speed only helps if it does not weaken the baseline. Hush Line's setup guidance does not frame Proton lookup as a shortcut around encryption. It is a faster way to complete the encryption step that recipients already need.</p>
+<p>That distinction matters for operational teams. A lawyer or newsroom administrator may need to get a tip line online quickly, but they still need messages delivered securely and the account protected with 2FA. Faster key setup reduces launch friction without changing those requirements.</p>
+<p>It also makes onboarding easier for people who are not PGP experts. A recipient can get through the initial configuration with fewer opportunities to make mistakes, while still ending up with an account that is prepared to receive encrypted messages.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-this-matters-on-day-one">Why This Matters On Day One<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#why-this-matters-on-day-one" class="hash-link" aria-label="Direct link to Why This Matters On Day One" title="Direct link to Why This Matters On Day One" translate="no">​</a></h2>
+<p>The first day of a secure intake channel is usually messy. People are still writing profile copy, deciding who monitors messages, and testing whether forwarding works. That is precisely when unnecessary setup friction does the most damage.</p>
+<p>Proton key lookup helps new recipients get to a working state faster:</p>
+<ul>
+<li class="">encryption is easier to finish during onboarding</li>
+<li class="">forwarding setup stays aligned with the same Proton address</li>
+<li class="">the account can be secured with 2FA before launch</li>
+<li class="">the public tip line can be shared with fewer unresolved setup tasks</li>
+</ul>
+<p>For journalists, lawyers, and administrators, that is the real benefit. Hush Line makes it easier to launch a secure intake page quickly without treating secure defaults as optional.</p>]]></content:encoded>
+            <category>Hush Line</category>
+        </item>
+        <item>
             <title><![CDATA[How Security Teams Can Investigate Suspicious Email With Better Context]]></title>
             <link>https://hushline.app/library/blog/how-security-teams-can-investigate-suspicious-email-with-better-context</link>
             <guid>https://hushline.app/library/blog/how-security-teams-can-investigate-suspicious-email-with-better-context</guid>
@@ -885,116 +935,6 @@ not fear.</p>]]></content:encoded>
             <category>Hush Line</category>
         </item>
         <item>
-            <title><![CDATA[How Recipients Can Get Encryption Working Faster With Proton Key Lookup]]></title>
-            <link>https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup</link>
-            <guid>https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup</guid>
-            <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.]]></description>
-            <content:encoded><![CDATA[<p>For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.</p>
-<p>Hush Line reduces that friction during onboarding by letting recipients import a Proton public key directly from Proton instead of manually exporting and pasting a PGP key. That keeps the setup path shorter while preserving the strong default that messages should be end-to-end encrypted before a tip line is shared publicly.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-real-world-scenario">The Real-World Scenario<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#the-real-world-scenario" class="hash-link" aria-label="Direct link to The Real-World Scenario" title="Direct link to The Real-World Scenario" translate="no">​</a></h2>
-<p>Imagine a small newsroom editor, an intake coordinator at a legal aid office, or an administrator standing up a reporting channel for the first time. They want a public Hush Line page live quickly so people can start reaching them, but they also do not want to cut corners on message security.</p>
-<p>This is exactly where manual PGP setup can slow things down. If the recipient has to stop and figure out key export steps before they have even finished basic account setup, launch gets pushed back. In practice, that means more time spent in configuration and less time getting a working intake channel in front of the people who need it.</p>
-<p><img decoding="async" loading="lazy" alt="Hush Line onboarding step for setting up encryption with Proton email search" src="https://hushline.app/library/assets/images/auth-newman-onboarding-encryption-desktop-light-fold-bf8bce0f171d2a1bf9bef39b121d980b.png" width="1000" height="800" class="img_ev3q"></p>
-<p><em>During onboarding, recipients can search for a Proton email address and import the public key without leaving the setup flow.</em></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-proton-key-lookup-helps">Where Proton Key Lookup Helps<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#where-proton-key-lookup-helps" class="hash-link" aria-label="Direct link to Where Proton Key Lookup Helps" title="Direct link to Where Proton Key Lookup Helps" translate="no">​</a></h2>
-<p>Hush Line's documented account setup flow includes a Proton-specific shortcut in <strong>Settings &gt; Encryption &gt; Proton Key Import</strong>. Instead of manually pasting a public key, the recipient can enter their Proton email address and click <strong>Search Proton</strong>.</p>
-<p>That matters because it removes a fragile early step from onboarding:</p>
-<ul>
-<li class="">the recipient does not need to manually export a key before continuing</li>
-<li class="">the encryption step is easier to complete during the initial setup flow</li>
-<li class="">the account is more likely to be ready before the tip line is shared</li>
-</ul>
-<p>For teams trying to launch quickly, that is a practical improvement, not a cosmetic one. The easier it is to finish encryption correctly, the less temptation there is to "come back to it later."</p>
-<p><img decoding="async" loading="lazy" alt="Hush Line settings page showing Proton key import inside the Encryption tab" src="https://hushline.app/library/assets/images/auth-newman-settings-encryption-mobile-light-fold-57fcaacb723bdd1eb14162c59f81cc62.png" width="1170" height="2532" class="img_ev3q"></p>
-<p><em>The same Proton key import flow remains available later in Settings, so recipients can finish or revise encryption setup after onboarding.</em></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-practical-fast-launch-workflow">A Practical Fast-Launch Workflow<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#a-practical-fast-launch-workflow" class="hash-link" aria-label="Direct link to A Practical Fast-Launch Workflow" title="Direct link to A Practical Fast-Launch Workflow" translate="no">​</a></h2>
-<p>For a new recipient who wants to get a secure Hush Line page live quickly, the shortest documented path looks like this:</p>
-<ol>
-<li class="">Complete the onboarding flow, or return to it later from the <strong>Account Setup</strong> link in the header if it was skipped.</li>
-<li class="">Add profile details so the public page clearly identifies who the line is for.</li>
-<li class="">In <strong>Settings &gt; Encryption</strong>, use <strong>Proton Key Import</strong>, enter the Proton address, and click <strong>Search Proton</strong>.</li>
-<li class="">In message forwarding, use that same Proton email address so messages are delivered to the inbox tied to the imported key.</li>
-<li class="">In <strong>Settings &gt; Authentication &gt; Two-Factor Authentication</strong>, enable 2FA before treating the account as fully operational.</li>
-</ol>
-<p>That sequence keeps setup focused on the essentials: identity, encryption, delivery, and account protection.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="faster-setup-still-supports-strong-defaults">Faster Setup Still Supports Strong Defaults<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#faster-setup-still-supports-strong-defaults" class="hash-link" aria-label="Direct link to Faster Setup Still Supports Strong Defaults" title="Direct link to Faster Setup Still Supports Strong Defaults" translate="no">​</a></h2>
-<p>Speed only helps if it does not weaken the baseline. Hush Line's setup guidance does not frame Proton lookup as a shortcut around encryption. It is a faster way to complete the encryption step that recipients already need.</p>
-<p>That distinction matters for operational teams. A lawyer or newsroom administrator may need to get a tip line online quickly, but they still need messages delivered securely and the account protected with 2FA. Faster key setup reduces launch friction without changing those requirements.</p>
-<p>It also makes onboarding easier for people who are not PGP experts. A recipient can get through the initial configuration with fewer opportunities to make mistakes, while still ending up with an account that is prepared to receive encrypted messages.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-this-matters-on-day-one">Why This Matters On Day One<a href="https://hushline.app/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup#why-this-matters-on-day-one" class="hash-link" aria-label="Direct link to Why This Matters On Day One" title="Direct link to Why This Matters On Day One" translate="no">​</a></h2>
-<p>The first day of a secure intake channel is usually messy. People are still writing profile copy, deciding who monitors messages, and testing whether forwarding works. That is precisely when unnecessary setup friction does the most damage.</p>
-<p>Proton key lookup helps new recipients get to a working state faster:</p>
-<ul>
-<li class="">encryption is easier to finish during onboarding</li>
-<li class="">forwarding setup stays aligned with the same Proton address</li>
-<li class="">the account can be secured with 2FA before launch</li>
-<li class="">the public tip line can be shared with fewer unresolved setup tasks</li>
-</ul>
-<p>For journalists, lawyers, and administrators, that is the real benefit. Hush Line makes it easier to launch a secure intake page quickly without treating secure defaults as optional.</p>]]></content:encoded>
-            <category>Hush Line</category>
-        </item>
-        <item>
-            <title><![CDATA[What Boards and Ethics Offices Should Put on a Tip Line Before Launch]]></title>
-            <link>https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch</link>
-            <guid>https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch</guid>
-            <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[A board committee or ethics office can do a lot of internal preparation before launching a public reporting channel: decide who monitors it, review policy language, and agree on escalation paths. But the first practical test often happens earlier. A whistleblower opens the page and has to decide, in a few seconds, whether this is the right place to report and whether the organization behind it looks prepared to receive a serious message.]]></description>
-            <content:encoded><![CDATA[<p>A board committee or ethics office can do a lot of internal preparation before launching a public reporting channel: decide who monitors it, review policy language, and agree on escalation paths. But the first practical test often happens earlier. A whistleblower opens the page and has to decide, in a few seconds, whether this is the right place to report and whether the organization behind it looks prepared to receive a serious message.</p>
-<p>That is why launch work should not stop at creating an account. Hush Line gives recipients a shareable public tip line, profile setup fields for identity and supporting links, support for custom onboarding and whistleblower guidance, and custom branding that can make the page feel like an official part of the reporting program. Together, those features help employers, boards, and ethics offices set expectations clearly before the first message is typed.</p>
-<p><img decoding="async" loading="lazy" alt="Public Hush Line page with custom guidance before message submission" src="https://hushline.app/library/assets/images/guest-profile-artvandelay-custom-form-desktop-light-fold-0df960abe2947b012ff590839334ff44.png" width="1000" height="800" class="img_ev3q"></p>
-<p><em>A public tip line can carry recipient-specific guidance so reporters see context before they begin a submission.</em></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="start-with-the-questions-a-reporter-will-ask">Start With The Questions A Reporter Will Ask<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#start-with-the-questions-a-reporter-will-ask" class="hash-link" aria-label="Direct link to Start With The Questions A Reporter Will Ask" title="Direct link to Start With The Questions A Reporter Will Ask" translate="no">​</a></h2>
-<p>When someone lands on a board or ethics reporting page, they usually want immediate answers to a short list of questions:</p>
-<ul>
-<li class="">Who is receiving this?</li>
-<li class="">What kinds of concerns belong here?</li>
-<li class="">What details will help the recipient act on the report?</li>
-<li class="">Is this an official channel, or just an unattended form?</li>
-</ul>
-<p>If the page does not answer those questions up front, the reporter has to guess. That creates avoidable hesitation at exactly the wrong point in the process.</p>
-<p>Hush Line's support for custom onboarding and whistleblower guidance matters here because it gives organizations a way to put instructions on the public-facing tip line itself. For a board or ethics office, that guidance can be used to explain the intended scope of the channel before someone starts writing. In practice, that might mean clarifying that the line is for fraud, conflicts of interest, harassment, retaliation, procurement concerns, or other issues the office is responsible for reviewing.</p>
-<p>That does not replace internal policy. It makes the public entry point easier to understand.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="profile-setup-is-part-of-launch-not-decoration">Profile Setup Is Part Of Launch, Not Decoration<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#profile-setup-is-part-of-launch-not-decoration" class="hash-link" aria-label="Direct link to Profile Setup Is Part Of Launch, Not Decoration" title="Direct link to Profile Setup Is Part Of Launch, Not Decoration" translate="no">​</a></h2>
-<p>The profile is where a recipient can add a clear bio and extra links. In the getting-started flow, Hush Line explicitly prompts new users to add information about themselves so their community has context before reaching out.</p>
-<p>For employers and boards, this is more than a credibility detail. It is how the public page signals that the reporting channel belongs to a real office with a defined purpose.</p>
-<p>Useful profile details for this kind of launch can include:</p>
-<ul>
-<li class="">the name of the board committee, ethics office, or reporting function</li>
-<li class="">a short explanation of what the channel is for</li>
-<li class="">links to a public governance page, code of conduct, or reporting policy</li>
-<li class="">contact references that help confirm the page is official</li>
-</ul>
-<p>Those details make the tip line easier to trust. Combined with Hush Line's custom branding, they help the public page look intentional rather than improvised. They also reduce vague or misdirected submissions because people can see, before sending anything, whether they are in the right place.</p>
-<p><img decoding="async" loading="lazy" alt="Hush Line onboarding step for adding recipient information to a profile" src="https://hushline.app/library/assets/images/auth-newman-onboarding-profile-mobile-light-fold-47c887d1128005af16bb99b640af6c24.png" width="1170" height="2532" class="img_ev3q"></p>
-<p><em>During onboarding, recipients are prompted to add identifying profile information before treating the account as launch-ready.</em></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-shareable-tip-line-only-helps-if-the-page-is-ready">A Shareable Tip Line Only Helps If The Page Is Ready<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#a-shareable-tip-line-only-helps-if-the-page-is-ready" class="hash-link" aria-label="Direct link to A Shareable Tip Line Only Helps If The Page Is Ready" title="Direct link to A Shareable Tip Line Only Helps If The Page Is Ready" translate="no">​</a></h2>
-<p>Hush Line's sharing guidance is straightforward: once the account is prepared, copy the public profile URL and add it to places people already look for contact information, including a website, email signature, and social media. Recipients can also opt in to the public user directory so whistleblowers can find them there.</p>
-<p>For a board or ethics office, that means the launch sequence should be deliberate:</p>
-<ol>
-<li class="">Complete the profile so the page identifies the recipient clearly.</li>
-<li class="">Add public guidance so the tip line explains what the office wants people to know before reporting.</li>
-<li class="">Decide whether the public user directory supports the organization's discovery needs.</li>
-<li class="">Only then publish the shareable URL across the channels where employees, vendors, or members of the public will encounter it.</li>
-</ol>
-<p>This order matters because the shareable link is not just a technical endpoint. It is the public front door to the reporting process. Once it appears on a governance page or in an email footer, people will judge the seriousness of the channel by what they see there.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-this-matters-operationally">Why This Matters Operationally<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#why-this-matters-operationally" class="hash-link" aria-label="Direct link to Why This Matters Operationally" title="Direct link to Why This Matters Operationally" translate="no">​</a></h2>
-<p>Boards and ethics offices often focus on what happens after a report arrives: routing, confidentiality, triage, and follow-up. Those are important questions. But the launch page shapes report quality before any of that begins.</p>
-<p>If the page is specific, a reporter has a better chance of choosing the right channel and providing useful context. If the page is generic, the organization creates unnecessary ambiguity on day one.</p>
-<p>Hush Line helps close that gap in a practical way:</p>
-<ul>
-<li class="">the profile gives the recipient a clear identity</li>
-<li class="">custom guidance lets the office set expectations before submission</li>
-<li class="">custom branding helps the page read as an official channel</li>
-<li class="">the shareable public URL makes it easy to publish the channel once the page is ready</li>
-</ul>
-<p>For employers and boards, that combination is what makes a tip line feel operational instead of merely available.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-practical-takeaway">The Practical Takeaway<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#the-practical-takeaway" class="hash-link" aria-label="Direct link to The Practical Takeaway" title="Direct link to The Practical Takeaway" translate="no">​</a></h2>
-<p>Before a board or ethics office launches a Hush Line publicly, it should treat the tip line page as part of the reporting program itself. The page should identify the recipient, explain the channel's purpose, and give reporters enough guidance to start well.</p>
-<p>Hush Line's profile setup, public guidance, and shareable tip line make that possible without requiring a separate app or account from the person reporting. That is the practical value before launch: the first screen already does part of the intake work.</p>]]></content:encoded>
-            <category>Hush Line</category>
-        </item>
-        <item>
             <title><![CDATA[Small Usability Details That Matter When Reporting Under Stress]]></title>
             <link>https://hushline.app/library/blog/small-usability-details-that-matter-when-reporting-under-stress</link>
             <guid>https://hushline.app/library/blog/small-usability-details-that-matter-when-reporting-under-stress</guid>
@@ -1002,7 +942,7 @@ not fear.</p>]]></content:encoded>
             <description><![CDATA[When people evaluate secure reporting tools, they usually talk about encryption, anonymity, or whether a service supports Tor. Those things matter. But organizers and activists often run into a different problem first: if the interface is uncomfortable, confusing, or hard to use on a phone, people stop using it when the pressure is on.]]></description>
             <content:encoded><![CDATA[<p>When people evaluate secure reporting tools, they usually talk about encryption, anonymity, or whether a service supports Tor. Those things matter. But organizers and activists often run into a different problem first: if the interface is uncomfortable, confusing, or hard to use on a phone, people stop using it when the pressure is on.</p>
 <p>That sounds minor until you think about what real reporting conditions look like. Someone may be checking a disclosure late at night, on a dim screen, while traveling, or in the middle of a tense situation where attention span is already low. In those moments, usability is part of operational safety. A workflow that feels fragile or exhausting gets abandoned quickly, even if the underlying security model is solid.</p>
-<p><img decoding="async" loading="lazy" alt="Desktop view of a Hush Line public tip line form" src="https://hushline.app/library/assets/images/guest-profile-artvandelay-custom-form-desktop-light-fold-0df960abe2947b012ff590839334ff44.png" width="1000" height="800" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Desktop view of a Hush Line public tip line form" src="https://hushline.app/library/assets/images/guest-profile-artvandelay-custom-form-desktop-light-fold-803b420dec5806c890a51e176e732d29.png" width="1000" height="800" class="img_ev3q"></p>
 <p><em>Desktop submitter view: a public tip line should be readable and straightforward before someone sends a sensitive message.</em></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="stress-changes-what-good-ux-means">Stress Changes What “Good UX” Means<a href="https://hushline.app/library/blog/small-usability-details-that-matter-when-reporting-under-stress#stress-changes-what-good-ux-means" class="hash-link" aria-label="Direct link to Stress Changes What “Good UX” Means" title="Direct link to Stress Changes What “Good UX” Means" translate="no">​</a></h2>
 <p>In calm conditions, people tolerate a lot. They will click around, reread labels, and hunt through settings if they have time. Under stress, that patience disappears.</p>
@@ -1044,6 +984,66 @@ not fear.</p>]]></content:encoded>
 <p>For organizers and activists, the right reporting tool is not just the one with the strongest technical claims. It is the one you can keep using when you are tired, rushed, and handling something sensitive from a phone.</p>
 <p>Hush Line’s automatic dark mode, mobile-friendly submission flow, and low-friction browser-based access help close that gap. They do not replace the importance of encryption or anonymity. They make those protections easier to live with in the real world.</p>
 <p>That is what good usability should do in a high-stress environment: remove excuses to leave the secure path.</p>]]></content:encoded>
+            <category>Hush Line</category>
+        </item>
+        <item>
+            <title><![CDATA[What Boards and Ethics Offices Should Put on a Tip Line Before Launch]]></title>
+            <link>https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch</link>
+            <guid>https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch</guid>
+            <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A board committee or ethics office can do a lot of internal preparation before launching a public reporting channel: decide who monitors it, review policy language, and agree on escalation paths. But the first practical test often happens earlier. A whistleblower opens the page and has to decide, in a few seconds, whether this is the right place to report and whether the organization behind it looks prepared to receive a serious message.]]></description>
+            <content:encoded><![CDATA[<p>A board committee or ethics office can do a lot of internal preparation before launching a public reporting channel: decide who monitors it, review policy language, and agree on escalation paths. But the first practical test often happens earlier. A whistleblower opens the page and has to decide, in a few seconds, whether this is the right place to report and whether the organization behind it looks prepared to receive a serious message.</p>
+<p>That is why launch work should not stop at creating an account. Hush Line gives recipients a shareable public tip line, profile setup fields for identity and supporting links, support for custom onboarding and whistleblower guidance, and custom branding that can make the page feel like an official part of the reporting program. Together, those features help employers, boards, and ethics offices set expectations clearly before the first message is typed.</p>
+<p><img decoding="async" loading="lazy" alt="Public Hush Line page with custom guidance before message submission" src="https://hushline.app/library/assets/images/guest-profile-artvandelay-custom-form-desktop-light-fold-803b420dec5806c890a51e176e732d29.png" width="1000" height="800" class="img_ev3q"></p>
+<p><em>A public tip line can carry recipient-specific guidance so reporters see context before they begin a submission.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="start-with-the-questions-a-reporter-will-ask">Start With The Questions A Reporter Will Ask<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#start-with-the-questions-a-reporter-will-ask" class="hash-link" aria-label="Direct link to Start With The Questions A Reporter Will Ask" title="Direct link to Start With The Questions A Reporter Will Ask" translate="no">​</a></h2>
+<p>When someone lands on a board or ethics reporting page, they usually want immediate answers to a short list of questions:</p>
+<ul>
+<li class="">Who is receiving this?</li>
+<li class="">What kinds of concerns belong here?</li>
+<li class="">What details will help the recipient act on the report?</li>
+<li class="">Is this an official channel, or just an unattended form?</li>
+</ul>
+<p>If the page does not answer those questions up front, the reporter has to guess. That creates avoidable hesitation at exactly the wrong point in the process.</p>
+<p>Hush Line's support for custom onboarding and whistleblower guidance matters here because it gives organizations a way to put instructions on the public-facing tip line itself. For a board or ethics office, that guidance can be used to explain the intended scope of the channel before someone starts writing. In practice, that might mean clarifying that the line is for fraud, conflicts of interest, harassment, retaliation, procurement concerns, or other issues the office is responsible for reviewing.</p>
+<p>That does not replace internal policy. It makes the public entry point easier to understand.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="profile-setup-is-part-of-launch-not-decoration">Profile Setup Is Part Of Launch, Not Decoration<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#profile-setup-is-part-of-launch-not-decoration" class="hash-link" aria-label="Direct link to Profile Setup Is Part Of Launch, Not Decoration" title="Direct link to Profile Setup Is Part Of Launch, Not Decoration" translate="no">​</a></h2>
+<p>The profile is where a recipient can add a clear bio and extra links. In the getting-started flow, Hush Line explicitly prompts new users to add information about themselves so their community has context before reaching out.</p>
+<p>For employers and boards, this is more than a credibility detail. It is how the public page signals that the reporting channel belongs to a real office with a defined purpose.</p>
+<p>Useful profile details for this kind of launch can include:</p>
+<ul>
+<li class="">the name of the board committee, ethics office, or reporting function</li>
+<li class="">a short explanation of what the channel is for</li>
+<li class="">links to a public governance page, code of conduct, or reporting policy</li>
+<li class="">contact references that help confirm the page is official</li>
+</ul>
+<p>Those details make the tip line easier to trust. Combined with Hush Line's custom branding, they help the public page look intentional rather than improvised. They also reduce vague or misdirected submissions because people can see, before sending anything, whether they are in the right place.</p>
+<p><img decoding="async" loading="lazy" alt="Hush Line onboarding step for adding recipient information to a profile" src="https://hushline.app/library/assets/images/auth-newman-onboarding-profile-mobile-light-fold-8064d6ce31515c8929c0cd8adb8f0af9.png" width="1170" height="2532" class="img_ev3q"></p>
+<p><em>During onboarding, recipients are prompted to add identifying profile information before treating the account as launch-ready.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-shareable-tip-line-only-helps-if-the-page-is-ready">A Shareable Tip Line Only Helps If The Page Is Ready<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#a-shareable-tip-line-only-helps-if-the-page-is-ready" class="hash-link" aria-label="Direct link to A Shareable Tip Line Only Helps If The Page Is Ready" title="Direct link to A Shareable Tip Line Only Helps If The Page Is Ready" translate="no">​</a></h2>
+<p>Hush Line's sharing guidance is straightforward: once the account is prepared, copy the public profile URL and add it to places people already look for contact information, including a website, email signature, and social media. Recipients can also opt in to the public user directory so whistleblowers can find them there.</p>
+<p>For a board or ethics office, that means the launch sequence should be deliberate:</p>
+<ol>
+<li class="">Complete the profile so the page identifies the recipient clearly.</li>
+<li class="">Add public guidance so the tip line explains what the office wants people to know before reporting.</li>
+<li class="">Decide whether the public user directory supports the organization's discovery needs.</li>
+<li class="">Only then publish the shareable URL across the channels where employees, vendors, or members of the public will encounter it.</li>
+</ol>
+<p>This order matters because the shareable link is not just a technical endpoint. It is the public front door to the reporting process. Once it appears on a governance page or in an email footer, people will judge the seriousness of the channel by what they see there.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-this-matters-operationally">Why This Matters Operationally<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#why-this-matters-operationally" class="hash-link" aria-label="Direct link to Why This Matters Operationally" title="Direct link to Why This Matters Operationally" translate="no">​</a></h2>
+<p>Boards and ethics offices often focus on what happens after a report arrives: routing, confidentiality, triage, and follow-up. Those are important questions. But the launch page shapes report quality before any of that begins.</p>
+<p>If the page is specific, a reporter has a better chance of choosing the right channel and providing useful context. If the page is generic, the organization creates unnecessary ambiguity on day one.</p>
+<p>Hush Line helps close that gap in a practical way:</p>
+<ul>
+<li class="">the profile gives the recipient a clear identity</li>
+<li class="">custom guidance lets the office set expectations before submission</li>
+<li class="">custom branding helps the page read as an official channel</li>
+<li class="">the shareable public URL makes it easy to publish the channel once the page is ready</li>
+</ul>
+<p>For employers and boards, that combination is what makes a tip line feel operational instead of merely available.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-practical-takeaway">The Practical Takeaway<a href="https://hushline.app/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch#the-practical-takeaway" class="hash-link" aria-label="Direct link to The Practical Takeaway" title="Direct link to The Practical Takeaway" translate="no">​</a></h2>
+<p>Before a board or ethics office launches a Hush Line publicly, it should treat the tip line page as part of the reporting program itself. The page should identify the recipient, explain the channel's purpose, and give reporters enough guidance to start well.</p>
+<p>Hush Line's profile setup, public guidance, and shareable tip line make that possible without requiring a separate app or account from the person reporting. That is the practical value before launch: the first screen already does part of the intake work.</p>]]></content:encoded>
             <category>Hush Line</category>
         </item>
         <item>
@@ -1416,35 +1416,6 @@ not fear.</p>]]></content:encoded>
             <category>Whistleblowing</category>
         </item>
         <item>
-            <title><![CDATA[Why You Should Never Use Work Devices To Disclose Information]]></title>
-            <link>https://hushline.app/library/blog/dont-use-work-devices</link>
-            <guid>https://hushline.app/library/blog/dont-use-work-devices</guid>
-            <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Impact Model Diagram]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Impact Model Diagram" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>
-<p>Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed.</p>
-<p>If you work at a larger organization, you've probably been asked to fill out "anonymous" surveys about team and company health, ways to improve, etc. Laughably, many times, these anonymous forms are actually logged-in Google Forms that are in no way anonymous.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="dns-monitoring">DNS Monitoring<a href="https://hushline.app/library/blog/dont-use-work-devices#dns-monitoring" class="hash-link" aria-label="Direct link to DNS Monitoring" title="Direct link to DNS Monitoring" translate="no">​</a></h2>
-<p>For remote workers, you're probably familiar with using VPNs to access work servers, email, or other internal-only things. VPNs for work allow you to operate as if you were in the office on an internal network. Here's an example from my home network's DNS logs:</p>
-<table><thead><tr><th>Time</th><th>Type</th><th>Domain</th><th>Client</th><th>Status</th><th>Response</th></tr></thead><tbody><tr><td>2025-03-16 12:18:17</td><td>A</td><td>tips.hushline.app</td><td>glenns-m3</td><td>OK (answered by localhost#5335)</td><td>IP (7.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>HTTPS</td><td>tips.hushline.app</td><td>glenns-m3</td><td>OK (answered by localhost#5335)</td><td>CNAME (141.5ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>hushline.app</td><td>glenns-m3.pivpn</td><td>OK (answered by localhost#5335)</td><td>CNAME (33.8ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>checkonline.home-assistant.io</td><td>192.168.0.166</td><td>OK (already forwarded)</td><td>N/A</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>checkonline.home-assistant.io</td><td>192.168.0.166</td><td>OK (answered by localhost#5335)</td><td>IP (7.6ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (answered by localhost#5335)</td><td>IP (7.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>AAAA</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (cache)</td><td>NODATA (0.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>AAAA</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (cache)</td><td>NODATA (0.0ms)</td></tr></tbody></table>
-<p>Since I've given my computer a custom hostname, instead of seeing an internal IP address, which&nbsp;could&nbsp;tell you a lot, I can easily find my computer with a human-readable name. Now, if someone runs a company and receives a report of serious allegations of wrongdoing, they can do one of a few things: 1. take the tip, act on it, and save lots of money, or, 2. find the person who submitted the report and "fix" the problem. Most of the time, companies choose option 2. If I access the network using a VPN, the logs are no different.</p>
-<p>So, if on March 16th at around noon, a company receives a tip that threatens to go to the press if action isn't taken, all they need to do is look back through their network logs to see who visited the tip line then. "But the system is anonymous because I didn't have to log in to submit a message!" No, sorry. "But it's end-to-end encrypted!" That only means that only the intended recipient can read the message, but in this case, I don't need to know the contents of the message; I just need to know who sent it.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-dangers-of-mdm-and-edr-software">The Dangers of MDM and EDR Software<a href="https://hushline.app/library/blog/dont-use-work-devices#the-dangers-of-mdm-and-edr-software" class="hash-link" aria-label="Direct link to The Dangers of MDM and EDR Software" title="Direct link to The Dangers of MDM and EDR Software" translate="no">​</a></h2>
-<p>Some employers ask employees to install MDM (mobile device management) software on their personal devices. DO NOT DO THIS! MDM software enables monitoring of the contents of your phone, including the ability to add or remove apps, check your contacts, monitor your location, view browsing history and network connections, and see a full list of the applications you have installed. It's basically an administrator account run by your company. Does&nbsp;any&nbsp;app your company offers have a custom keyboard? These can log your keystrokes, so switch back to a system keyboard if possible. If your company uses EDR (endpoint detection and response) software, it can log keystrokes for forensic analysis, including texts sent over any application, including Signal.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-to-do-instead">What to do Instead?<a href="https://hushline.app/library/blog/dont-use-work-devices#what-to-do-instead" class="hash-link" aria-label="Direct link to What to do Instead?" title="Direct link to What to do Instead?" translate="no">​</a></h2>
-<p>It's best to use a personal device on a private network or that you own, including your phone. Again, no corporate MDM or EDR software should be present on your device. One way to check if anything is installed currently is to check for "Profiles" in your phone's settings. Nothing from your company or anything else you don't recognize should be there.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="low-threat-scenarios">Low Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#low-threat-scenarios" class="hash-link" aria-label="Direct link to Low Threat Scenarios" title="Direct link to Low Threat Scenarios" translate="no">​</a></h3>
-<p>In most situations, people want to report non-sensitive information. Using your personal device on a non-work network is perfect for this scenario. App owners could add IP address logging, but in this case, your IP will only show general location information. If that IP address becomes caught up in illegal activity elsewhere, law enforcement could subpoena the issuing ISP for customer information.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="medium-to-high-threat-scenarios">Medium to High Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#medium-to-high-threat-scenarios" class="hash-link" aria-label="Direct link to Medium to High Threat Scenarios" title="Direct link to Medium to High Threat Scenarios" translate="no">​</a></h3>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="non-onion-services">Non-Onion Services<a href="https://hushline.app/library/blog/dont-use-work-devices#non-onion-services" class="hash-link" aria-label="Direct link to Non-Onion Services" title="Direct link to Non-Onion Services" translate="no">​</a></h4>
-<p>When someone does have reason to worry about using a tip line, including when disclosing serious issues of governmental corruption, national security, or other ethical or legal concerns, they may use our native Onion services. Using Tor Browser with an Onion service enables the highest levels of protection, because connections never leave the Tor Anonymizing Network.</p>
-<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-regular-8f67c68cc6180255aafc61c480809bad.png" width="2586" height="1066" class="img_ev3q"></p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="onion-connections">Onion Connections<a href="https://hushline.app/library/blog/dont-use-work-devices#onion-connections" class="hash-link" aria-label="Direct link to Onion Connections" title="Direct link to Onion Connections" translate="no">​</a></h4>
-<p>When you connect to a normal website on Tor Browser, it uses a volunteer computer to exit the network and connect to that website. Theoretically, the exit computer could be compromised, and the originating requester could be deanonymized. This isn't possible using a .onion address because there is no exit connecting to the normal internet.</p>
-<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>]]></content:encoded>
-            <category>Hush Line</category>
-        </item>
-        <item>
             <title><![CDATA[Hush Line's Sustainable Impact Model]]></title>
             <link>https://hushline.app/library/blog/hushline-sustainable-model</link>
             <guid>https://hushline.app/library/blog/hushline-sustainable-model</guid>
@@ -1497,6 +1468,35 @@ not fear.</p>]]></content:encoded>
 <p>This year, we'll start the formation of the new fund and assemble a governing board that will ensure the funds are used as stated in our mission goals.</p>
 <p>The individuals who oversee the fund will have a first-hand understanding of the battles people who speak up face: whistleblower lawyers, former whistleblowers, journalists, or others who support the needs of people engaging in responsible disclosure.</p>
 <p>Do you know someone who should be on the Board? <a href="https://tips.hushline.app/to/glenn" target="_blank" rel="noopener noreferrer" class="">Reach out to me on Hush Line</a>!</p>]]></content:encoded>
+            <category>Hush Line</category>
+        </item>
+        <item>
+            <title><![CDATA[Why You Should Never Use Work Devices To Disclose Information]]></title>
+            <link>https://hushline.app/library/blog/dont-use-work-devices</link>
+            <guid>https://hushline.app/library/blog/dont-use-work-devices</guid>
+            <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Impact Model Diagram]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Impact Model Diagram" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>
+<p>Whistleblowing software adoption is on the rise. Legislation requiring companies to have internal and external methods of confidential reporting is active in the EU, and states in the US, including California, require companies to publicize the State's Attorney General's Office hotline phone number. At the same time, federal whistleblower protections are eroding at breakneck speed.</p>
+<p>If you work at a larger organization, you've probably been asked to fill out "anonymous" surveys about team and company health, ways to improve, etc. Laughably, many times, these anonymous forms are actually logged-in Google Forms that are in no way anonymous.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="dns-monitoring">DNS Monitoring<a href="https://hushline.app/library/blog/dont-use-work-devices#dns-monitoring" class="hash-link" aria-label="Direct link to DNS Monitoring" title="Direct link to DNS Monitoring" translate="no">​</a></h2>
+<p>For remote workers, you're probably familiar with using VPNs to access work servers, email, or other internal-only things. VPNs for work allow you to operate as if you were in the office on an internal network. Here's an example from my home network's DNS logs:</p>
+<table><thead><tr><th>Time</th><th>Type</th><th>Domain</th><th>Client</th><th>Status</th><th>Response</th></tr></thead><tbody><tr><td>2025-03-16 12:18:17</td><td>A</td><td>tips.hushline.app</td><td>glenns-m3</td><td>OK (answered by localhost#5335)</td><td>IP (7.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>HTTPS</td><td>tips.hushline.app</td><td>glenns-m3</td><td>OK (answered by localhost#5335)</td><td>CNAME (141.5ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>hushline.app</td><td>glenns-m3.pivpn</td><td>OK (answered by localhost#5335)</td><td>CNAME (33.8ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>checkonline.home-assistant.io</td><td>192.168.0.166</td><td>OK (already forwarded)</td><td>N/A</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>checkonline.home-assistant.io</td><td>192.168.0.166</td><td>OK (answered by localhost#5335)</td><td>IP (7.6ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>A</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (answered by localhost#5335)</td><td>IP (7.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>AAAA</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (cache)</td><td>NODATA (0.0ms)</td></tr><tr><td>2025-03-16 12:18:17</td><td>AAAA</td><td>s1.openairinfo.com</td><td>192.168.0.117</td><td>OK (cache)</td><td>NODATA (0.0ms)</td></tr></tbody></table>
+<p>Since I've given my computer a custom hostname, instead of seeing an internal IP address, which&nbsp;could&nbsp;tell you a lot, I can easily find my computer with a human-readable name. Now, if someone runs a company and receives a report of serious allegations of wrongdoing, they can do one of a few things: 1. take the tip, act on it, and save lots of money, or, 2. find the person who submitted the report and "fix" the problem. Most of the time, companies choose option 2. If I access the network using a VPN, the logs are no different.</p>
+<p>So, if on March 16th at around noon, a company receives a tip that threatens to go to the press if action isn't taken, all they need to do is look back through their network logs to see who visited the tip line then. "But the system is anonymous because I didn't have to log in to submit a message!" No, sorry. "But it's end-to-end encrypted!" That only means that only the intended recipient can read the message, but in this case, I don't need to know the contents of the message; I just need to know who sent it.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-dangers-of-mdm-and-edr-software">The Dangers of MDM and EDR Software<a href="https://hushline.app/library/blog/dont-use-work-devices#the-dangers-of-mdm-and-edr-software" class="hash-link" aria-label="Direct link to The Dangers of MDM and EDR Software" title="Direct link to The Dangers of MDM and EDR Software" translate="no">​</a></h2>
+<p>Some employers ask employees to install MDM (mobile device management) software on their personal devices. DO NOT DO THIS! MDM software enables monitoring of the contents of your phone, including the ability to add or remove apps, check your contacts, monitor your location, view browsing history and network connections, and see a full list of the applications you have installed. It's basically an administrator account run by your company. Does&nbsp;any&nbsp;app your company offers have a custom keyboard? These can log your keystrokes, so switch back to a system keyboard if possible. If your company uses EDR (endpoint detection and response) software, it can log keystrokes for forensic analysis, including texts sent over any application, including Signal.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-to-do-instead">What to do Instead?<a href="https://hushline.app/library/blog/dont-use-work-devices#what-to-do-instead" class="hash-link" aria-label="Direct link to What to do Instead?" title="Direct link to What to do Instead?" translate="no">​</a></h2>
+<p>It's best to use a personal device on a private network or that you own, including your phone. Again, no corporate MDM or EDR software should be present on your device. One way to check if anything is installed currently is to check for "Profiles" in your phone's settings. Nothing from your company or anything else you don't recognize should be there.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="low-threat-scenarios">Low Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#low-threat-scenarios" class="hash-link" aria-label="Direct link to Low Threat Scenarios" title="Direct link to Low Threat Scenarios" translate="no">​</a></h3>
+<p>In most situations, people want to report non-sensitive information. Using your personal device on a non-work network is perfect for this scenario. App owners could add IP address logging, but in this case, your IP will only show general location information. If that IP address becomes caught up in illegal activity elsewhere, law enforcement could subpoena the issuing ISP for customer information.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="medium-to-high-threat-scenarios">Medium to High Threat Scenarios<a href="https://hushline.app/library/blog/dont-use-work-devices#medium-to-high-threat-scenarios" class="hash-link" aria-label="Direct link to Medium to High Threat Scenarios" title="Direct link to Medium to High Threat Scenarios" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="non-onion-services">Non-Onion Services<a href="https://hushline.app/library/blog/dont-use-work-devices#non-onion-services" class="hash-link" aria-label="Direct link to Non-Onion Services" title="Direct link to Non-Onion Services" translate="no">​</a></h4>
+<p>When someone does have reason to worry about using a tip line, including when disclosing serious issues of governmental corruption, national security, or other ethical or legal concerns, they may use our native Onion services. Using Tor Browser with an Onion service enables the highest levels of protection, because connections never leave the Tor Anonymizing Network.</p>
+<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-regular-8f67c68cc6180255aafc61c480809bad.png" width="2586" height="1066" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="onion-connections">Onion Connections<a href="https://hushline.app/library/blog/dont-use-work-devices#onion-connections" class="hash-link" aria-label="Direct link to Onion Connections" title="Direct link to Onion Connections" translate="no">​</a></h4>
+<p>When you connect to a normal website on Tor Browser, it uses a volunteer computer to exit the network and connect to that website. Theoretically, the exit computer could be compromised, and the originating requester could be deanonymized. This isn't possible using a .onion address because there is no exit connecting to the normal internet.</p>
+<p><img decoding="async" loading="lazy" alt="Tor Regular Connections" src="https://hushline.app/library/assets/images/tor-onion-62747a711df3c93bee6a06256b17eb05.png" width="1889" height="966" class="img_ev3q"></p>]]></content:encoded>
             <category>Hush Line</category>
         </item>
         <item>
