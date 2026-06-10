@@ -7,7 +7,7 @@
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/auth-artvandelay-enable-2fa-desktop-light-fold-a1460e4d362d624f6db6adba17611d3e.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/auth-artvandelay-enable-2fa-desktop-light-fold-ef2763c592884a55855c00636756bb87.png");
 
 /***/ },
 
