@@ -434,16 +434,18 @@
                                     class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Is
                                 Hush Line end-to-end encrypted?</button></h3>
                         <div class="faq-answer" id="faq2" hidden>
-                            <p>Yes! Hush Line uses <a href="https://github.com/openpgpjs/openpgpjs" target="_blank"
+                            <p>Yes! Hush Line supports end-to-end encrypted tip line messages and end-to-end encrypted chat for logged-in users.</p>
+                            <p>For tip lines, Hush Line uses <a href="https://github.com/openpgpjs/openpgpjs" target="_blank"
                                     rel="noopener noreferrer">OpenPGP.js</a> for client-side encryption, giving users
-                                who add their public PGP key end-to-end encryption for their messages. Users who disable
+                                who add their public PGP key end-to-end encryption for received messages. Users who disable
                                 JavaScript use server-side encryption.</p>
-                            <p>Adding your PGP key enables only you to have technical access to your decrypted messages.
+                            <p>Adding your PGP key enables only you to have technical access to your decrypted tip line messages.
                                 Neither the server administrators nor an attacker with access to the server can learn
                                 their contents. <a
                                     href="https://github.com/scidsg/hushline/blob/main/docs/1-getting-started.md"
                                     target="_blank" rel="noopener noreferrer">Setting up PGP is easy using our getting
                                     started guide</a>.</p>
+                            <p>For ongoing conversations, logged-in users can use Hush Line chat to send and receive end-to-end encrypted messages without sharing a phone number, email address, or off-platform contact method.</p>
                             <p>Hush Line uses TLS encryption for data in transit, message data is stored encrypted at
                                 rest on our database, and server access is limited to relevant members of the technical
                                 staff.</p>
@@ -454,18 +456,10 @@
                                     class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Is
                                 two-way communication available?</button></h3>
                         <div class="faq-answer" id="faq3" hidden>
-                            <p>If the individual submitting a message feels comfortable enough to include a contact
-                                method, they may choose to.</p>
-                            <p>For anonymous, indirect two-way communication through Hush Line, someone submitting a
-                                message may create a Hush Line account and leave the receiver their username.</p>
-                            <p>This is distinct from chatting with a known contact in your address book and returning to
-                                an ongoing message thread to jump back into a conversation.</p>
-                            <p>If having a dedicated message history is important, one solution could be for both
-                                parties to create Hush Line accounts that will only be used for that conversation.</p>
-                            <p>We strongly encourage both parties to <a
-                                    href="https://github.com/scidsg/hushline/blob/main/docs/1-getting-started.md"
-                                    target="_blank" rel="noopener noreferrer">upload their public PGP keys</a> if
-                                pursuing two-way communication through the platform.</p>
+                            <p>Yes. Hush Line supports two-way, end-to-end encrypted chat for logged-in users.</p>
+                            <p>Someone submitting a tip can still send an anonymous message without creating an account. If they want to continue the conversation, return later, or maintain a dedicated message history, they can create a Hush Line account and chat with the recipient through the platform.</p>
+                            <p>This gives both parties a safer way to continue talking without requiring a phone number, email address, Signal username, or other off-platform contact method.</p>
+                            <p>For the strongest privacy protections, we recommend both parties use Hush Line through our Onion service with Tor when their threat model requires it.</p>
                         </div>
                     </li>
                     <li>
@@ -536,14 +530,12 @@
                             <p>Signal is great, but it requires the whistleblower to download a new app, register with a
                                 valid phone number, create a username, and more. While not the largest hurdle, it is
                                 still a hurdle, placing requirements on the whistleblower before they can find help. In
-                                contrast, Hush Line is web-based and requires no account for the whistleblower or no new
-                                app downloads. It removes all hurdles from potential truth-tellers, freeing them from
-                                worrying about a new secure communication protocol and instead focusing on their message
-                                and not the technology.</p>
+                                contrast, Hush Line is web-based and requires no account or new app download to submit an initial anonymous tip.</p>
+                            <p>If both parties want to continue the conversation, logged-in Hush Line users can now use two-way, end-to-end encrypted chat through the platform. This allows a whistleblower and recipient to keep talking without immediately moving to a phone number, email address, Signal account, or another off-platform contact method.</p>
                             <p>Hush Line aims to be the first step for whistleblowers. When they don't know what to do
                                 first or next, a safe and effortless way to contact the right person should be the least
                                 of their worries. Once a baseline level of trust is established, other tools like Signal
-                                are more appropriate.</p>
+                                may still be appropriate depending on the situation.</p>
                         </div>
                     </li>
                     <li>
@@ -575,23 +567,22 @@
                                 <li>Save their account credentials.</li>
                                 <li>Check back for progress.</li>
                             </ol>
-                            <p>Hush Line is not a replacement for SecureDrop. Instead, it's for organizations who might
-                                not have the staff required to manage such a system or need nation-state levels of
-                                defense for all of their anonymous tips. We simplify our security model by being a
-                                text-only
-                                service, meaning there is no possibility of receiving files that could harm your
-                                computer or network.</p>
-                            <p>We're a managed service, so you don't have to worry about maintaining physical
-                                infrastructure or learning new workflows. In fact, to use Hush Line, you don't even have
-                                to log back into the service after setting it up. We can deliver messages directly to
-                                your email inbox, so you can set it, forget it, and never miss a beat. Users can add
-                                their own public PGP key, giving them end-to-end encryption and ensuring messages cannot
-                                be read by anyone but them.</p>
-                            <p>Hush Line is also available on a clearnet address, or through our Onion service. Using
-                                the browser already on your computer or phone, you can easily submit a message without
-                                ever downloading a new app. Users who need higher levels of anonymity may optionally use
-                                our Onion service, requiring them to download Tor Browser. This flexibility allows for
-                                our service to be used for benign use cases or elevated threat levels.</p>
+                            <p>Hush Line is not a replacement for SecureDrop. Instead, it's for organizations who might not 
+                                have the staff required to manage such a system or need nation-state levels of defense for 
+                                all of their anonymous tips. We simplify our security model by being a text-only service, 
+                                meaning there is no possibility of receiving files that could harm your computer or network.
+                            </p> 
+                            <p>We're a managed service, so you don't have to worry about maintaining physical infrastructure 
+                                or learning new workflows. Someone can submit an initial anonymous tip without creating an 
+                                account, and logged-in users can continue the conversation with two-way, end-to-end encrypted 
+                                chat when ongoing communication is needed.
+                            </p>
+                            <p>Hush Line is also available on a clearnet address, or through our Onion service. Using the 
+                                browser already on your computer or phone, you can easily submit a message without ever 
+                                downloading a new app. Users who need higher levels of anonymity may optionally use our Onion 
+                                service, requiring them to download Tor Browser. This flexibility allows for our service to 
+                                be used for benign use cases or elevated threat levels.
+                            </p>
                         </div>
                     </li>
                     <li>
