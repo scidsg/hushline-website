@@ -114,6 +114,8 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsx)(_components.li, {
         children: "🔒 End-to-end encryption"
       }), "\n", (0,jsx_runtime.jsx)(_components.li, {
+        children: "💬 Two-way encrypted account conversations"
+      }), "\n", (0,jsx_runtime.jsx)(_components.li, {
         children: "✅ Self-authenticating URLs"
       }), "\n", (0,jsx_runtime.jsx)(_components.li, {
         children: "📤 Riseup.net email delivery"

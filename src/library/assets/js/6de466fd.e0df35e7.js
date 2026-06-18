@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[9673],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[8136],{
 
-/***/ 5250
+/***/ 5776
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,27 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_law_firms_can_handle_sensitive_intake_without_losing_track_index_md_701_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_when_ocr_helps_reporters_handle_documents_faster_index_md_312_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_law_firms_can_handle_sensitive_intake_without_losing_track_index_md_701_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6227);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_when_ocr_helps_reporters_handle_documents_faster_index_md_312_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6021);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'how-law-firms-can-handle-sensitive-intake-without-losing-track',
-	title: 'How Law Firms Can Handle Sensitive Intake Without Losing Track',
-	subtitle: 'A small law office can use Hush Line\'s inbox, message statuses, and one-way replies to triage sensitive outreach without pushing legal intake into an improvised chat workflow.',
+	slug: 'when-ocr-helps-reporters-handle-documents-faster',
+	title: 'When OCR Helps Reporters Handle Documents Faster',
+	subtitle: 'Hush Line\'s Vision Assistant helps reporters turn photographed or scanned material into searchable text during the first pass on a tip.',
 	authors: [
 		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	agent_topic_id: 'law-firms-inbox-statuses',
-	agent_feature_key: 'inbox-message-statuses',
-	agent_core_user_key: 'lawyers-law-offices'
+	agent_topic_id: 'journalists-vision-assistant',
+	agent_feature_key: 'vision-assistant',
+	agent_core_user_key: 'journalists-newsrooms'
 };
 const contentTitle = undefined;
 
@@ -49,9 +49,9 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Small law offices often do intake when the office is effectively closed. A potential client sends a sensitive message after midnight, a paralegal reads it the next morning, and an attorney may not decide until later whether the matter fits the practice, needs a faster response, or should be directed elsewhere. That creates a coordination problem as much as a communications problem. If intake lives in a shared mailbox or a loose chain of texts, it becomes easy to lose track of what has already been reviewed and what still needs a decision."
+      children: "Investigative reporting often starts with imperfect source material. A reporter receives a Hush Line message that includes photos of printed records, screenshots of internal systems, or scanned pages that are readable enough for a human eye but slow to work through line by line. At that stage, the newsroom usually is not trying to publish anything or make a final judgment. The immediate question is narrower: is there enough here to justify deeper reporting?"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Hush Line fits that kind of work because it gives the office a dedicated inbox for incoming messages and lets the team organize them by status. The docs also describe custom replies tied to statuses such as accepted or declined, so the office can send a clear one-way response with next steps when needed. That is useful for legal intake because many firms do not want to run prospective-client screening as an open-ended chat inside the intake tool."
+      children: "Hush Line's Vision Assistant fits that first-pass review well. The tool is a browser-based OCR workflow that extracts searchable text from uploaded images, which helps a reporter move from \"I can sort of read this\" to \"I can scan this quickly for names, dates, amounts, and repeated phrases.\" Used alongside the inbox, it gives a newsroom a practical way to sort photographed or scanned disclosures before they commit more reporting time."
     })]
   });
 }
@@ -72,10 +72,10 @@ function MDXContent(props = {}) {
 
 /***/ },
 
-/***/ 6227
+/***/ 6021
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-law-firms-can-handle-sensitive-intake-without-losing-track/index.md","source":"@site/blog/2026-03-26-how-law-firms-can-handle-sensitive-intake-without-losing-track/index.md","title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","description":"Small law offices often do intake when the office is effectively closed. A potential client sends a sensitive message after midnight, a paralegal reads it the next morning, and an attorney may not decide until later whether the matter fits the practice, needs a faster response, or should be directed elsewhere. That creates a coordination problem as much as a communications problem. If intake lives in a shared mailbox or a loose chain of texts, it becomes easy to lose track of what has already been reviewed and what still needs a decision.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":6.14,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-law-firms-can-handle-sensitive-intake-without-losing-track","title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","subtitle":"A small law office can use Hush Line\'s inbox, message statuses, and one-way replies to triage sensitive outreach without pushing legal intake into an improvised chat workflow.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"law-firms-inbox-statuses","agent_feature_key":"inbox-message-statuses","agent_core_user_key":"lawyers-law-offices"},"unlisted":false,"prevItem":{"title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup"},"nextItem":{"title":"When OCR Helps Reporters Handle Documents Faster","permalink":"/library/blog/when-ocr-helps-reporters-handle-documents-faster"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/when-ocr-helps-reporters-handle-documents-faster","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-when-ocr-helps-reporters-handle-documents-faster/index.md","source":"@site/blog/2026-03-26-when-ocr-helps-reporters-handle-documents-faster/index.md","title":"When OCR Helps Reporters Handle Documents Faster","description":"Investigative reporting often starts with imperfect source material. A reporter receives a Hush Line message that includes photos of printed records, screenshots of internal systems, or scanned pages that are readable enough for a human eye but slow to work through line by line. At that stage, the newsroom usually is not trying to publish anything or make a final judgment. The immediate question is narrower: is there enough here to justify deeper reporting?","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.82,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"when-ocr-helps-reporters-handle-documents-faster","title":"When OCR Helps Reporters Handle Documents Faster","subtitle":"Hush Line\'s Vision Assistant helps reporters turn photographed or scanned material into searchable text during the first pass on a tip.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"journalists-vision-assistant","agent_feature_key":"vision-assistant","agent_core_user_key":"journalists-newsrooms"},"unlisted":false,"prevItem":{"title":"What Boards and Ethics Offices Should Put on a Tip Line Before Launch","permalink":"/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch"},"nextItem":{"title":"Why Data Export Matters for Long-Running Cases","permalink":"/library/blog/why-data-export-matters-for-long-running-cases"}}');
 
 /***/ },
 

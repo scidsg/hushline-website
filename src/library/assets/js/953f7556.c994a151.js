@@ -1,14 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[7758],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[4079],{
 
-/***/ 7063
-(module) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch/index.md","source":"@site/blog/2026-03-26-what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch/index.md","title":"What Boards and Ethics Offices Should Put on a Tip Line Before Launch","description":"A board committee or ethics office can do a lot of internal preparation before launching a public reporting channel: decide who monitors it, review policy language, and agree on escalation paths. But the first practical test often happens earlier. A whistleblower opens the page and has to decide, in a few seconds, whether this is the right place to report and whether the organization behind it looks prepared to receive a serious message.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.96,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch","title":"What Boards and Ethics Offices Should Put on a Tip Line Before Launch","subtitle":"Before a public reporting link goes live, the page itself should explain who it serves, what belongs there, and why people can trust it.","authors":["hushline-agent"],"tags":["hushline"],"image":"/img/screenshots/guest/guest-profile-artvandelay-custom-form-desktop-light-fold.png","agent_topic_id":"boards-guidance-branding","agent_feature_key":"guidance-branding","agent_core_user_key":"employers-boards"},"unlisted":false,"prevItem":{"title":"When OCR Helps Reporters Handle Documents Faster","permalink":"/library/blog/when-ocr-helps-reporters-handle-documents-faster"},"nextItem":{"title":"How Security Teams Can Investigate Suspicious Email With Better Context","permalink":"/library/blog/how-security-teams-can-investigate-suspicious-email-with-better-context"}}');
-
-/***/ },
-
-/***/ 7867
+/***/ 2599
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -17,28 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_what_boards_and_ethics_offices_should_put_on_a_tip_line_before_launch_index_md_a8f_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_04_01_who_should_run_a_personal_server_tip_line_index_md_b2c_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_what_boards_and_ethics_offices_should_put_on_a_tip_line_before_launch_index_md_a8f_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7063);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_04_01_who_should_run_a_personal_server_tip_line_index_md_b2c_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5963);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch',
-	title: 'What Boards and Ethics Offices Should Put on a Tip Line Before Launch',
-	subtitle: 'Before a public reporting link goes live, the page itself should explain who it serves, what belongs there, and why people can trust it.',
+	slug: 'who-should-run-a-personal-server-tip-line',
+	title: 'Who Should Run a Personal Server Tip Line',
+	subtitle: 'For independent recipients with a higher-risk threat model, Hush Line\'s Personal Server offers more direct infrastructure control in exchange for more operational responsibility.',
 	authors: [
 		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	image: '/img/screenshots/guest/guest-profile-artvandelay-custom-form-desktop-light-fold.png',
-	agent_topic_id: 'boards-guidance-branding',
-	agent_feature_key: 'guidance-branding',
-	agent_core_user_key: 'employers-boards'
+	agent_topic_id: 'personal-server-high-risk',
+	agent_feature_key: 'personal-server',
+	agent_core_user_key: 'high-risk-independent-recipients'
 };
 const contentTitle = undefined;
 
@@ -57,9 +49,9 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "A board committee or ethics office can do a lot of internal preparation before launching a public reporting channel: decide who monitors it, review policy language, and agree on escalation paths. But the first practical test often happens earlier. A whistleblower opens the page and has to decide, in a few seconds, whether this is the right place to report and whether the organization behind it looks prepared to receive a serious message."
+      children: "An independent journalist, public-interest lawyer, or organizer does not always need to self-host a tip line. In many cases, the easier path is the better one: create an account, finish setup, and publish the address. But some independent recipients have a different requirement. They want a reporting system that they control more directly because trusting shared third-party infrastructure is itself part of the risk."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "That is why launch work should not stop at creating an account. Hush Line gives recipients a shareable public tip line, profile setup fields for identity and supporting links, support for custom onboarding and whistleblower guidance, and custom branding that can make the page feel like an official part of the reporting program. Together, those features help employers, boards, and ethics offices set expectations clearly before the first message is typed."
+      children: "That is the narrower job Hush Line's Personal Server is built for. The device gives one recipient the full Hush Line platform as a self-hosted, Tor-only tip line that runs locally. For someone handling sensitive outreach from a smaller but higher-risk community, that changes the deployment model in a concrete way: the system is no longer just an account on a shared service. It becomes a dedicated device on the recipient's own network, with end-to-end encrypted, anonymous, 100% local intake."
     })]
   });
 }
@@ -77,6 +69,13 @@ function MDXContent(props = {}) {
 }
 
 
+
+/***/ },
+
+/***/ 5963
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/who-should-run-a-personal-server-tip-line","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-04-01-who-should-run-a-personal-server-tip-line/index.md","source":"@site/blog/2026-04-01-who-should-run-a-personal-server-tip-line/index.md","title":"Who Should Run a Personal Server Tip Line","description":"An independent journalist, public-interest lawyer, or organizer does not always need to self-host a tip line. In many cases, the easier path is the better one: create an account, finish setup, and publish the address. But some independent recipients have a different requirement. They want a reporting system that they control more directly because trusting shared third-party infrastructure is itself part of the risk.","date":"2026-04-01T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":5.75,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"who-should-run-a-personal-server-tip-line","title":"Who Should Run a Personal Server Tip Line","subtitle":"For independent recipients with a higher-risk threat model, Hush Line\'s Personal Server offers more direct infrastructure control in exchange for more operational responsibility.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"personal-server-high-risk","agent_feature_key":"personal-server","agent_core_user_key":"high-risk-independent-recipients"},"unlisted":false,"prevItem":{"title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","permalink":"/library/blog/crypto-modernization-whitepaper"},"nextItem":{"title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track"}}');
 
 /***/ },
 

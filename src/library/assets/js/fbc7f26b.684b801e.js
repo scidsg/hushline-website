@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[4079],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[9673],{
 
-/***/ 2599
+/***/ 5250
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,27 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_04_01_who_should_run_a_personal_server_tip_line_index_md_b2c_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_law_firms_can_handle_sensitive_intake_without_losing_track_index_md_701_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_04_01_who_should_run_a_personal_server_tip_line_index_md_b2c_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5963);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_law_firms_can_handle_sensitive_intake_without_losing_track_index_md_701_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6227);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'who-should-run-a-personal-server-tip-line',
-	title: 'Who Should Run a Personal Server Tip Line',
-	subtitle: 'For independent recipients with a higher-risk threat model, Hush Line\'s Personal Server offers more direct infrastructure control in exchange for more operational responsibility.',
+	slug: 'how-law-firms-can-handle-sensitive-intake-without-losing-track',
+	title: 'How Law Firms Can Handle Sensitive Intake Without Losing Track',
+	subtitle: 'A small law office can use Hush Line\'s inbox, message statuses, and one-way replies to triage sensitive outreach without pushing legal intake into an improvised chat workflow.',
 	authors: [
 		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	agent_topic_id: 'personal-server-high-risk',
-	agent_feature_key: 'personal-server',
-	agent_core_user_key: 'high-risk-independent-recipients'
+	agent_topic_id: 'law-firms-inbox-statuses',
+	agent_feature_key: 'inbox-message-statuses',
+	agent_core_user_key: 'lawyers-law-offices'
 };
 const contentTitle = undefined;
 
@@ -49,9 +49,9 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "An independent journalist, public-interest lawyer, or organizer does not always need to self-host a tip line. In many cases, the easier path is the better one: create an account, finish setup, and publish the address. But some independent recipients have a different requirement. They want a reporting system that they control more directly because trusting shared third-party infrastructure is itself part of the risk."
+      children: "Small law offices often do intake when the office is effectively closed. A potential client sends a sensitive message after midnight, a paralegal reads it the next morning, and an attorney may not decide until later whether the matter fits the practice, needs a faster response, or should be directed elsewhere. That creates a coordination problem as much as a communications problem. If intake lives in a shared mailbox or a loose chain of texts, it becomes easy to lose track of what has already been reviewed and what still needs a decision."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "That is the narrower job Hush Line's Personal Server is built for. The device gives one recipient the full Hush Line platform as a self-hosted, Tor-only tip line that runs locally. For someone handling sensitive outreach from a smaller but higher-risk community, that changes the deployment model in a concrete way: the system is no longer just an account on a shared service. It becomes a dedicated device on the recipient's own network, with end-to-end encrypted, anonymous, 100% local intake."
+      children: "Hush Line fits that kind of work because it gives the office a dedicated inbox for incoming messages and lets the team organize them by status. The docs also describe custom replies tied to statuses such as accepted or declined, so the office can send a clear one-way response with next steps when needed. That is useful for legal intake because many firms do not want to run prospective-client screening as an open-ended chat inside the intake tool."
     })]
   });
 }
@@ -72,10 +72,10 @@ function MDXContent(props = {}) {
 
 /***/ },
 
-/***/ 5963
+/***/ 6227
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/who-should-run-a-personal-server-tip-line","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-04-01-who-should-run-a-personal-server-tip-line/index.md","source":"@site/blog/2026-04-01-who-should-run-a-personal-server-tip-line/index.md","title":"Who Should Run a Personal Server Tip Line","description":"An independent journalist, public-interest lawyer, or organizer does not always need to self-host a tip line. In many cases, the easier path is the better one: create an account, finish setup, and publish the address. But some independent recipients have a different requirement. They want a reporting system that they control more directly because trusting shared third-party infrastructure is itself part of the risk.","date":"2026-04-01T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":5.75,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"who-should-run-a-personal-server-tip-line","title":"Who Should Run a Personal Server Tip Line","subtitle":"For independent recipients with a higher-risk threat model, Hush Line\'s Personal Server offers more direct infrastructure control in exchange for more operational responsibility.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"personal-server-high-risk","agent_feature_key":"personal-server","agent_core_user_key":"high-risk-independent-recipients"},"unlisted":false,"prevItem":{"title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","permalink":"/library/blog/crypto-modernization-whitepaper"},"nextItem":{"title":"Small Usability Details That Matter When Reporting Under Stress","permalink":"/library/blog/small-usability-details-that-matter-when-reporting-under-stress"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-law-firms-can-handle-sensitive-intake-without-losing-track/index.md","source":"@site/blog/2026-03-26-how-law-firms-can-handle-sensitive-intake-without-losing-track/index.md","title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","description":"Small law offices often do intake when the office is effectively closed. A potential client sends a sensitive message after midnight, a paralegal reads it the next morning, and an attorney may not decide until later whether the matter fits the practice, needs a faster response, or should be directed elsewhere. That creates a coordination problem as much as a communications problem. If intake lives in a shared mailbox or a loose chain of texts, it becomes easy to lose track of what has already been reviewed and what still needs a decision.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":6.14,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-law-firms-can-handle-sensitive-intake-without-losing-track","title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","subtitle":"A small law office can use Hush Line\'s inbox, message statuses, and one-way replies to triage sensitive outreach without pushing legal intake into an improvised chat workflow.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"law-firms-inbox-statuses","agent_feature_key":"inbox-message-statuses","agent_core_user_key":"lawyers-law-offices"},"unlisted":false,"prevItem":{"title":"Who Should Run a Personal Server Tip Line","permalink":"/library/blog/who-should-run-a-personal-server-tip-line"},"nextItem":{"title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup"}}');
 
 /***/ },
 

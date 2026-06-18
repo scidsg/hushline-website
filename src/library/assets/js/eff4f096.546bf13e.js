@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[1591],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[6875],{
 
-/***/ 653
+/***/ 4068
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,27 +10,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_recipients_can_get_encryption_working_faster_with_proton_key_lookup_index_md_154_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_small_usability_details_that_matter_when_reporting_under_stress_index_md_187_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_recipients_can_get_encryption_working_faster_with_proton_key_lookup_index_md_154_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4598);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_small_usability_details_that_matter_when_reporting_under_stress_index_md_187_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9759);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'how-recipients-can-get-encryption-working-faster-with-proton-key-lookup',
-	title: 'How Recipients Can Get Encryption Working Faster With Proton Key Lookup',
-	subtitle: 'Proton key lookup helps new Hush Line recipients launch faster without falling back to weaker setup habits.',
+	slug: 'small-usability-details-that-matter-when-reporting-under-stress',
+	title: 'Small Usability Details That Matter When Reporting Under Stress',
+	subtitle: 'Dark mode, mobile readability, and low-friction setup are not cosmetic when the stakes are high.',
 	authors: [
 		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	agent_topic_id: 'admins-proton-pgp',
-	agent_feature_key: 'proton-key-lookup',
-	agent_core_user_key: 'journalists-lawyers-admins'
+	agent_topic_id: 'activists-dark-mode-mobile',
+	agent_feature_key: 'dark-mode-mobile-usability',
+	agent_core_user_key: 'organizers-activists',
+	agent_audience_key: 'whistleblowers'
 };
 const contentTitle = undefined;
 
@@ -47,12 +48,8 @@ function _createMdxContent(props) {
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Hush Line reduces that friction during onboarding by letting recipients import a Proton public key directly from Proton instead of manually exporting and pasting a PGP key. That keeps the setup path shorter while preserving the strong default that messages should be end-to-end encrypted before a tip line is shared publicly."
-    })]
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+    children: "When people evaluate secure reporting tools, they usually talk about encryption, anonymity, or whether a service supports Tor. Those things matter. But organizers and activists often run into a different problem first: if the interface is uncomfortable, confusing, or hard to use on a phone, people stop using it when the pressure is on."
   });
 }
 function MDXContent(props = {}) {
@@ -69,13 +66,6 @@ function MDXContent(props = {}) {
 }
 
 
-
-/***/ },
-
-/***/ 4598
-(module) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","source":"@site/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","description":"For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.07,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","subtitle":"Proton key lookup helps new Hush Line recipients launch faster without falling back to weaker setup habits.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"admins-proton-pgp","agent_feature_key":"proton-key-lookup","agent_core_user_key":"journalists-lawyers-admins"},"unlisted":false,"prevItem":{"title":"Small Usability Details That Matter When Reporting Under Stress","permalink":"/library/blog/small-usability-details-that-matter-when-reporting-under-stress"},"nextItem":{"title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track"}}');
 
 /***/ },
 
@@ -171,6 +161,13 @@ function MDXProvider(properties) {
   )
 }
 
+
+/***/ },
+
+/***/ 9759
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/small-usability-details-that-matter-when-reporting-under-stress","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-small-usability-details-that-matter-when-reporting-under-stress/index.md","source":"@site/blog/2026-03-26-small-usability-details-that-matter-when-reporting-under-stress/index.md","title":"Small Usability Details That Matter When Reporting Under Stress","description":"When people evaluate secure reporting tools, they usually talk about encryption, anonymity, or whether a service supports Tor. Those things matter. But organizers and activists often run into a different problem first: if the interface is uncomfortable, confusing, or hard to use on a phone, people stop using it when the pressure is on.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":5.52,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"small-usability-details-that-matter-when-reporting-under-stress","title":"Small Usability Details That Matter When Reporting Under Stress","subtitle":"Dark mode, mobile readability, and low-friction setup are not cosmetic when the stakes are high.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"activists-dark-mode-mobile","agent_feature_key":"dark-mode-mobile-usability","agent_core_user_key":"organizers-activists","agent_audience_key":"whistleblowers"},"unlisted":false,"prevItem":{"title":"How Security Teams Can Investigate Suspicious Email With Better Context","permalink":"/library/blog/how-security-teams-can-investigate-suspicious-email-with-better-context"},"nextItem":{"title":"What Boards and Ethics Offices Should Put on a Tip Line Before Launch","permalink":"/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch"}}');
 
 /***/ }
 

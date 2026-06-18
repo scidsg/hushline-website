@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[322],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[9062],{
 
-/***/ 2977
+/***/ 53
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 // ESM COMPAT FLAG
@@ -13,25 +13,25 @@ __webpack_require__.d(__webpack_exports__, {
   contentTitle: () => (/* binding */ contentTitle),
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_docs_using_your_tip_line_tools_vision_assistant_md_b43_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_using_your_tip_line_message_replies_md_8c1_namespaceObject),
   toc: () => (/* binding */ toc)
 });
 
-;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-using-your-tip-line-tools-vision-assistant-md-b43.json
-const site_docs_using_your_tip_line_tools_vision_assistant_md_b43_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"using-your-tip-line/tools/vision-assistant","title":"Vision Assistant","description":"Route: /vision","source":"@site/docs/using-your-tip-line/tools/vision-assistant.md","sourceDirName":"using-your-tip-line/tools","slug":"/using-your-tip-line/tools/vision-assistant","permalink":"/library/docs/using-your-tip-line/tools/vision-assistant","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-your-tip-line/tools/vision-assistant.md","tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"id":"vision-assistant","title":"Vision Assistant","sidebar_position":2},"sidebar":"tutorialSidebar","previous":{"title":"Email Validation","permalink":"/library/docs/using-your-tip-line/tools/email-validation"},"next":{"title":"Message Statuses","permalink":"/library/docs/using-your-tip-line/message-statuses"}}');
+;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-using-your-tip-line-message-replies-md-8c1.json
+const site_docs_using_your_tip_line_message_replies_md_8c1_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"using-your-tip-line/message-statuses","title":"Message Statuses","description":"ℹ️ A PGP key must be uploaded to use this feature. See Step 4 in Getting Started.","source":"@site/docs/using-your-tip-line/message-replies.md","sourceDirName":"using-your-tip-line","slug":"/using-your-tip-line/message-statuses","permalink":"/library/docs/using-your-tip-line/message-statuses","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-your-tip-line/message-replies.md","tags":[],"version":"current","sidebarPosition":7,"frontMatter":{"id":"message-statuses","title":"Message Statuses","sidebar_position":7},"sidebar":"tutorialSidebar","previous":{"title":"Two-Way Conversations","permalink":"/library/docs/using-your-tip-line/two-way-conversations"},"next":{"title":"Account Verification","permalink":"/library/docs/using-your-tip-line/account-verification"}}');
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(8453);
-;// ./docs/using-your-tip-line/tools/vision-assistant.md
+;// ./docs/using-your-tip-line/message-replies.md
 
 
 const frontMatter = {
-	id: 'vision-assistant',
-	title: 'Vision Assistant',
-	sidebar_position: 2
+	id: 'message-statuses',
+	title: 'Message Statuses',
+	sidebar_position: 7
 };
-const contentTitle = 'Vision Assistant';
+const contentTitle = undefined;
 
 const assets = {
 
@@ -40,75 +40,71 @@ const assets = {
 
 
 const toc = [{
-  "value": "How It Works",
-  "id": "how-it-works",
+  "value": "Step 1. Set Custom Replies",
+  "id": "step-1-set-custom-replies",
   "level": 2
 }, {
-  "value": "Intended Use",
-  "id": "intended-use",
+  "value": "Step 2. A Good Accept Message",
+  "id": "step-2-a-good-accept-message",
   "level": 2
 }, {
-  "value": "Privacy",
-  "id": "privacy",
+  "value": "Step 3. What a Whistleblower Sees",
+  "id": "step-3-what-a-whistleblower-sees",
   "level": 2
 }];
 function _createMdxContent(props) {
   const _components = {
+    a: "a",
+    blockquote: "blockquote",
     code: "code",
-    h1: "h1",
     h2: "h2",
-    header: "header",
     img: "img",
-    li: "li",
     p: "p",
-    ul: "ul",
+    pre: "pre",
     ...(0,lib/* useMDXComponents */.R)(),
     ...props.components
   };
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
-    children: [(0,jsx_runtime.jsx)(_components.header, {
-      children: (0,jsx_runtime.jsx)(_components.h1, {
-        id: "vision-assistant",
-        children: "Vision Assistant"
-      })
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Route: ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "/vision"
-      })]
+    children: [(0,jsx_runtime.jsxs)(_components.blockquote, {
+      children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+        children: "ℹ️ A PGP key must be uploaded to use this feature. See Step 4 in Getting Started."
+      }), "\n"]
+    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
+      id: "step-1-set-custom-replies",
+      children: "Step 1. Set Custom Replies"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Vision Assistant is a browser-based OCR tool that extracts searchable text from uploaded images."
+      children: "Customize automatic responses when a tip is received (e.g., “✅ Accepted” or “⛔️ Declined”) to include additional contact details."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        alt: "Vision Assistant",
-        src: (__webpack_require__(3668)/* ["default"] */ .A) + "",
+        alt: "Custom replies example",
+        src: (__webpack_require__(535)/* ["default"] */ .A) + "",
         width: "1000",
         height: "800"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "how-it-works",
-      children: "How It Works"
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-      children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
-        children: "Upload one or more images"
-      }), "\n", (0,jsx_runtime.jsx)(_components.li, {
-        children: "Hush Line runs OCR in the browser"
-      }), "\n", (0,jsx_runtime.jsx)(_components.li, {
-        children: "Extracted text is displayed for review and copy/paste"
-      }), "\n"]
+      id: "step-2-a-good-accept-message",
+      children: "Step 2. A Good Accept Message"
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["An example of a good acceptance message includes clear next steps for your source\nto contact you. Logged-in senders and recipients with Hush Line chat keys can also use ", (0,jsx_runtime.jsx)(_components.a, {
+        href: "/library/docs/using-your-tip-line/two-way-conversations",
+        children: "two-way conversations"
+      }), " for encrypted follow-up inside Hush Line."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
+      children: (0,jsx_runtime.jsx)(_components.code, {
+        children: "Thank you for contacting me! I’d like to speak directly to you at your earliest\nconvenience. Please download Signal from the the [Apple App Store](https://apps.apple.com/us/app/signal-private-messenger/id874139669) \nor the [Google Play Store](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms), \nthen contact me with the username @myusername.01.\n"
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "intended-use",
-      children: "Intended Use"
+      id: "step-3-what-a-whistleblower-sees",
+      children: "Step 3. What a Whistleblower Sees"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "This is useful when disclosures include photos of screens, documents, or messages and investigators need searchable text."
-    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "privacy",
-      children: "Privacy"
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-      children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
-        children: "OCR processing runs client-side in the browser."
-      }), "\n", (0,jsx_runtime.jsx)(_components.li, {
-        children: "No external API calls are required for extraction in this workflow."
-      }), "\n"]
+      children: "When someone submits a message to you they'll receive a unique URL only known to\nthem. When you update the status of a message in your inbox, the message on this\npage will update."
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: (0,jsx_runtime.jsx)(_components.img, {
+        alt: "Status dropdown options",
+        src: (__webpack_require__(6568)/* ["default"] */ .A) + "",
+        width: "1000",
+        height: "800"
+      })
     })]
   });
 }
@@ -129,13 +125,23 @@ function MDXContent(props = {}) {
 
 /***/ },
 
-/***/ 3668
+/***/ 535
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/auth-admin-tools-vision-assistant-desktop-light-fold-8747556203c00a3812b5e7416b299466.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/auth-artvandelay-settings-replies-desktop-light-fold-8da8f5c18623685ad926d910746c0ee6.png");
+
+/***/ },
+
+/***/ 6568
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/guest-message-status-desktop-light-fold-8cb200ed5744777ef6f50f600a3dbc16.png");
 
 /***/ },
 

@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[7425],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[3453],{
 
-/***/ 1287
+/***/ 1395
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,27 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_why_data_export_matters_for_long_running_cases_index_md_b05_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_security_teams_can_investigate_suspicious_email_with_better_context_index_md_082_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_why_data_export_matters_for_long_running_cases_index_md_b05_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3573);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_security_teams_can_investigate_suspicious_email_with_better_context_index_md_082_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4588);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'why-data-export-matters-for-long-running-cases',
-	title: 'Why Data Export Matters for Long-Running Cases',
-	subtitle: 'For law offices handling matters that stay open for months or years, Hush Line\'s data download and account-security features help keep records portable and operationally usable over time.',
+	slug: 'how-security-teams-can-investigate-suspicious-email-with-better-context',
+	title: 'How Security Teams Can Investigate Suspicious Email With Better Context',
+	subtitle: 'Hush Line helps bug bounty and security teams get a better first pass on suspicious forwarded email before deciding what needs escalation.',
 	authors: [
 		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	agent_topic_id: 'lawyers-data-export',
-	agent_feature_key: 'data-export',
-	agent_core_user_key: 'lawyers-law-offices'
+	agent_topic_id: 'developers-email-validation',
+	agent_feature_key: 'email-header-validation',
+	agent_core_user_key: 'software-developers-bug-bounty'
 };
 const contentTitle = undefined;
 
@@ -44,17 +44,14 @@ const toc = [];
 function _createMdxContent(props) {
   const _components = {
     p: "p",
-    strong: "strong",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "For lawyers, secure intake is only the beginning of the problem. A matter that starts with one sensitive disclosure may stay active through internal review, negotiation, regulatory contact, or litigation planning for a long time after the first message arrives. As that timeline stretches, the office needs more than a safe place to receive the initial report. It also needs a reliable way to preserve its own operational records and move them when internal systems, staffing, or case files change."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
-      children: ["Hush Line's documented data-download feature is useful in exactly that situation. The platform lets the account holder download a complete copy of account data as a ZIP archive from ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-        children: "Settings > Advanced"
-      }), ", without waiting for approval or opening a support request. For a law office using Hush Line to receive sensitive outreach, that makes the reporting record more portable over the life of a matter instead of leaving it trapped inside one web session."]
+      children: "Software developers and bug bounty teams often receive messy intake, not polished incident reports. A researcher, contractor, or employee forwards a suspicious email, says \"this looks wrong,\" and leaves the internal team to figure out whether it is a real phishing lead, a spoofed sender, or just a confusing but legitimate message. That first pass matters because every weak lead escalated too early burns time, while every serious message dismissed too quickly creates risk."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "Hush Line gives teams a practical way to handle that first pass inside the same environment they already use for message intake. A message can land in the inbox, the team can review the submission, and then move to the email validation tool under Hush Line's Tools area to analyze raw headers for sender-authentication context before deciding what happens next."
     })]
   });
 }
@@ -75,10 +72,10 @@ function MDXContent(props = {}) {
 
 /***/ },
 
-/***/ 3573
+/***/ 4588
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/why-data-export-matters-for-long-running-cases","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-why-data-export-matters-for-long-running-cases/index.md","source":"@site/blog/2026-03-26-why-data-export-matters-for-long-running-cases/index.md","title":"Why Data Export Matters for Long-Running Cases","description":"For lawyers, secure intake is only the beginning of the problem. A matter that starts with one sensitive disclosure may stay active through internal review, negotiation, regulatory contact, or litigation planning for a long time after the first message arrives. As that timeline stretches, the office needs more than a safe place to receive the initial report. It also needs a reliable way to preserve its own operational records and move them when internal systems, staffing, or case files change.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":6.07,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"why-data-export-matters-for-long-running-cases","title":"Why Data Export Matters for Long-Running Cases","subtitle":"For law offices handling matters that stay open for months or years, Hush Line\'s data download and account-security features help keep records portable and operationally usable over time.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"lawyers-data-export","agent_feature_key":"data-export","agent_core_user_key":"lawyers-law-offices"},"unlisted":false,"prevItem":{"title":"How Security Teams Can Investigate Suspicious Email With Better Context","permalink":"/library/blog/how-security-teams-can-investigate-suspicious-email-with-better-context"},"nextItem":{"title":"Why Schools and Universities Need Separate Reporting Addresses","permalink":"/library/blog/why-schools-and-universities-need-separate-reporting-addresses"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-security-teams-can-investigate-suspicious-email-with-better-context","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-security-teams-can-investigate-suspicious-email-with-better-context/index.md","source":"@site/blog/2026-03-26-how-security-teams-can-investigate-suspicious-email-with-better-context/index.md","title":"How Security Teams Can Investigate Suspicious Email With Better Context","description":"Software developers and bug bounty teams often receive messy intake, not polished incident reports. A researcher, contractor, or employee forwards a suspicious email, says \\"this looks wrong,\\" and leaves the internal team to figure out whether it is a real phishing lead, a spoofed sender, or just a confusing but legitimate message. That first pass matters because every weak lead escalated too early burns time, while every serious message dismissed too quickly creates risk.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":5.45,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-security-teams-can-investigate-suspicious-email-with-better-context","title":"How Security Teams Can Investigate Suspicious Email With Better Context","subtitle":"Hush Line helps bug bounty and security teams get a better first pass on suspicious forwarded email before deciding what needs escalation.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"developers-email-validation","agent_feature_key":"email-header-validation","agent_core_user_key":"software-developers-bug-bounty"},"unlisted":false,"prevItem":{"title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup"},"nextItem":{"title":"Small Usability Details That Matter When Reporting Under Stress","permalink":"/library/blog/small-usability-details-that-matter-when-reporting-under-stress"}}');
 
 /***/ },
 

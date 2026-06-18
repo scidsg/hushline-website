@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[8136],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[1591],{
 
-/***/ 5776
+/***/ 653
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,27 +10,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_when_ocr_helps_reporters_handle_documents_faster_index_md_312_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_recipients_can_get_encryption_working_faster_with_proton_key_lookup_index_md_154_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_when_ocr_helps_reporters_handle_documents_faster_index_md_312_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6021);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_03_26_how_recipients_can_get_encryption_working_faster_with_proton_key_lookup_index_md_154_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4598);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'when-ocr-helps-reporters-handle-documents-faster',
-	title: 'When OCR Helps Reporters Handle Documents Faster',
-	subtitle: 'Hush Line\'s Vision Assistant helps reporters turn photographed or scanned material into searchable text during the first pass on a tip.',
+	slug: 'how-recipients-can-get-encryption-working-faster-with-proton-key-lookup',
+	title: 'How Recipients Can Get Encryption Working Faster With Proton Key Lookup',
+	subtitle: 'Proton key lookup helps new Hush Line recipients launch faster without falling back to weaker setup habits.',
 	authors: [
 		'hushline-agent'
 	],
 	tags: [
 		'hushline'
 	],
-	agent_topic_id: 'journalists-vision-assistant',
-	agent_feature_key: 'vision-assistant',
-	agent_core_user_key: 'journalists-newsrooms'
+	agent_topic_id: 'admins-proton-pgp',
+	agent_feature_key: 'proton-key-lookup',
+	agent_core_user_key: 'journalists-lawyers-admins'
 };
 const contentTitle = undefined;
 
@@ -49,9 +49,9 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Investigative reporting often starts with imperfect source material. A reporter receives a Hush Line message that includes photos of printed records, screenshots of internal systems, or scanned pages that are readable enough for a human eye but slow to work through line by line. At that stage, the newsroom usually is not trying to publish anything or make a final judgment. The immediate question is narrower: is there enough here to justify deeper reporting?"
+      children: "For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "Hush Line's Vision Assistant fits that first-pass review well. The tool is a browser-based OCR workflow that extracts searchable text from uploaded images, which helps a reporter move from \"I can sort of read this\" to \"I can scan this quickly for names, dates, amounts, and repeated phrases.\" Used alongside the inbox, it gives a newsroom a practical way to sort photographed or scanned disclosures before they commit more reporting time."
+      children: "Hush Line reduces that friction during onboarding by letting recipients import a Proton public key directly from Proton instead of manually exporting and pasting a PGP key. That keeps the setup path shorter while preserving the strong default that messages should be end-to-end encrypted before a tip line is shared publicly."
     })]
   });
 }
@@ -72,10 +72,10 @@ function MDXContent(props = {}) {
 
 /***/ },
 
-/***/ 6021
+/***/ 4598
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/when-ocr-helps-reporters-handle-documents-faster","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-when-ocr-helps-reporters-handle-documents-faster/index.md","source":"@site/blog/2026-03-26-when-ocr-helps-reporters-handle-documents-faster/index.md","title":"When OCR Helps Reporters Handle Documents Faster","description":"Investigative reporting often starts with imperfect source material. A reporter receives a Hush Line message that includes photos of printed records, screenshots of internal systems, or scanned pages that are readable enough for a human eye but slow to work through line by line. At that stage, the newsroom usually is not trying to publish anything or make a final judgment. The immediate question is narrower: is there enough here to justify deeper reporting?","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.82,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"when-ocr-helps-reporters-handle-documents-faster","title":"When OCR Helps Reporters Handle Documents Faster","subtitle":"Hush Line\'s Vision Assistant helps reporters turn photographed or scanned material into searchable text during the first pass on a tip.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"journalists-vision-assistant","agent_feature_key":"vision-assistant","agent_core_user_key":"journalists-newsrooms"},"unlisted":false,"prevItem":{"title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track"},"nextItem":{"title":"What Boards and Ethics Offices Should Put on a Tip Line Before Launch","permalink":"/library/blog/what-boards-and-ethics-offices-should-put-on-a-tip-line-before-launch"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","source":"@site/blog/2026-03-26-how-recipients-can-get-encryption-working-faster-with-proton-key-lookup/index.md","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","description":"For journalists, lawyers, and administrators, the hardest part of launching a secure intake channel is often not deciding to do it. It is getting the recipient account ready before the first message arrives. If encryption setup feels fiddly on day one, people delay launch, postpone testing, or publish the link before the account is fully prepared.","date":"2026-03-26T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":4.07,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"how-recipients-can-get-encryption-working-faster-with-proton-key-lookup","title":"How Recipients Can Get Encryption Working Faster With Proton Key Lookup","subtitle":"Proton key lookup helps new Hush Line recipients launch faster without falling back to weaker setup habits.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"admins-proton-pgp","agent_feature_key":"proton-key-lookup","agent_core_user_key":"journalists-lawyers-admins"},"unlisted":false,"prevItem":{"title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track"},"nextItem":{"title":"How Security Teams Can Investigate Suspicious Email With Better Context","permalink":"/library/blog/how-security-teams-can-investigate-suspicious-email-with-better-context"}}');
 
 /***/ },
 
