@@ -433,7 +433,8 @@
                                     class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Is
                                 Hush Line end-to-end encrypted?</button></h3>
                         <div class="faq-answer" id="faq2" hidden>
-                            <p>Yes! Hush Line supports end-to-end encrypted tip line messages and end-to-end encrypted chat for logged-in users.</p>
+                            <p>Yes! Hush Line supports end-to-end encrypted tip line messages and end-to-end encrypted
+                                chat for logged-in users.</p>
                             <p>For tip lines, Hush Line uses <a href="https://github.com/openpgpjs/openpgpjs" target="_blank"
                                     rel="noopener noreferrer">OpenPGP.js</a> for client-side encryption, giving users
                                 who add their public PGP key end-to-end encryption for received messages. Users who disable
@@ -444,7 +445,10 @@
                                     href="https://github.com/scidsg/hushline/blob/main/docs/1-getting-started.md"
                                     target="_blank" rel="noopener noreferrer">Setting up PGP is easy using our getting
                                     started guide</a>.</p>
-                            <p>For ongoing conversations, logged-in users can use Hush Line chat to send and receive end-to-end encrypted messages without sharing a phone number, email address, or off-platform contact method.</p>
+                            <p>For ongoing conversations, logged-in users can use Hush Line chat to send and receive
+                                end-to-end encrypted follow-up messages. Chat keys are generated in the browser, and the
+                                server stores conversation messages as encrypted copies for each participant rather than
+                                storing conversation plaintext.</p>
                             <p>Hush Line uses TLS encryption for data in transit, message data is stored encrypted at
                                 rest on our database, and server access is limited to relevant members of the technical
                                 staff.</p>
@@ -452,13 +456,21 @@
                     </li>
                     <li>
                         <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq3"><img
-                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Is
-                                two-way communication available?</button></h3>
+                                    class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> How does
+                                two-way chat work?</button></h3>
                         <div class="faq-answer" id="faq3" hidden>
-                            <p>Yes. Hush Line supports two-way, end-to-end encrypted chat for logged-in users.</p>
-                            <p>Someone submitting a tip can still send an anonymous message without creating an account. If they want to continue the conversation, return later, or maintain a dedicated message history, they can create a Hush Line account and chat with the recipient through the platform.</p>
-                            <p>This gives both parties a safer way to continue talking without requiring a phone number, email address, Signal username, or other off-platform contact method.</p>
-                            <p>For the strongest privacy protections, we recommend both parties use Hush Line through our Onion service with Tor when their threat model requires it.</p>
+                            <p>Hush Line supports two-way, end-to-end encrypted chat when both people are logged-in Hush
+                                Line users with active chat keys. This lets a source and recipient continue follow-up
+                                inside Hush Line without sharing a phone number, email address, Signal username, or
+                                another off-platform contact method.</p>
+                            <p>Anonymous tip submission still works without an account. If a sender wants to return
+                                later, keep a message history, or continue a dedicated conversation with the recipient,
+                                they can create a Hush Line account and use two-way chat through the platform.</p>
+                            <p>Conversation plaintext is not stored by the server. Hush Line stores per-participant
+                                encrypted message copies, and conversation notification emails are generic activity
+                                alerts rather than copies of the chat content.</p>
+                            <p>For the strongest privacy protections, both parties should use Hush Line through our Onion
+                                service with Tor when their threat model requires it.</p>
                         </div>
                     </li>
                     <li>
@@ -529,8 +541,12 @@
                             <p>Signal is great, but it requires the whistleblower to download a new app, register with a
                                 valid phone number, create a username, and more. While not the largest hurdle, it is
                                 still a hurdle, placing requirements on the whistleblower before they can find help. In
-                                contrast, Hush Line is web-based and requires no account or new app download to submit an initial anonymous tip.</p>
-                            <p>If both parties want to continue the conversation, logged-in Hush Line users can now use two-way, end-to-end encrypted chat through the platform. This allows a whistleblower and recipient to keep talking without immediately moving to a phone number, email address, Signal account, or another off-platform contact method.</p>
+                                contrast, Hush Line is web-based and requires no account or new app download to submit
+                                an initial anonymous tip.</p>
+                            <p>If both parties want to continue the conversation, logged-in Hush Line users can use
+                                two-way, end-to-end encrypted chat through the platform. This allows a whistleblower and
+                                recipient to keep talking without immediately moving to a phone number, email address,
+                                Signal account, or another off-platform contact method.</p>
                             <p>Hush Line aims to be the first step for whistleblowers. When they don't know what to do
                                 first or next, a safe and effortless way to contact the right person should be the least
                                 of their worries. Once a baseline level of trust is established, other tools like Signal
