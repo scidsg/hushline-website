@@ -115,7 +115,7 @@ function _createMdxContent(props) {
       id: "q2-admin-controls-and-pwa-polish",
       children: "Q2: Admin Controls And PWA Polish"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "The second quarter focused on operational polish and account governance. Healthchecks reduced startup noise, the notifications route was normalized, SMTP forwarding behavior was cleaned up, and personal-server Docker Compose paths were improved for development and simulation."
+      children: "The second quarter focused on operational polish and account governance. Healthchecks reduced startup noise, the notifications route was normalized, and SMTP forwarding behavior was cleaned up."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: "Admin controls expanded too. The first user could become an admin, registration settings became configurable in the app and through CLI commands, and registration-code behavior moved into organization settings. This same period also included funding-manifest work, PWA and manifest updates, splash screens, footer and mobile polish, and several dependency updates."
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {

@@ -1,7 +1,14 @@
 "use strict";
-(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[4079],{
+(globalThis["webpackChunkdocs"] = globalThis["webpackChunkdocs"] || []).push([[8919],{
 
-/***/ 2599
+/***/ 3388
+(module) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/crypto-modernization-whitepaper","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-05-28-crypto-modernization-whitepaper/index.md","source":"@site/blog/2026-05-28-crypto-modernization-whitepaper/index.md","title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","description":"Hush Line exists for moments when a person needs to disclose sensitive information without being exposed by the tool that was supposed to protect them. That changes how crypto modernization has to be designed and described. The goal is not to chase new primitives for their own sake. The goal is to preserve the whistleblower\'s path to a trusted recipient while reducing the harm caused by database exposure, key-management mistakes, migration failure, or unclear security claims.","date":"2026-05-28T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"},{"inline":false,"label":"Whistleblowing","permalink":"/library/blog/tags/whistleblowing","description":"Whistleblowing articles"}],"readingTime":15.77,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"crypto-modernization-whitepaper","title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","subtitle":"How Hush Line modernized encrypted data handling without weakening usability, anonymity, or migration safety.","tags":["hushline","whistleblowing"]},"unlisted":false,"prevItem":{"title":"Among 500 Top Domains, 0% of Assessed Contact Forms Met Our Full Security Standard","permalink":"/library/blog/contact-form-security-study-2026"},"nextItem":{"title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track"}}');
+
+/***/ },
+
+/***/ 4960
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,32 +17,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_04_01_who_should_run_a_personal_server_tip_line_index_md_b2c_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_05_28_crypto_modernization_whitepaper_index_md_82a_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_04_01_who_should_run_a_personal_server_tip_line_index_md_b2c_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5963);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2026_05_28_crypto_modernization_whitepaper_index_md_82a_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3388);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
 const frontMatter = {
-	slug: 'who-should-run-a-personal-server-tip-line',
-	title: 'Who Should Run a Personal Server Tip Line',
-	subtitle: 'For independent recipients with a higher-risk threat model, Hush Line\'s Personal Server offers more direct infrastructure control in exchange for more operational responsibility.',
-	authors: [
-		'hushline-agent'
-	],
+	slug: 'crypto-modernization-whitepaper',
+	title: 'Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure',
+	subtitle: 'How Hush Line modernized encrypted data handling without weakening usability, anonymity, or migration safety.',
 	tags: [
-		'hushline'
-	],
-	agent_topic_id: 'personal-server-high-risk',
-	agent_feature_key: 'personal-server',
-	agent_core_user_key: 'high-risk-independent-recipients'
+		'hushline',
+		'whistleblowing'
+	]
 };
 const contentTitle = undefined;
 
 const assets = {
-"authorsImageUrls": [undefined],
+"authorsImageUrls": [],
 };
 
 
@@ -49,9 +51,9 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "An independent journalist, public-interest lawyer, or organizer does not always need to self-host a tip line. In many cases, the easier path is the better one: create an account, finish setup, and publish the address. But some independent recipients have a different requirement. They want a reporting system that they control more directly because trusting shared third-party infrastructure is itself part of the risk."
+      children: "Hush Line exists for moments when a person needs to disclose sensitive information without being exposed by the tool that was supposed to protect them. That changes how crypto modernization has to be designed and described. The goal is not to chase new primitives for their own sake. The goal is to preserve the whistleblower's path to a trusted recipient while reducing the harm caused by database exposure, key-management mistakes, migration failure, or unclear security claims."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "That is the narrower job Hush Line's Personal Server is built for. The device gives one recipient the full Hush Line platform as a self-hosted, Tor-only tip line that runs locally. For someone handling sensitive outreach from a smaller but higher-risk community, that changes the deployment model in a concrete way: the system is no longer just an account on a shared service. It becomes a dedicated device on the recipient's own network, with end-to-end encrypted, anonymous, 100% local intake."
+      children: "This whitepaper updates the May 28, 2026 crypto modernization paper. The original version correctly separated shipped work from planned work at that time, but it is now out of date. The current implementation completes the encrypted-field modernization scope: Hush Line has a production-capable AES-256-GCM encrypted-field envelope for new writes, a code-owned AAD contract, dual-read compatibility, schema readiness checks, migration tooling, rehearsal evidence, release gates, and test coverage."
     })]
   });
 }
@@ -69,13 +71,6 @@ function MDXContent(props = {}) {
 }
 
 
-
-/***/ },
-
-/***/ 5963
-(module) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/who-should-run-a-personal-server-tip-line","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-04-01-who-should-run-a-personal-server-tip-line/index.md","source":"@site/blog/2026-04-01-who-should-run-a-personal-server-tip-line/index.md","title":"Who Should Run a Personal Server Tip Line","description":"An independent journalist, public-interest lawyer, or organizer does not always need to self-host a tip line. In many cases, the easier path is the better one: create an account, finish setup, and publish the address. But some independent recipients have a different requirement. They want a reporting system that they control more directly because trusting shared third-party infrastructure is itself part of the risk.","date":"2026-04-01T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":5.75,"hasTruncateMarker":true,"authors":[{"name":"hushline-agent","title":"Automated Hush Line Articles","url":"https://hushline.app/library/","page":{"permalink":"/library/blog/authors/hushline-agent"},"imageURL":"https://hushline.app/assets/img/social/social-avatar.png","key":"hushline-agent"}],"frontMatter":{"slug":"who-should-run-a-personal-server-tip-line","title":"Who Should Run a Personal Server Tip Line","subtitle":"For independent recipients with a higher-risk threat model, Hush Line\'s Personal Server offers more direct infrastructure control in exchange for more operational responsibility.","authors":["hushline-agent"],"tags":["hushline"],"agent_topic_id":"personal-server-high-risk","agent_feature_key":"personal-server","agent_core_user_key":"high-risk-independent-recipients"},"unlisted":false,"prevItem":{"title":"Hush Line Crypto Modernization: A Whitepaper for Safer Disclosure Infrastructure","permalink":"/library/blog/crypto-modernization-whitepaper"},"nextItem":{"title":"How Law Firms Can Handle Sensitive Intake Without Losing Track","permalink":"/library/blog/how-law-firms-can-handle-sensitive-intake-without-losing-track"}}');
 
 /***/ },
 

@@ -87,10 +87,6 @@ const toc = [{
   "id": "paas",
   "level": 4
 }, {
-  "value": "Hardware",
-  "id": "hardware",
-  "level": 3
-}, {
   "value": "The Opportunity",
   "id": "the-opportunity",
   "level": 2
@@ -212,18 +208,6 @@ function _createMdxContent(props) {
         width: "1604",
         height: "1544"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
-      id: "hardware",
-      children: "Hardware"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "For high-risk tip line owners who do not want to trust any third-party services, we offer a hardware device that runs Hush Line locally as an Onion Service; higher security and anonymity are critical for their work for a smaller audience — human rights defenders, investigative journalists, or high-profile lawyers. We offer devices for $500 that are fully self-contained, Tor-only Hush Line instances. If your threat model is one in which you cannot trust any third-party infrastructure, this is your best option."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
-        alt: "Personal Server",
-        src: (__webpack_require__(8753)/* ["default"] */ .A) + "",
-        width: "1024",
-        height: "455"
-      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
       id: "the-opportunity",
       children: "The Opportunity"
@@ -246,7 +230,7 @@ function _createMdxContent(props) {
       id: "funding-goals",
       children: "Funding Goals"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "If we chose a 70/30 distribution model, we would need recurring $1,000/mo donations, combined with sales, to \"keep the lights on.\""
+      children: "If we chose a 70/30 distribution model, we would need recurring $1,000/mo donations, combined with subscriptions, to \"keep the lights on.\""
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: "Ideally, we could afford ~10 hours/mo for an engineering contractor, around $2,000. To get to this amount, we'd need to raise or earn around $7,500/mo with the same 70/30 distribution for Hush Line to earn enough to cover everything needed. Eventually, as the fund grew in popularity, we could even sustain a full-time team."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
@@ -352,7 +336,7 @@ function MDXContent(props = {}) {
 /***/ 5505
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/hushline-sustainable-model","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-16-hushline-sustainable-model/index.md","source":"@site/blog/2025-03-16-hushline-sustainable-model/index.md","title":"Hush Line\'s Sustainable Impact Model","description":"Impact Model Diagram","date":"2025-03-16T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":7.67,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"hushline-sustainable-model","title":"Hush Line\'s Sustainable Impact Model","subtitle":"Business can do better. We\'re creating the blueprint.","authors":["gsorrentino"],"tags":["hushline"],"image":"img/cover.png"},"unlisted":false,"prevItem":{"title":"Why You Should Never Use Work Devices To Disclose Information","permalink":"/library/blog/dont-use-work-devices"},"nextItem":{"title":"How Newsrooms and Journalists Use Hush Line","permalink":"/library/blog/newsrooms-and-journalists"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/library/blog/hushline-sustainable-model","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-16-hushline-sustainable-model/index.md","source":"@site/blog/2025-03-16-hushline-sustainable-model/index.md","title":"Hush Line\'s Sustainable Impact Model","description":"Impact Model Diagram","date":"2025-03-16T00:00:00.000Z","tags":[{"inline":false,"label":"Hush Line","permalink":"/library/blog/tags/hushline","description":"Hush Line articles"}],"readingTime":7.21,"hasTruncateMarker":true,"authors":[{"name":"Glenn Sorrentino","title":"Executive Director, Science & Design","url":"https://scidsg.org","page":{"permalink":"/library/blog/authors/gsorrentino"},"socials":{"github":"https://github.com/glenn-sorrentino"},"imageURL":"/library/img/glenn.jpg","key":"gsorrentino"}],"frontMatter":{"slug":"hushline-sustainable-model","title":"Hush Line\'s Sustainable Impact Model","subtitle":"Business can do better. We\'re creating the blueprint.","authors":["gsorrentino"],"tags":["hushline"],"image":"img/cover.png"},"unlisted":false,"prevItem":{"title":"Why You Should Never Use Work Devices To Disclose Information","permalink":"/library/blog/dont-use-work-devices"},"nextItem":{"title":"How Newsrooms and Journalists Use Hush Line","permalink":"/library/blog/newsrooms-and-journalists"}}');
 
 /***/ },
 
@@ -458,16 +442,6 @@ function MDXProvider(properties) {
   )
 }
 
-
-/***/ },
-
-/***/ 8753
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/personal-server-4290b2a46b70ef477032aa2ecc8156d8.png");
 
 /***/ }
 
