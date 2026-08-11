@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const licensesSelect = document.getElementById("licenses");
     if (!licensesSelect) return;
 
-    const basePrice = 103;
+    const basePrice = 106.90;
     const businessPrice = 3.85; // Fixed cost for the "Business" plan
     const licensePrice = 20;
     const adminFeePercentage = 0.10;
