@@ -66,8 +66,12 @@ const toc = [{
   "id": "step-4-add-the-official-page-as-a-self-verified-url",
   "level": 2
 }, {
-  "value": "Step 5. Request Account Verification",
-  "id": "step-5-request-account-verification",
+  "value": "Step 5. Confirm the Verified URL on Your Profile",
+  "id": "step-5-confirm-the-verified-url-on-your-profile",
+  "level": 2
+}, {
+  "value": "Step 6. Request Account Verification",
+  "id": "step-6-request-account-verification",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -140,14 +144,14 @@ function _createMdxContent(props) {
       children: ["In ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Settings > Profile"
       }), ", scroll to ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "Profile Details"
+        children: "Custom Fields"
       }), ". Add a label such as “Official website,” then enter the complete HTTPS URL of the page where you published the Hush Line link. Select ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Update Bio"
       }), "."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: ["Hush Line checks that page for the matching ", (0,jsx_runtime.jsx)(_components.code, {
         children: "rel=\"me\""
-      }), " link. When the check succeeds, a checkmark appears beside the URL on your profile. This proves that the Hush Line account and the official website are under related control; it does not by itself grant the account-level Verified badge."]
+      }), " link. This automated check proves that the Hush Line account and the official website are under related control; it does not by itself grant the account-level Verified badge."]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
         alt: "Extra URL fields",
@@ -170,8 +174,24 @@ function _createMdxContent(props) {
         }), " link is present in the page's HTML, rather than added only after JavaScript runs."]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "step-5-request-account-verification",
-      children: "Step 5. Request Account Verification"
+      id: "step-5-confirm-the-verified-url-on-your-profile",
+      children: "Step 5. Confirm the Verified URL on Your Profile"
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: "Visit your public Hush Line profile. A successfully verified URL has a checkmark immediately beside the website link, as shown below."
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: (0,jsx_runtime.jsx)(_components.img, {
+        alt: "Checkmark beside a verified website URL on a Hush Line profile",
+        src: (__webpack_require__(4512)/* ["default"] */ .A) + "",
+        width: "1150",
+        height: "882"
+      })
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["The checkmark applies to that URL. It is separate from the account-level ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "Verified"
+      }), " badge shown near the profile's display name."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
+      id: "step-6-request-account-verification",
+      children: "Step 6. Request Account Verification"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: "After completing the LinkedIn and self-verified URL checks, contact us from your Hush Line account to request review. Businesses and other organizations should have an authorized representative available."
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -203,6 +223,16 @@ function MDXContent(props = {}) {
 }
 
 
+
+/***/ },
+
+/***/ 4512
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/verified-url-profile-28a568cdcf2eb346d96669a826e81c0a.png");
 
 /***/ },
 
