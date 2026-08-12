@@ -11,6 +11,16 @@
 
 /***/ },
 
+/***/ 1435
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/custom-fields-url-verification-639af83826cbdf21ec73c212d4d875a2.png");
+
+/***/ },
+
 /***/ 2110
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -154,10 +164,10 @@ function _createMdxContent(props) {
       }), " link. This automated check proves that the Hush Line account and the official website are under related control; it does not by itself grant the account-level Verified badge."]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        alt: "Extra URL fields",
-        src: (__webpack_require__(8151)/* ["default"] */ .A) + "",
-        width: "1000",
-        height: "800"
+        alt: "Custom Fields with a verified Website URL and Update Bio button",
+        src: (__webpack_require__(1435)/* ["default"] */ .A) + "",
+        width: "680",
+        height: "540"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: "If the checkmark does not appear, confirm that:"
@@ -243,16 +253,6 @@ function MDXContent(props = {}) {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/guest-profile-admin-desktop-light-fold-9a2289e216115d9588ad90b5ad35a25d.png");
-
-/***/ },
-
-/***/ 8151
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/auth-artvandelay-settings-profile-desktop-light-window-02-d85fd67aebbf01c7e4bed8600601e9f0.png");
 
 /***/ },
 
